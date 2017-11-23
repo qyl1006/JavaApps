@@ -17,4 +17,5 @@ public class CharDemo
 		char c4 = '¸ç';
 		System.out.println(c4);
 	}
+	
 }
