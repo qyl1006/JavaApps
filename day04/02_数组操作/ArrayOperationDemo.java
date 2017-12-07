@@ -55,8 +55,34 @@ public class ArrayOperationDemo
 		}
 		System.out.println("=======================" );
 		
+		// 证明不同数据类型的初始值
+		//boolean初始值 flase
+		boolean[] bool = new boolean[3];
+		for (int index = 0; index < bool.length; index ++ )
+		{
+			System.out.println(bool[index]);
+		}
+		System.out.println("=======================" );
+
+		//String初始值为 null null表示没有引用任何内存空间
+		String[] str = new String[3];
+		for (int index = 0; index < str.length; index ++ )
+		{
+			System.out.println(str[index]);
+		}
+		System.out.println("=======================" );
 
 
+		//操作数组常见异常
+		String[] bs = null;   //此时数组没有引用任何内存空间
+		System.out.println(bs);  // 可以打印,不报错,因为它此时本身就是null
+
+		//常见异常1:NullPointerException 当数组还未初始化,就直接操作数组会出现
+		//System.out.println(bs.length); //操作时,会报错,这是常见异常1 :NullPointerException空指针异常(空引用
 		
+		bs = new String[]{"1", "2", "3"};
+		//常见异常2
+		// System.out.println(bs[3]); //ArrayIndexOutOfBoundsException:数组的索引越界异常 这里的索引范围为[0,2]
+
 	}
 }
