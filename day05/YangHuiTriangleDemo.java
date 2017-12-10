@@ -1,7 +1,7 @@
 //杨辉三角
 public class YangHuiTriangleDemo
 {
-	//求某个位置的数字的方法
+	//求杨辉三角某个位置的数字的方法
 	static int sumC(int n, int i)
 	{
 		int sum = 0;
@@ -36,7 +36,7 @@ public class YangHuiTriangleDemo
 				arr[n][i] = sumC(n, i);
 				if (sumC(n, i) != 0)
 				{
-					System.out.print(sumC(n, i) + "\t");
+					System.out.print(sumC(n, i) + "\t"); //打印出来
 				}
 
 			}
