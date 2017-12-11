@@ -23,7 +23,7 @@ class Maids
 	String name; //姓名
 	int age;  //年龄
 
-	//行为/功能
+	//行为/功能 //(方法)
 	void shoping()
 	{
 		System.out.println("买菜");
@@ -53,8 +53,7 @@ public class MaidsDemo
 {
 	public static void main(String[] args)
 	{
-		//创建出一个Maids类的对象
-		Maids m = new Maids();
+		
 
 		/*
 			1):根据类来创建对象的语法:
@@ -67,25 +66,54 @@ public class MaidsDemo
 				 对象变量.方法(实参);
 
 		*/
+		//对象的常见 操作
+		//创建出一个Maids类的对象m1
+		Maids m1 = new Maids();
 
 		//给字段设置值
-		m.name = "xiaoling";  // 需要注意定义类中字段的数据类型,设置相对应的数据类型
-		m.age = 18;
+		m1.name = "xiaoling";  // 需要注意定义类中字段的数据类型,设置相对应的数据类型
+		m1.age = 18;
+
+		//创建出一个Maids类的对象m2
+		Maids m2 = new Maids();
+		m2.name = "Lsan";  
+		m2.age = 18;
+		
+		//创建出一个Maids类的对象m3
+		Maids m3= new Maids();
+		m3.name = "Lsan"; 
+		m3.age = 18;
 
 		//获取字段的值
-		String i = m.name; // 获取字段值时  需注意接收的变量应该和字段值的数据类型一致
+		String i = m1.name; // 获取字段值时  需注意接收的变量应该和字段值的数据类型一致
 		System.out.println(i);
-		System.out.println(m.name);
+		System.out.println(m1.name);
 
-		int j = m.age;
+		int j = m1.age;
 		System.out.println(j);
-		System.out.println(m.age);
+		System.out.println(m1.age);
+
+		System.out.println("===================");
+		System.out.println(m1);
+		System.out.println(m2);
+		System.out.println(m3);
+
+		/*
+			对象比较操作:
+				 ==号:	对于基本数据类型来说,比较的是 值.
+						对于引用数据类型来说,比较的是在内存中的 地址值.
+						每次使用new关键字,都表示在堆值新开辟一块内存空间,不同的内存空间,地址值不同.
+		*/
+		System.out.println(m1 == m3); // false
+
+		System.out.println(new Maids().age = 18); // new Maids().age = 18  这是个匿名对象  只能使用一次
+		System.out.println("===================");
 
 		//通过对象调用方法
-		m.shoping();
-		m.cook();
-		m.wash();
-
+		m1.shoping();
+		m1.cook();
+		m1.wash();
+		
 		Coder c = new Coder();
 		c.daima();
 
