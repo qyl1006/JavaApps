@@ -1,0 +1,55 @@
+/**
+	演示 HelloWorld 程序，打印我目标
+	新内容要注释
+	见到花括号，里面内容要缩进一个 tab 键
+*/
+// 定义一个类 Aim
+class Aim
+{
+	// 定义一个主方法
+	public static void main(String[] args)
+	{
+		// 打印我的目标
+		System.out.println("考上大神班");
+	}
+}
+/**
+小结：
+	错误，思路，语法格式
+*/
+
+第一遍要需求，小结都要有，新内容要注释
+第二遍要需求，小结都要有，以后不要注释
+第三遍要需求，小结都要有，以后不要注释
+...
+
+1、打印你的目标  Aim.java
+2、打印你喜欢的名言 Adage.java
+3、打印你的生日 Birthday.java
+
+
+半个小时复习
+再写代码
+复习
+预习，单词和知识点
+
+
+public class Person
+{
+	// 定义主方法
+	public static void main(String[] args)
+	{
+		// 打印
+		if(true)
+		{
+			System.out.println("xx");
+		}
+	}
+
+}
+
+
+
+
+
+

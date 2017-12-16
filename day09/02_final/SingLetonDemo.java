@@ -15,13 +15,13 @@ class Utils
 	private Utils()
 	{
 	}
-	//全局静态的方法
+	//全局静态的方法....对外暴露的接口???
 	public static Utils getU()
 	{
 		return u;
 	}
 
-	public void print(int[] arr)
+	void print(int[] arr)
 	{
 		System.out.println("排序操作");
 	}
