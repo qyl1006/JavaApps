@@ -1,21 +1,26 @@
-///char数据类型
+// Decompiled by Jad v1.5.8e2. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://kpdus.tripod.com/jad.html
+// Decompiler options: packimports(3) fieldsfirst ansi space 
+// Source File Name:   CharDemo.java
+
+import java.io.PrintStream;
+
 public class CharDemo
 {
-	public static void main(String[] args)
+
+	public CharDemo()
 	{
-		//char常量的表示形式
-		char c1 = 'A'; //直接表示符号
-		System.out.println(c1);
-
-		char c2 = 65; //使用对应的10进制顺序 
-		System.out.println(c2);
-
-		char c3 = '\u0041';
-		System.out.println(c3); //使用对应的16进制顺序
-
-		//表示汉字
-		char c4 = '哥';
-		System.out.println(c4);
 	}
-	
+
+	public static void main(String args[])
+	{
+		char c = 'A';
+		System.out.println(c);
+		char c1 = 'A';
+		System.out.println(c1);
+		char c2 = 'A';
+		System.out.println(c2);
+		char c3 = '\u54E5';
+		System.out.println(c3);
+	}
 }

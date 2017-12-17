@@ -1,14 +1,22 @@
-//string字符串数据类型
+// Decompiled by Jad v1.5.8e2. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://kpdus.tripod.com/jad.html
+// Decompiler options: packimports(3) fieldsfirst ansi space 
+// Source File Name:   StringDemo.java
+
+import java.io.PrintStream;
+
 public class StringDemo
 {
-	public static void main(String[] args)
-	{
-		//String的常量
-		System.out.println("Hello Wrold");
 
-		//String的变量
-		String age = "他"+18+"岁";
-		System.out.println(age);
-		System.out.println(age+"吗?");
+	public StringDemo()
+	{
+	}
+
+	public static void main(String args[])
+	{
+		System.out.println("Hello Wrold");
+		String s = "他18岁";
+		System.out.println(s);
+		System.out.println((new StringBuilder()).append(s).append("吗?").toString());
 	}
 }

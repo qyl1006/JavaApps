@@ -1,8 +1,8 @@
-//定义一个Aim类,使用publicDemo修饰,文件名与类名需要一致
+//定义一个Aim类,使用public修饰,文件名与类名需要一致.否则报错
 
 public class AimDemo
 {
-	//定义主方法main,程序入口,
+	//定义主方法main,这是程序入口,运行在JVM中
 	public static void main(String[] args)
 	{
 		//打印我的目标
@@ -10,7 +10,7 @@ public class AimDemo
 
 		//需求: 打印我喜欢的名言
 		System.out.println("相信自己");
-		System.out.println("我欲成仙,快乐成仙");// 注意 ; 结尾
+		System.out.println("我欲成仙,快乐齐天");// 注意 ; 结尾
 		
 		//需求:打印我的生日
 		System.out.println("1993年x月x日");
