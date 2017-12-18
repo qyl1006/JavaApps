@@ -29,5 +29,7 @@ public class InterfaceDemo
 	public static void main(String[] args)
 	{
 		System.out.println(21);
+		//new Jumpable(); //报错: Jumpable是抽象的; 无法实例化 因为接口也没有构造器,所以new也不成
+
 	}
 }

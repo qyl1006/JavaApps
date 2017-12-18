@@ -1,83 +1,56 @@
-//if语句
+// Decompiled by Jad v1.5.8e2. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://kpdus.tripod.com/jad.html
+// Decompiler options: packimports(3) fieldsfirst ansi space 
+// Source File Name:   IfDemo.java
+
+import java.io.PrintStream;
+
 public class IfDemo
 {
-	public static void main(String[] args)
+
+	public IfDemo()
 	{
-		if(10 > 3)
-		{
-			System.out.println("10大于3");
-		}
+	}
 
-		/*
-			if-else: 表示: 如果_______就做_________否则________
-		*/
-		boolean isMan = true;
-		if(isMan)
-		{
+	public static void main(String args[])
+	{
+		System.out.println("10大于3");
+		boolean flag = true;
+		if (flag)
 			System.out.println("去男厕所");
-		}
 		else
-		{
 			System.out.println("去女厕所");
-		}
-
-		///判断最大值
-		int a = 20;
-		int b = 100;
-
-		if(a > b)
-		{
-			System.out.println("最大值是:" + a);
-		}
+		byte byte0 = 20;
+		byte byte1 = 100;
+		if (byte0 > byte1)
+			System.out.println((new StringBuilder()).append("最大值是:").append(byte0).toString());
 		else
-		{
-			System.out.println("最大值是:" + b);
-		}
-
-		//需要: 计算分页数
-		int totalData = 3423;  //总数据量
-		int data = 50;  //每页最多的数据量
-		int totalPages; //总页数
-
-		if (totalData % data == 0)
-		{
-			totalPages = totalData / data;
-		}
+			System.out.println((new StringBuilder()).append("最大值是:").append(byte1).toString());
+		char c = '\u0D5F';
+		byte byte2 = 50;
+		int i;
+		if (c % byte2 == 0)
+			i = c / byte2;
 		else
+			i = c / byte2 + 1;
+		System.out.println((new StringBuilder()).append("总页数:").append(i).toString());
+		byte byte3 = 18;
+		if (byte3 <= i)
 		{
-			totalPages = totalData / data + 1;
-		}
-		System.out.println("总页数:" + totalPages);
-
-		//需要: 计算上一页 和 下一页
-		int currentPage = 18; //当前页
-		int previousPage; //上一页
-		int nextPage;     //下一页
-		// 计算上一页
-		if (currentPage <= totalPages)
-		{
-			if (currentPage - 1 >= 1)
-			{
-				previousPage = currentPage - 1;
-			}
+			int j;
+			if (byte3 - 1 >= 1)
+				j = byte3 - 1;
 			else
-			{
-				previousPage = 1;
-			}
-			//计算下一页
-			if (currentPage + 1 <= totalPages)
-			{
-				nextPage = currentPage + 1;
-			}
+				j = 1;
+			int k;
+			if (byte3 + 1 <= i)
+				k = byte3 + 1;
 			else
-			{
-				nextPage = totalPages;
-			}
-			System.out.println("当前页为:" + currentPage);
-			System.out.println("上一页为:" + previousPage);
-			System.out.println("下一页为:" + nextPage);
-		}
-		else
+				k = i;
+			System.out.println((new StringBuilder()).append("当前页为:").append(byte3).toString());
+			System.out.println((new StringBuilder()).append("上一页为:").append(j).toString());
+			System.out.println((new StringBuilder()).append("下一页为:").append(k).toString());
+		} else
 		{
 			System.out.println("报错:当前页大于总页数");
 		}
