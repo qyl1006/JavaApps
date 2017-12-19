@@ -85,5 +85,7 @@ public class AcreageDemo
 		//三角形
 		System.out.println(new Triangle(4, 6, 9).area());  //三角形的三边关系 a+b>c 且 a-b<c
 
+		System.out.println("=================");
+
 	}
 }
