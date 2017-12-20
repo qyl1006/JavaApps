@@ -34,6 +34,12 @@ public class TernaryOperatorDemo
 		int iii = n < j ? n + 1 : n;
 		System.out.println("下一页: " + iii);
 
+		//求最大值 或 最少值
+		int num1 = 22;
+		int num2 = 20;
+		int num3 = num1 >= num2 ? num1 : num2;
+		System.out.println("最大值:" + num1 + " 最少值:" + num2);
+
 		System.out.println("===============");
 		//if 语句
 
