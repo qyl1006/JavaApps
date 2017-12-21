@@ -1,0 +1,13 @@
+# Java 相关单词
+file		[faɪl]		文件 目录
+separator	['sɛpəretɚ]	分隔符
+path		[pæθ]		路径
+recursion	[rɪ'kɝʃən]	递归
+filter		['fɪltɚ]	过滤器
+FilenameFilter			文件过滤器
+Input		['ɪn'pʊt]	输入
+Output		['aʊtpʊt]	输出
+InputStream			字节输入流
+OutputStream			字节输出流
+Reader				字符输入流
+Writer				字符输出流

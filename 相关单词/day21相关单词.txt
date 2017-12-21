@@ -1,0 +1,12 @@
+# Java 相关单词
+Serializable			可序列化的
+print		[prɪnt]		打印
+system		['sɪstəm]	系统
+scanner		['skænɚ]	扫描
+property	['prɑpɚti]	属性
+random		['rændəm]	随机的
+access		['æksɛs]	访问
+pipe		[paɪp]		管道
+channel		['tʃænl]	通道
+selector	[sə'lɛktɚ]	选择器
+ 

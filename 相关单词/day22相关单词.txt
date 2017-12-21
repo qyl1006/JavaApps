@@ -1,0 +1,18 @@
+# Java 相关单词
+Transmission		[træns'mɪʃən]		传送
+Control			[kən'trol]		控制 
+Protocol		['protə'kɔl]		协议
+TCP
+Internet		['ɪntɚnɛt]		因特网
+IP
+Datagram		['detə,græm]		数据报
+udp
+address			[ə'drɛs]		地址
+uniform			['junɪfɔrm]		统一
+resource		['risɔrs]		资源
+identifier		[idɑ̃tifje]		标识符
+URI						统一资源标识符
+URL						统一资源定位符
+socket			['sɑkɪt]		套接字
+URLEncoder
+URLDecoder

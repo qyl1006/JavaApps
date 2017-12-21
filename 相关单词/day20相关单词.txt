@@ -1,0 +1,9 @@
+# Java 相关单词
+copy		 ['kɑpi]	复制 
+encode		 [ɪn'kod]	编码 
+decode		 ['di'kod]	解码
+write		 [raɪt]		写
+read		 [rid]		读
+buffer		 ['bʌfɚ]	缓冲区
+sequence	 ['sikwəns]	顺序
+ 

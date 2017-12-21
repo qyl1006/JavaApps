@@ -1,0 +1,16 @@
+﻿# Java 相关单词
+try		[traɪ]		试图，努力；试验；审判；考验
+catch		[kætʃ]		赶上；抓住
+finally		['faɪnəli]	最后；终于；决定性地
+throw		[θro]		投；抛；掷		
+throws		[θroz] 	声明异常
+Throwable			可抛出,异常,体系
+Error		['ɛrɚ]		误差；错误；过失
+Exception	[ɪk'sɛpʃən]	异常
+RuntimeException		运行期异常
+NullPointerException		空指针异常
+check		[tʃɛk]		检查，核对
+logic		['lɑdʒɪk]	逻辑；逻辑学；逻辑性
+ 
+
+

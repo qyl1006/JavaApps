@@ -1,0 +1,4 @@
+try      尝试,试图
+catch    捕捉,捕获,抓住
+finally  最后；终于
+throw    抛；投掷

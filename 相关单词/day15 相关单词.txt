@@ -1,0 +1,20 @@
+﻿# Java 相关单词
+producer     [prə'dʊsɚ]  制作人，制片人；生产者；发生器
+consumer     [kən'sumɚ]  消费者；用户，顾客
+resource     ['risɔrs]   资源，财力；办法；智谋
+share	     [ʃɛr]	分享，分担；分配
+push	     [pʊʃ]	推动，增加；对…施加压力，逼迫；按；说服
+popup	     ['pɑp,ʌp]	 弹出；弹跳装置；发射
+wait	     [wet]	 等候；推迟；延缓
+notify	     ['notə'fai]   通告，通知；公布
+notifyAll		 唤醒对象
+lock	     [lɑk]	 锁，锁上；隐藏
+condition    [kən'dɪʃən]  条件；情况；环境；身份
+await	     [ə'wet]	 等候，等待；期待
+signal	     ['sɪgnl]	 标志；用信号通知；表示
+signalAll		 唤醒所有等待线程
+sleep			 睡，睡觉
+join	      [dʒɔɪn]     加入；参加；结合
+priority      [praɪ'ɔrəti] 优先；优先权；[数] 优先次序；优先考虑的事
+
+

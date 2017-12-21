@@ -1,0 +1,8 @@
+﻿# Java 相关单词
+Runtime		 ['rʌntaɪm]	执行时间，运行时间
+ProcessBuilder			系统进程操作
+Thread		 [θrɛd]		线程
+Runnable	 ['rʌnəbl]	可追捕的；可猎取的；适合猎取的
+start		 [stɑrt]	开始；启动
+run		 [rʌn]		经营；奔跑；运转
+synchronized	 ['sɪŋkrənaɪzd]	同步的；同步化的
