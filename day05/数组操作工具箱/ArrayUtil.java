@@ -154,19 +154,24 @@ public class ArrayUtil
 		return sum;
 	}
 	
-	//杨辉三角的二维数组方法
+	//杨辉三角的二维数组方法(打印)
 
 	static int[][] yangHui(int m1)
 	{
 		int[][] arr = new int[m1][m1];
 		for (int n = 0; n < m1; n ++ )
 		{
+			for (int j = n; j < m1; j ++ )
+			{
+				System.out.print(" ");
+			}
+
 			for (int i = 0; i < n + 1; i ++ )
 			{
 				arr[n][i] = sumC(n, i);
 				if (sumC(n, i) != 0)
 				{
-					System.out.print(sumC(n, i) + "\t"); //打印出来
+					System.out.print(sumC(n, i) + " "); //打印出来
 				}
 
 			}
@@ -174,4 +179,6 @@ public class ArrayUtil
 		}
 		return arr;
 	}
+
 }
+
