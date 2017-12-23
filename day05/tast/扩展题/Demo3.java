@@ -17,7 +17,7 @@ public class Demo3
 	}
 }
 
-//递归
+//递归  (第n个数的分母)
 class Test
 {
 	public static double fn(int n)
