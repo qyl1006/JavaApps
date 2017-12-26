@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;CommonlyClass&apos;&#x0D;&#x0A;- Original project: &apos;CommonlyClass&apos;&#x0D;&#x0A;- Original element: &apos;CommonlyClass/src/com_520it._01_input&apos;" description="Delete element" element1="/src&lt;com_520it._01_input" element2="/src&lt;com_520it" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1514035312101" subPackages="false" version="1.0"/>
-</session>

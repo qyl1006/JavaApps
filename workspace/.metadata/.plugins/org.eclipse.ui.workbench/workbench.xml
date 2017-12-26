@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="32" version="2.0">
 <workbenchAdvisor/>
-<window height="728" maximized="true" width="1046" x="236" y="73">
+<window height="723" maximized="true" width="1046" x="250" y="18">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -12,7 +12,7 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="OpenExplorer.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="95" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
@@ -34,41 +34,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MUSBable.java" partName="MUSBable.java" path="H:/JavaApps/workspace/day11/src/com/_520it/eclipse/MUSBable.java" title="MUSBable.java" tooltip="day11/src/com/_520it/eclipse/MUSBable.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day11/src/com/_520it/eclipse/MUSBable.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="253" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Keyboard.java" partName="Keyboard.java" path="H:/JavaApps/workspace/day11/src/com/_520it/eclipse/Keyboard.java" title="Keyboard.java" tooltip="day11/src/com/_520it/eclipse/Keyboard.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day11/src/com/_520it/eclipse/Keyboard.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="259" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArrayUtil.java" partName="ArrayUtil.java" path="H:/JavaApps/workspace/day11/src/com/_520it/eclipse/ArrayUtil.java" title="ArrayUtil.java" tooltip="day11/src/com/_520it/eclipse/ArrayUtil.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day11/src/com/_520it/eclipse/ArrayUtil.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="150" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="App.java" partName="App.java" path="H:/JavaApps/workspace/day11/src/com/_520it/eclipse/App.java" title="App.java" tooltip="day11/src/com/_520it/eclipse/App.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day11/src/com/_520it/eclipse/App.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="326" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GUIDemo.java" partName="GUIDemo.java" path="H:/JavaApps/workspace/day11/src/com/_520it/eclipse/GUIDemo.java" title="GUIDemo.java" tooltip="day11/src/com/_520it/eclipse/GUIDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day11/src/com/_520it/eclipse/GUIDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" partName="Test.java" path="H:/JavaApps/workspace/day11/src/com/_520it/eclipse/Test.java" title="Test.java" tooltip="day11/src/com/_520it/eclipse/Test.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day11/src/com/_520it/eclipse/Test.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
@@ -158,9 +127,6 @@
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
-<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -297,8 +263,8 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
-<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <alwaysOnActionSet id="OpenExplorer.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <show_view_action id="org.eclipse.jdt.ui.SourceView"/>
@@ -337,7 +303,6 @@
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.debug.ui.DebugView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -365,7 +330,7 @@
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
@@ -375,7 +340,6 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -503,179 +467,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it/eclipse/App.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=day11/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=day11/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/jsse.jar&lt;com.sun.net.ssl.internal.ssl(Provider.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=day11/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/ext\/dnsns.jar&lt;sun.net.spi.nameservice.dns(DNSNameService.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/day11/hs_err_pid11492.log"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it/eclipse/Test.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it/eclipse/MUSBable.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it/eclipse/Keyboard.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it/eclipse/ArrayUtil.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it/eclipse/Keyboard.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it/eclipse/MUSBable.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it/eclipse/App.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it/eclipse/GUIDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it/eclipse/Test.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it/eclipse/ArrayUtil.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it02/eclipse/App.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/App.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/day11/abc/123.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11/src/com/_520it/eclipse/App.java"/>
-</editors>
-<item historyLabel="App.java" index="0">
-<position info="not_deleted" x="551" y="0"/>
-</item>
-<item historyLabel="hs_err_pid11492.log" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Arrays.class" index="1">
-<position info="not_deleted" x="3" y="0"/>
-</item>
-<item historyLabel="hs_err_pid11492.log" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Test.java" index="5">
-<position info="not_deleted" x="181" y="0"/>
-</item>
-<item historyLabel="hs_err_pid11492.log" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Provider.class" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="hs_err_pid11492.log" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DNSNameService.class" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="hs_err_pid11492.log" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MUSBable.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MUSBable.java" index="6">
-<position info="not_deleted" x="232" y="0"/>
-</item>
-<item historyLabel="Keyboard.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MUSBable.java" index="6">
-<position info="not_deleted" x="232" y="0"/>
-</item>
-<item historyLabel="Keyboard.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MUSBable.java" index="6">
-<position info="not_deleted" x="232" y="0"/>
-</item>
-<item historyLabel="Keyboard.java" index="7">
-<position info="not_deleted" x="142" y="0"/>
-</item>
-<item historyLabel="MUSBable.java" index="6">
-<position info="not_deleted" x="84" y="68"/>
-</item>
-<item historyLabel="Keyboard.java" index="7">
-<position info="not_deleted" x="142" y="0"/>
-</item>
-<item historyLabel="Keyboard.java" index="7">
-<position info="not_deleted" x="222" y="0"/>
-</item>
-<item historyLabel="Keyboard.java" index="7">
-<position info="not_deleted" x="263" y="0"/>
-</item>
-<item historyLabel="Keyboard.java" index="7">
-<position info="not_deleted" x="256" y="0"/>
-</item>
-<item historyLabel="Keyboard.java" index="7">
-<position info="not_deleted" x="259" y="0"/>
-</item>
-<item historyLabel="ArrayUtil.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ArrayUtil.java" index="8">
-<position info="not_deleted" x="185" y="0"/>
-</item>
-<item historyLabel="ArrayUtil.java" index="8">
-<position info="not_deleted" x="493" y="0"/>
-</item>
-<item historyLabel="ArrayUtil.java" index="8">
-<position info="not_deleted" x="479" y="0"/>
-</item>
-<item historyLabel="Keyboard.java" index="9">
-<position info="not_deleted" x="259" y="0"/>
-</item>
-<item historyLabel="MUSBable.java" index="10">
-<position info="not_deleted" x="253" y="0"/>
-</item>
-<item historyLabel="App.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="GUIDemo.java" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="App.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="GUIDemo.java" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ArrayUtil.java" index="8">
-<position info="not_deleted" x="150" y="0"/>
-</item>
-<item historyLabel="MUSBable.java" index="10">
-<position info="not_deleted" x="253" y="0"/>
-</item>
-<item historyLabel="Test.java" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="GUIDemo.java" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="App.java" index="11">
-<position/>
-</item>
-<item historyLabel="ArrayUtil.java" index="14">
-<position info="not_deleted" x="150" y="0"/>
-</item>
-<item historyLabel="App.java" index="11">
-<position/>
-</item>
-<item historyLabel="App.java" index="15">
-<position info="not_deleted" x="122" y="0"/>
-</item>
-<item historyLabel="App.java" index="15">
-<position info="not_deleted" x="124" y="0"/>
-</item>
-<item historyLabel="App.java" index="11">
-<position/>
-</item>
-<item historyLabel="App.java" index="11">
-<position/>
-</item>
-<item historyLabel="App.java" index="16">
-<position info="not_deleted" x="122" y="0"/>
-</item>
-<item historyLabel="App.java" index="11">
-<position info="not_deleted" x="330" y="0"/>
-</item>
-<item historyLabel="App.java" index="16">
-<position info="not_deleted" x="330" y="0"/>
-</item>
-<item historyLabel="App.java" index="11">
-<position info="not_deleted" x="232" y="0"/>
-</item>
-<item historyLabel="123.txt" index="17">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item active="true" historyLabel="App.java" index="18">
-<position info="not_deleted" x="345" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -693,50 +485,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="123.txt" tooltip="day11/abc/123.txt">
-<persistable path="/day11/abc/123.txt"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringDemo1.java" tooltip="CommonlyClass/src/com/_520it/_04_char_sequence/StringDemo1.java">
+<persistable path="/CommonlyClass/src/com/_520it/_04_char_sequence/StringDemo1.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" tooltip="day11/src/com/_520it/eclipse/Test.java">
-<persistable path="/day11/src/com/_520it/eclipse/Test.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ResponseBuilder$StringBuilder.class" tooltip="com.sun.xml.internal.ws.client.sei.ResponseBuilder$StringBuilder">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.xml.internal.ws.client.sei(ResponseBuilder$StringBuilder.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GUIDemo.java" tooltip="day11/src/com/_520it/eclipse/GUIDemo.java">
-<persistable path="/day11/src/com/_520it/eclipse/GUIDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="App.java" tooltip="day11/src/com/_520it/eclipse/App.java">
-<persistable path="/day11/src/com/_520it/eclipse/App.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArrayUtil.java" tooltip="day11/src/com/_520it/eclipse/ArrayUtil.java">
-<persistable path="/day11/src/com/_520it/eclipse/ArrayUtil.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Keyboard.java" tooltip="day11/src/com/_520it/eclipse/Keyboard.java">
-<persistable path="/day11/src/com/_520it/eclipse/Keyboard.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MUSBable.java" tooltip="day11/src/com/_520it/eclipse/MUSBable.java">
-<persistable path="/day11/src/com/_520it/eclipse/MUSBable.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="hs_err_pid11492.log" tooltip="day11/hs_err_pid11492.log">
-<persistable path="/day11/hs_err_pid11492.log"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="DNSNameService.class" tooltip="sun.net.spi.nameservice.dns.DNSNameService">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=day11/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/ext\/dnsns.jar&lt;sun.net.spi.nameservice.dns(DNSNameService.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="MANIFEST.MF" tooltip="E:\OpenSources\Java\jdk1.7.0_80\jre\lib\jsse.jar\META-INF\MANIFEST.MF">
-<persistable element="=day11/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/jsse.jar" path="META-INF/MANIFEST.MF"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Provider.class" tooltip="com.sun.net.ssl.internal.ssl.Provider">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=day11/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/jsse.jar&lt;com.sun.net.ssl.internal.ssl(Provider.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Arrays.class" tooltip="java.util.Arrays">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=day11/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="System.class" tooltip="java.lang.System">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=day11/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(System.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StringBuffer.class" tooltip="java.lang.StringBuffer">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringBuffer.class"/>
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Integer.class" tooltip="java.lang.Integer">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=day11/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Integer.class"/>
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Integer.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mouse.java" tooltip="day11/src/com/_520it/eclipse/Mouse.java">
-<persistable path="/day11/src/com/_520it/eclipse/Mouse.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="java.lang.String">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="DocFlavor$STRING.class" tooltip="javax.print.DocFlavor$STRING">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;javax.print(DocFlavor$STRING.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Scanner.class" tooltip="java.util.Scanner">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Scanner.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BigDecimalDemo.java" tooltip="CommonlyClass/src/com/_520it/_03_math/BigDecimalDemo.java">
+<persistable path="/CommonlyClass/src/com/_520it/_03_math/BigDecimalDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestDemo.java" tooltip="CommonlyClass/src/com/_520it/_03_math/TestDemo.java">
+<persistable path="/CommonlyClass/src/com/_520it/_03_math/TestDemo.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StrictMath.class" tooltip="java.lang.StrictMath">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StrictMath.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Math.class" tooltip="java.lang.Math">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Math.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MathDemo.java" tooltip="CommonlyClass/src/com/_520it/_03_math/MathDemo.java">
+<persistable path="/CommonlyClass/src/com/_520it/_03_math/MathDemo.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Object.class" tooltip="java.lang.Object">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Object.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="System.class" tooltip="java.lang.System">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(System.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AbstractStringBuilder.class" tooltip="java.lang.AbstractStringBuilder">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(AbstractStringBuilder.class"/>
 </file>
 </mruList>
 </workbench>

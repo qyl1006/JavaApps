@@ -8,4 +8,7 @@
 		<item value="false" key="moveWizard.updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
 	</section>
+	<section name="ShowRefactoringHistoryWizard">
+		<item value="true" key="org.eclipse.ltk.ui.refactoring.sortRefactorings"/>
+	</section>
 </section>
