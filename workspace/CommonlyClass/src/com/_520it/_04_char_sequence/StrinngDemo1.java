@@ -9,7 +9,7 @@ public class StrinngDemo1 {
 		System.out.println(str1 == str2);
 		System.out.println(str1.equals(str2));
 		*/
-		
+		// String面试题  注意内存图 常量池(运行常量池)   (编译常量池'不研究')
 		String str1 = "ABCD";
 		String str2 = "A" + "B" + "C" + "D";
 		String str3 = "AB" + "CD";
