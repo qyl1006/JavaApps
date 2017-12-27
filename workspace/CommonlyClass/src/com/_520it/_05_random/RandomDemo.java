@@ -5,6 +5,8 @@ import java.util.Random;
 //生产伪随机数
 public class RandomDemo {
 	public static void main(String[] args) {
+		
+		//测试
 		Random r1 = new Random(10);
 		System.out.println(r1.nextBoolean());
 		System.out.println(r1.nextDouble());

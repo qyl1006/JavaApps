@@ -1,0 +1,5 @@
+package com._520it._05_random;
+
+public class ThreadLocalRandomDemo {
+
+}

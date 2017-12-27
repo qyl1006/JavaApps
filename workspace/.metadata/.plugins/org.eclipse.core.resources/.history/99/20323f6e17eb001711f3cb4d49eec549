@@ -1,0 +1,11 @@
+package com._520it._06_date;
+
+import java.util.Date;
+
+public class DateDemo {
+	public static void main(String[] args) {
+		//创建Date对象
+		Date time = new Date();
+		System.out.println(time);
+	}
+}

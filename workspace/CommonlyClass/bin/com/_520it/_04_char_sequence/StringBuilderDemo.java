@@ -5,6 +5,7 @@
 
 package com._520it._04_char_sequence;
 
+import java.io.PrintStream;
 
 public class StringBuilderDemo
 {
@@ -15,7 +16,9 @@ public class StringBuilderDemo
 
 	public static void main(String args[])
 	{
-		StringBuilder sb = new StringBuilder();
-		StringBuilder sb2 = new StringBuilder(16);
+		String s = " a ";
+		s.trim();
+		System.out.println(33);
+		System.out.println(50);
 	}
 }
