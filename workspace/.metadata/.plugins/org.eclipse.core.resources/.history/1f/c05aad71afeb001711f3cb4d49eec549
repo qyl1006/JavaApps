@@ -1,0 +1,17 @@
+package com._520it._06_date;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class SimpleDateFormatDemo {
+	public static void main(String[] args) {
+		String pattern = "yyy-MM-dd FF";
+		SimpleDateFormat time = new SimpleDateFormat(); //默认SHORT风格 可自定义
+		time.applyPattern(pattern);
+		
+		String str = time.format(new Date());
+		System.out.println(str);
+		
+	}
+
+}

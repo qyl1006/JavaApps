@@ -11,4 +11,8 @@
 <typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;javax.print(DocFlavor$STRING.class[STRING" modifiers="9" timestamp="1511084455212"/>
 <typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class[String" modifiers="49" timestamp="1511084455212"/>
 <typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Math.class[Math" modifiers="49" timestamp="1511084455212"/>
+<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(UUID.class[UUID" modifiers="49" timestamp="1511084455212"/>
+<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Random.class[Random" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Calendar.class[Calendar" modifiers="1057" timestamp="1511084455212"/>
 </typeInfoHistroy>

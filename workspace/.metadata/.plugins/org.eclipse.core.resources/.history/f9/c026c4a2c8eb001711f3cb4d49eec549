@@ -1,0 +1,36 @@
+package com._520it._06_date;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateUtil {
+
+
+	public static void main(String[] args) {
+		//测试
+		//定义不同风格的Date
+		String s1 = "yyyy-MM-dd HH:mm:ss E";
+		String s2 = "yyyy-MM-dd";
+		String s3 = "HH:mm:ss a";
+		
+		String test1 = date2String(new Date(), s1);
+		System.out.println("s1测试: " + test1);
+		
+		String test2 = date2String(new Date(), s2);
+		System.out.println("s2测试: " + test2);
+		
+		String test3 = date2String(new Date(), s3);
+		System.out.println("s3测试: " + test3);
+		
+	}
+	
+	
+	//定义一个Date数据类型----->String数据类型的方法
+	public static String date2String(Date date, String pattern)
+	{
+		return new SimpleDateFormat(pattern).format(date);
+	}
+	
+	//定义以String类型-------->Date类型的方法
+	
+}

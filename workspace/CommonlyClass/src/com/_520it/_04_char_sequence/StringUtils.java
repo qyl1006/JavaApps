@@ -6,12 +6,12 @@ public class StringUtils {
 		
 	}
 	//ÅĞ¶Ï×Ö·û´®ÊÇ·ñÎª¿Õ; ·Ç¿Õ·µ»Øtrue,·ñÔòflase
-	public static boolean test(String str){
+	public static boolean hasLength(String str){
 		return str != null && !"".equals(str.trim());
 	}
 	
-	public boolean test2(String str){
-		return !test(str);
+	public static boolean isBlank(String str){
+		return !hasLength(str);
 	}
 	
 	//²âÊÔ
@@ -22,11 +22,11 @@ public class StringUtils {
 		String str4 = " A ";
 		String str5 = " A B ";
 		
-		System.out.println(test(str1));
-		System.out.println(test(str2));
-		System.out.println(test(str3));
-		System.out.println(test(str4));
-		System.out.println(test(str5));
+		System.out.println(hasLength(str1));
+		System.out.println(hasLength(str2));
+		System.out.println(hasLength(str3));
+		System.out.println(hasLength(str4));
+		System.out.println(hasLength(str5));
 	}
 }
 

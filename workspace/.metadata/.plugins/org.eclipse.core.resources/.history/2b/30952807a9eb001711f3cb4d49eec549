@@ -1,0 +1,26 @@
+package com._520it._06_date;
+
+import java.text.DateFormat;
+import java.util.Date;
+
+
+
+public class DateFormatDemo {
+	public static void main(String[] args) {
+		Date d = new Date();
+		DateFormat time = DateFormat.getInstance();//默认 SHORT风格
+		String str = time.format(d);               //17-12-28 下午4:22
+		System.out.println(str);
+		
+		System.out.println("------------------------------------");
+		time = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG);  //LONG风格
+		System.out.println(time.format(d));										  //2017年12月28日 下午04时22分04秒
+		
+		time = DateFormat.getDateTimeInstance(DateFormat.MEDIUM, DateFormat.MEDIUM);//MEDIUM风格
+		System.out.println(time.format(d));	                                        //2017-12-28 16:24:09
+		
+		time = DateFormat.getDateTimeInstance(DateFormat.FULL, DateFormat.FULL);//FULL风格
+		System.out.println(time.format(d));
+		
+	}
+}
