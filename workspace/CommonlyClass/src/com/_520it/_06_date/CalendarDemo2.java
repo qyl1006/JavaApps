@@ -24,6 +24,9 @@ public class CalendarDemo2 {
 	}
 	/*
 	//定义个方法,用于判断某个时间点是否在过去n天中,是返回true 否返回false
+	 * 
+	 * PS : 如果测试的话  那么怎么才能得到 某个日期时间 的Date  ??
+	 * 
 	public static boolean judgmentTime(int num, Date date){
 		Calendar c = Calendar.getInstance();
 		c.setTime(new java.util.Date());
