@@ -1,5 +1,0 @@
-package com._520it.eclipse;
-
-public interface MUSBable {
-
-}

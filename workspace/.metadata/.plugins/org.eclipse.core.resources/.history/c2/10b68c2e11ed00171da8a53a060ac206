@@ -1,0 +1,19 @@
+package com._520it._01wh;
+
+public class TestDemo {
+	TestDemo(){}
+	
+	int age;
+	static int a = 11;
+	
+}
+
+//c≤‚ ‘
+class Test{
+	public static void main(String[] args)
+	{
+		new TestDemo();
+		System.out.println(TestDemo.a);
+	}
+}
+

@@ -1,0 +1,18 @@
+package com._520it._02throw_throws;
+
+
+//演示throw的用法
+public class ThrowDemo {
+	public static void main(String[] args) {
+		int ret = business(10, 2);
+		System.out.println(ret);
+		
+	}
+	
+	//定义方法
+	public int business(int a, int b)
+	{
+		int ret = a / b;
+		return ret;
+	}
+}

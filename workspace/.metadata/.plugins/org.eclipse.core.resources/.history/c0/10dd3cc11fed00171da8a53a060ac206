@@ -1,0 +1,17 @@
+package com._520it._01why;
+
+public class TestDemo {
+	public static void main(String[] args) {
+		System.out.println(Test.i);
+	}
+	
+}
+
+
+class Test{
+	Test(){}
+	
+	static int i;
+	int a;
+}
+

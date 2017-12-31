@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;org.omg.SendingContext(RunTime.class[RunTime" modifiers="1537" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Runtime.class[Runtime" modifiers="33" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class[Arrays" modifiers="33" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(System.class[System" modifiers="49" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Integer.class[Integer" modifiers="49" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.xml.internal.ws.server.sei(EndpointArgumentsBuilder$StringBuilder.class[StringBuilder" modifiers="26" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringBuffer.class[StringBuffer" modifiers="49" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.xml.internal.ws.client.sei(ResponseBuilder$StringBuilder.class[StringBuilder" modifiers="26" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;javax.print(DocFlavor$STRING.class[STRING" modifiers="9" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class[String" modifiers="49" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Math.class[Math" modifiers="49" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(UUID.class[UUID" modifiers="49" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Random.class[Random" modifiers="33" timestamp="1511084455212"/>
-<typeInfo handle="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Calendar.class[Calendar" modifiers="1057" timestamp="1511084455212"/>
+<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;javax.print(PrintService.class[PrintService" modifiers="1537" timestamp="1511084455212"/>
+<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(PrintStream.class[PrintStream" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class[Arrays" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;javax.print(DocFlavor$STRING.class[STRING" modifiers="9" timestamp="1511084455212"/>
+<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.org.apache.xpath.internal.operations(String.class[String" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class[String" modifiers="49" timestamp="1511084455212"/>
+<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Error.class[Error" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(ArithmeticException.class[ArithmeticException" modifiers="33" timestamp="1511084455212"/>
 </typeInfoHistroy>

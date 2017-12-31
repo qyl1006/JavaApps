@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="32" version="2.0">
 <workbenchAdvisor/>
-<window height="708" maximized="true" width="1046" x="248" y="-22">
+<window height="635" width="1046" x="59" y="40">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -36,43 +36,82 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="4"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 <part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DateFormatDemo.java" partName="DateFormatDemo.java" path="H:/JavaApps/workspace/CommonlyClass/src/com/_520it/_06_date/DateFormatDemo.java" title="DateFormatDemo.java" tooltip="CommonlyClass/src/com/_520it/_06_date/DateFormatDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CommonlyClass/src/com/_520it/_06_date/DateFormatDemo.java"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestDemo.java" partName="TestDemo.java" path="H:/JavaApps/workspace/异常机制/src/com/_520it/_01why/TestDemo.java" title="TestDemo.java" tooltip="异常机制/src/com/_520it/_01why/TestDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/异常机制/src/com/_520it/_01why/TestDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="124" selectionTopPixel="30"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WhyDemo.java" partName="WhyDemo.java" path="H:/JavaApps/workspace/异常机制/src/com/_520it/_01why/WhyDemo.java" title="WhyDemo.java" tooltip="异常机制/src/com/_520it/_01why/WhyDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/异常机制/src/com/_520it/_01why/WhyDemo.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleDateFormatDemo.java" partName="SimpleDateFormatDemo.java" path="H:/JavaApps/workspace/CommonlyClass/src/com/_520it/_06_date/SimpleDateFormatDemo.java" title="SimpleDateFormatDemo.java" tooltip="CommonlyClass/src/com/_520it/_06_date/SimpleDateFormatDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CommonlyClass/src/com/_520it/_06_date/SimpleDateFormatDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="741" selectionTopPixel="45"/>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="PrintStream.class" partName="PrintStream.class" title="PrintStream.class" tooltip="java.io.PrintStream" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(PrintStream.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="24020" selectionTopPixel="10965"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Calendar.class" partName="Calendar.class" title="Calendar.class" tooltip="java.util.Calendar" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Calendar.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="17880" selectionTopPixel="5347"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThrowDemo.java" partName="ThrowDemo.java" path="H:/JavaApps/workspace/异常机制/src/com/_520it/_02throw_throws/ThrowDemo.java" title="ThrowDemo.java" tooltip="异常机制/src/com/_520it/_02throw_throws/ThrowDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/异常机制/src/com/_520it/_02throw_throws/ThrowDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="19" selectionOffset="371" selectionTopPixel="60"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalendarDemo.java" partName="CalendarDemo.java" path="H:/JavaApps/workspace/CommonlyClass/src/com/_520it/_06_date/CalendarDemo.java" title="CalendarDemo.java" tooltip="CommonlyClass/src/com/_520it/_06_date/CalendarDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CommonlyClass/src/com/_520it/_06_date/CalendarDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="830" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThrowDemo2.java" partName="ThrowDemo2.java" path="H:/JavaApps/workspace/异常机制/src/com/_520it/_02throw_throws/ThrowDemo2.java" title="ThrowDemo2.java" tooltip="异常机制/src/com/_520it/_02throw_throws/ThrowDemo2.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/异常机制/src/com/_520it/_02throw_throws/ThrowDemo2.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="389" selectionTopPixel="60"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DateUtil.java" partName="DateUtil.java" path="H:/JavaApps/workspace/CommonlyClass/src/com/_520it/_06_date/DateUtil.java" title="DateUtil.java" tooltip="CommonlyClass/src/com/_520it/_06_date/DateUtil.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CommonlyClass/src/com/_520it/_06_date/DateUtil.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="650" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThrowsDemo.java" partName="ThrowsDemo.java" path="H:/JavaApps/workspace/异常机制/src/com/_520it/_02throw_throws/ThrowsDemo.java" title="ThrowsDemo.java" tooltip="异常机制/src/com/_520it/_02throw_throws/ThrowsDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/异常机制/src/com/_520it/_02throw_throws/ThrowsDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="333" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringUtils.java" partName="StringUtils.java" path="H:/JavaApps/workspace/CommonlyClass/src/com/_520it/_04_char_sequence/StringUtils.java" title="StringUtils.java" tooltip="CommonlyClass/src/com/_520it/_04_char_sequence/StringUtils.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CommonlyClass/src/com/_520it/_04_char_sequence/StringUtils.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="315" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Error.class" partName="Error.class" title="Error.class" tooltip="java.lang.Error" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Error.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1156" selectionTopPixel="368"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Throwable.class" partName="Throwable.class" title="Throwable.class" tooltip="java.lang.Throwable" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Throwable.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6819" selectionTopPixel="2101"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ArithmeticException.class" partName="ArithmeticException.class" title="ArithmeticException.class" tooltip="java.lang.ArithmeticException" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(ArithmeticException.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="718" selectionTopPixel="217"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="RuntimeException.class" partName="RuntimeException.class" title="RuntimeException.class" tooltip="java.lang.RuntimeException" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(RuntimeException.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1193" selectionTopPixel="300"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Exception.class" partName="Exception.class" title="Exception.class" tooltip="java.lang.Exception" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Exception.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="949" selectionTopPixel="158"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MySqlDemo.java" partName="MySqlDemo.java" path="H:/JavaApps/workspace/异常机制/src/com/_520it/_03abnormal/MySqlDemo.java" title="MySqlDemo.java" tooltip="异常机制/src/com/_520it/_03abnormal/MySqlDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/异常机制/src/com/_520it/_03abnormal/MySqlDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="204" selectionTopPixel="60"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbnormalDemo.java" partName="AbnormalDemo.java" path="H:/JavaApps/workspace/异常机制/src/com/_520it/_03abnormal/AbnormalDemo.java" title="AbnormalDemo.java" tooltip="异常机制/src/com/_520it/_03abnormal/AbnormalDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/异常机制/src/com/_520it/_03abnormal/AbnormalDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="277" selectionTopPixel="84"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogicDemo.java" partName="LogicDemo.java" path="H:/JavaApps/workspace/异常机制/src/com/_520it/_03abnormal/LogicDemo.java" title="LogicDemo.java" tooltip="异常机制/src/com/_520it/_03abnormal/LogicDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/异常机制/src/com/_520it/_03abnormal/LogicDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="166" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="1" linkWithEditor="0" rootMode="1" workingSetName="">
 <customFilters userDefinedPatternsEnabled="false">
@@ -106,21 +145,6 @@
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter"/>
 </lastRecentlyUsedFilters>
 </customFilters>
-</viewState>
-</view>
-<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (5 items)"/>
-<category IMemento.internal.id="Warnings"/>
-</expanded>
-<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
@@ -158,7 +182,6 @@
 </view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers">
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
@@ -389,7 +412,7 @@
 </mainWindow>
 </layout>
 </perspective>
-<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
@@ -446,31 +469,21 @@
 <perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="org.eclipse.jdt.ui.PackageExplorer" style="1">
-<fastViews>
-<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
-<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
-<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29951692"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="left">
@@ -483,11 +496,10 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2110701" ratioLeft="286" ratioRight="1069" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7487923" ratioLeft="465" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
@@ -506,6 +518,14 @@
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@3d9cba2" ratio="0.7487923" ratioLeft="465" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
@@ -609,160 +629,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CommonlyClass/src/com/_520it/_06_date/SimpleDateFormatDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CommonlyClass/src/com/_520it/_06_date/CalendarDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CommonlyClass/src/com/_520it/_06_date/DateUtil.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CommonlyClass/src/com/_520it/_04_char_sequence/StringUtils.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Throwable.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Exception.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(RuntimeException.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/异常机制/src/com/_520it/_03abnormal/MySqlDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/异常机制/src/com/_520it/_03abnormal/AbnormalDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/异常机制/src/com/_520it/_03abnormal/LogicDemo.java"/>
 </editors>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1189" y="0"/>
+<item historyLabel="MySqlDemo.java" index="3">
+<position info="not_deleted" x="145" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="884" y="0"/>
+<item historyLabel="MySqlDemo.java" index="3">
+<position info="not_deleted" x="231" y="0"/>
 </item>
-<item historyLabel="CalendarDemo.java" index="1">
-<position info="not_deleted" x="830" y="0"/>
+<item historyLabel="MySqlDemo.java" index="3">
+<position info="not_deleted" x="304" y="0"/>
 </item>
-<item historyLabel="SimpleDateFormatDemo.java" index="0">
-<position info="not_deleted" x="458" y="0"/>
+<item historyLabel="AbnormalDemo.java" index="4">
+<position info="not_deleted" x="106" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="404" y="0"/>
+<item historyLabel="Exception.class" index="1">
+<position info="not_deleted" x="949" y="0"/>
 </item>
-<item historyLabel="SimpleDateFormatDemo.java" index="0">
-<position info="not_deleted" x="458" y="0"/>
+<item historyLabel="AbnormalDemo.java" index="4">
+<position info="not_deleted" x="437" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="404" y="0"/>
+<item historyLabel="Throwable.class" index="0">
+<position info="not_deleted" x="5175" y="38"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="433" y="0"/>
+<item historyLabel="AbnormalDemo.java" index="4">
+<position info="not_deleted" x="437" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="462" y="0"/>
+<item historyLabel="Throwable.class" index="0">
+<position info="not_deleted" x="6819" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="884" y="0"/>
+<item historyLabel="AbnormalDemo.java" index="4">
+<position info="not_deleted" x="98" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="468" y="0"/>
+<item historyLabel="RuntimeException.class" index="2">
+<position info="not_deleted" x="1193" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="508" y="0"/>
+<item historyLabel="AbnormalDemo.java" index="4">
+<position info="not_deleted" x="98" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1377" y="0"/>
+<item historyLabel="RuntimeException.class" index="2">
+<position info="not_deleted" x="1193" y="0"/>
 </item>
-<item historyLabel="SimpleDateFormatDemo.java" index="0">
-<position info="not_deleted" x="741" y="0"/>
+<item historyLabel="Exception.class" index="1">
+<position info="not_deleted" x="949" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1377" y="0"/>
+<item historyLabel="AbnormalDemo.java" index="4">
+<position info="not_deleted" x="98" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1373" y="0"/>
-</item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="880" y="0"/>
-</item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="848" y="0"/>
-</item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="848" y="0"/>
-</item>
-<item historyLabel="StringUtils.java" index="3">
+<item historyLabel="LogicDemo.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="848" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="271" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="515" y="0"/>
+<item historyLabel="AbnormalDemo.java" index="4">
+<position info="not_deleted" x="98" y="0"/>
 </item>
-<item historyLabel="StringUtils.java" index="3">
-<position info="not_deleted" x="315" y="0"/>
+<item historyLabel="MySqlDemo.java" index="3">
+<position info="not_deleted" x="304" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="558" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="271" y="0"/>
 </item>
-<item historyLabel="StringUtils.java" index="3">
-<position info="not_deleted" x="568" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="439" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="558" y="0"/>
+<item historyLabel="AbnormalDemo.java" index="4">
+<position info="not_deleted" x="98" y="0"/>
 </item>
-<item historyLabel="StringUtils.java" index="3">
-<position info="not_deleted" x="568" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="439" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="558" y="0"/>
+<item historyLabel="MySqlDemo.java" index="3">
+<position info="not_deleted" x="304" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1044" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="439" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1126" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="355" y="0"/>
 </item>
-<item historyLabel="StringUtils.java" index="3">
-<position info="not_deleted" x="568" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="355" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1126" y="0"/>
+<item historyLabel="MySqlDemo.java" index="3">
+<position info="not_deleted" x="304" y="0"/>
 </item>
-<item historyLabel="StringUtils.java" index="3">
-<position info="not_deleted" x="568" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="402" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1126" y="0"/>
+<item historyLabel="AbnormalDemo.java" index="4">
+<position info="not_deleted" x="69" y="12"/>
 </item>
-<item historyLabel="StringUtils.java" index="3">
-<position info="not_deleted" x="54" y="11"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="402" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1065" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="399" y="0"/>
 </item>
-<item historyLabel="CalendarDemo.java" index="1">
-<position info="not_deleted" x="830" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="402" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1065" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="184" y="0"/>
 </item>
-<item historyLabel="StringUtils.java" index="3">
-<position info="not_deleted" x="54" y="11"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="361" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1065" y="0"/>
+<item historyLabel="MySqlDemo.java" index="3">
+<position info="not_deleted" x="304" y="0"/>
 </item>
-<item historyLabel="StringUtils.java" index="3">
-<position info="not_deleted" x="161" y="9"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="361" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1066" y="1"/>
+<item historyLabel="MySqlDemo.java" index="3">
+<position info="not_deleted" x="160" y="9"/>
 </item>
-<item historyLabel="StringUtils.java" index="3">
-<position info="not_deleted" x="161" y="9"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="303" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1073" y="0"/>
+<item historyLabel="MySqlDemo.java" index="3">
+<position info="not_deleted" x="204" y="0"/>
 </item>
-<item historyLabel="StringUtils.java" index="3">
-<position info="not_deleted" x="161" y="9"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="303" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1072" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="166" y="0"/>
 </item>
-<item historyLabel="StringUtils.java" index="3">
-<position info="not_deleted" x="315" y="0"/>
+<item historyLabel="MySqlDemo.java" index="3">
+<position info="not_deleted" x="204" y="0"/>
 </item>
-<item historyLabel="CalendarDemo.java" index="1">
-<position info="not_deleted" x="830" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="166" y="0"/>
 </item>
-<item historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="1072" y="0"/>
+<item historyLabel="AbnormalDemo.java" index="4">
+<position info="not_deleted" x="69" y="12"/>
 </item>
-<item active="true" historyLabel="DateUtil.java" index="2">
-<position info="not_deleted" x="515" y="0"/>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="166" y="0"/>
+</item>
+<item historyLabel="AbnormalDemo.java" index="4">
+<position info="not_deleted" x="277" y="0"/>
+</item>
+<item historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="166" y="0"/>
+</item>
+<item historyLabel="AbnormalDemo.java" index="4">
+<position info="not_deleted" x="277" y="0"/>
+</item>
+<item active="true" historyLabel="LogicDemo.java" index="5">
+<position info="not_deleted" x="166" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -770,9 +792,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -781,55 +800,54 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringUtils.java" tooltip="CommonlyClass/src/com/_520it/_04_char_sequence/StringUtils.java">
-<persistable path="/CommonlyClass/src/com/_520it/_04_char_sequence/StringUtils.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogicDemo.java" tooltip="异常机制/src/com/_520it/_03abnormal/LogicDemo.java">
+<persistable path="/异常机制/src/com/_520it/_03abnormal/LogicDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DateUtil.java" tooltip="CommonlyClass/src/com/_520it/_06_date/DateUtil.java">
-<persistable path="/CommonlyClass/src/com/_520it/_06_date/DateUtil.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbnormalDemo.java" tooltip="异常机制/src/com/_520it/_03abnormal/AbnormalDemo.java">
+<persistable path="/异常机制/src/com/_520it/_03abnormal/AbnormalDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalendarDemo.java" tooltip="CommonlyClass/src/com/_520it/_06_date/CalendarDemo.java">
-<persistable path="/CommonlyClass/src/com/_520it/_06_date/CalendarDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MySqlDemo.java" tooltip="异常机制/src/com/_520it/_03abnormal/MySqlDemo.java">
+<persistable path="/异常机制/src/com/_520it/_03abnormal/MySqlDemo.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Calendar.class" tooltip="java.util.Calendar">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Calendar.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Exception.class" tooltip="java.lang.Exception">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Exception.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleDateFormatDemo.java" tooltip="CommonlyClass/src/com/_520it/_06_date/SimpleDateFormatDemo.java">
-<persistable path="/CommonlyClass/src/com/_520it/_06_date/SimpleDateFormatDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="RuntimeException.class" tooltip="java.lang.RuntimeException">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(RuntimeException.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DateFormatDemo.java" tooltip="CommonlyClass/src/com/_520it/_06_date/DateFormatDemo.java">
-<persistable path="/CommonlyClass/src/com/_520it/_06_date/DateFormatDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ArithmeticException.class" tooltip="java.lang.ArithmeticException">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(ArithmeticException.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringDemo5.java" tooltip="CommonlyClass/src/com/_520it/_04_char_sequence/StringDemo5.java">
-<persistable path="/CommonlyClass/src/com/_520it/_04_char_sequence/StringDemo5.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Throwable.class" tooltip="java.lang.Throwable">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Throwable.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringDemo6_2.java" tooltip="CommonlyClass/src/com/_520it/_04_char_sequence/StringDemo6_2.java">
-<persistable path="/CommonlyClass/src/com/_520it/_04_char_sequence/StringDemo6_2.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Error.class" tooltip="java.lang.Error">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Error.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringDemo7.java" tooltip="CommonlyClass/src/com/_520it/_04_char_sequence/StringDemo7.java">
-<persistable path="/CommonlyClass/src/com/_520it/_04_char_sequence/StringDemo7.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThrowsDemo.java" tooltip="异常机制/src/com/_520it/_02throw_throws/ThrowsDemo.java">
+<persistable path="/异常机制/src/com/_520it/_02throw_throws/ThrowsDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DateDemo.java" tooltip="CommonlyClass/src/com/_520it/_06_date/DateDemo.java">
-<persistable path="/CommonlyClass/src/com/_520it/_06_date/DateDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="com.sun.org.apache.xpath.internal.operations.String">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.org.apache.xpath.internal.operations(String.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Random.class" tooltip="java.util.Random">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Random.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="DocFlavor$STRING.class" tooltip="javax.print.DocFlavor$STRING">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;javax.print(DocFlavor$STRING.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ThreadLocalRandom.class" tooltip="java.util.concurrent.ThreadLocalRandom">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CommonlyClass/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util.concurrent(ThreadLocalRandom.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Arrays.class" tooltip="java.util.Arrays">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DDIDDemo.java" tooltip="CommonlyClass/src/com/_520it/_05_random/DDIDDemo.java">
-<persistable path="/CommonlyClass/src/com/_520it/_05_random/DDIDDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThrowDemo2.java" tooltip="异常机制/src/com/_520it/_02throw_throws/ThrowDemo2.java">
+<persistable path="/异常机制/src/com/_520it/_02throw_throws/ThrowDemo2.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThreadLocalRandomDemo.java" tooltip="CommonlyClass/src/com/_520it/_05_random/ThreadLocalRandomDemo.java">
-<persistable path="/CommonlyClass/src/com/_520it/_05_random/ThreadLocalRandomDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThrowDemo.java" tooltip="异常机制/src/com/_520it/_02throw_throws/ThrowDemo.java">
+<persistable path="/异常机制/src/com/_520it/_02throw_throws/ThrowDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RandomCodeDemo.java" tooltip="CommonlyClass/src/com/_520it/_05_random/RandomCodeDemo.java">
-<persistable path="/CommonlyClass/src/com/_520it/_05_random/RandomCodeDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="java.lang.String">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
 </file>
 </mruList>
 </workbench>

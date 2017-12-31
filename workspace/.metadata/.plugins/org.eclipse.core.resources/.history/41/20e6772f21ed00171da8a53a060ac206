@@ -1,0 +1,22 @@
+package com._520it._01why;
+
+public class TestDemo {
+	public static void main(String[] args) {
+		System.out.println(Test.i);
+		
+		int[] arr = new int[]{1, 2, 3, 4};
+		System.out.println(arr[-2]);
+		
+		System.out.println("enging.......");
+	}
+	
+}
+
+
+class Test{
+	Test(){}
+	
+	static int i;
+	int a;
+}
+

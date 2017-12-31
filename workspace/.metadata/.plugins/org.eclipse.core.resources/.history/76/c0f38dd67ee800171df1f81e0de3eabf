@@ -1,9 +1,0 @@
-package com._520it._03_math;
-
-//演示Math类的方法
-public class MathDemo {
-	public static void main(String[] args){
-		System.out.println(Math.PI);
-		System.out.println(Math.E); //final修饰的常量
-	}
-}

@@ -1,0 +1,32 @@
+package com._520it._01why;
+
+public class TestDemo {
+	public static void main(String[] args) {
+		
+		String s1 = "12a";
+		String s2 = "0s";
+		
+		try
+		{
+			int a = Integer.parseInt(s1);
+			int b = Integer.parseInt(s2);
+			int set = a / b;
+			System.out.println("商为: " + set);
+		}catch (ArithmeticException e)
+		{
+			e.printStackTrace();
+			System.out.println("除数不能为零");
+		}catch (NumberFormatException e)
+		{
+			e.printStackTrace();
+			System.out.println("转换异常");
+		}catch (Exception e)
+		{
+			e.printStackTrace();
+		}
+		System.out.println("enging.......");
+	}
+	
+}
+
+

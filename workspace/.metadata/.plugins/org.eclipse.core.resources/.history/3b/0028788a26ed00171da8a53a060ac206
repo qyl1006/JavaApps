@@ -1,0 +1,26 @@
+package com._520it._01why;
+
+public class TestDemo {
+	public static void main(String[] args) {
+		System.out.println(Test.i);
+		
+		int[] arr = new int[]{1, 2, 3, 4};
+		Integer age = Integer.valueOf("12");
+		System.out.println(age);
+		
+		int ret = 20 / 2;
+		System.out.println(ret);
+		
+		System.out.println("enging.......");
+	}
+	
+}
+
+
+class Test{
+	Test(){}
+	
+	static int i;
+	int a;
+}
+
