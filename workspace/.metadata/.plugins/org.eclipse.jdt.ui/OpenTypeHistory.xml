@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;javax.print(PrintService.class[PrintService" modifiers="1537" timestamp="1511084455212"/>
-<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(PrintStream.class[PrintStream" modifiers="33" timestamp="1511084455212"/>
-<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class[Arrays" modifiers="33" timestamp="1511084455212"/>
-<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;javax.print(DocFlavor$STRING.class[STRING" modifiers="9" timestamp="1511084455212"/>
-<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.org.apache.xpath.internal.operations(String.class[String" modifiers="33" timestamp="1511084455212"/>
-<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class[String" modifiers="49" timestamp="1511084455212"/>
-<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Error.class[Error" modifiers="33" timestamp="1511084455212"/>
-<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1511084455212"/>
-<typeInfo handle="=异常机制/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(ArithmeticException.class[ArithmeticException" modifiers="33" timestamp="1511084455212"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
