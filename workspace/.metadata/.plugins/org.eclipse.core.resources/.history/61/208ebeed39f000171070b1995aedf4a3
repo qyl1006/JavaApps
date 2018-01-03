@@ -1,0 +1,25 @@
+package com._520it.day01._04线程安全;
+
+public class TestDemo {
+	public static void main(String[] args) {
+		
+		//测试
+		A a = new B();
+		a.test(); ///AAA
+	}
+}
+
+//父类
+class A
+{
+	static public void test(){
+		System.out.println("AAAA");
+	}
+}
+
+//子类
+class B extends A{
+	static public void test(){
+		System.out.println("BBBBBB");
+	}
+}

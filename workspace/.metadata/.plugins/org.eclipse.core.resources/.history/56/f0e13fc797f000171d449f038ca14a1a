@@ -1,0 +1,34 @@
+package com._520it.day01._04线程安全;
+
+public class TestDemo {
+	public static void main(String[] args) {
+		//测试
+		String str = "凤姐";
+		str = "凤姐";
+		str = "小明";
+		System.out.println(str);
+}
+
+//父类
+class A
+{
+	int age = 11;
+	B  test = new B();
+	
+	public  void abc(){
+		for (int i = 0; i < 50; i++) {
+			System.out.println(test);
+		}
+	}
+	
+	static public void test(){
+		System.out.println("AAAA");
+	}
+}
+
+//子类
+class B {
+	static public void test(){
+		System.out.println("BBBBBB");
+	}
+}

@@ -19,43 +19,36 @@ class Middle implements Runnable{
 	String str;
 	private static Middle mm = new Middle();
 	
-	Producer p = new Producer();
-	Consumer c = new Consumer();
-	
-	
 	public static Middle getMm(){
 		return mm;
 	}
 	
 	public void run() {
-		for (int i = 0; i < 200; i ++){
-			p.production(mm);
-			c.consumption(mm);
-		}
-		
+		new Producer().production(mm);
 	}
 }
 	
 //生产者
 class Producer{
-	int count;
 	public void production(Middle m){
+		for (int i = 0; i < 50; i ++){
 		if (m.str == null) {
-		m.str = "凤姐      20";
-		System.out.println("生产一个" + (++ count));
-	   }
+			m.str = "凤姐      20";
+			System.out.println("生产一个");
+		}
 	}
-	
+	}
 }
 
 //消费者
 class Consumer{
-	int count;
 	public void consumption(Middle m){
-		if (m.str != null){
-			m.str = null;
-			System.out.println("消费一个" + (++ count));
-		}		
+		for (int i = 0; i < 50; i ++){
+			if (m.str != null){
+				m.str = null;
+				System.out.println("消费一个");
+			}
+		}
 	}
 }
 
