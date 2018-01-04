@@ -1,8 +1,0 @@
-package com._520it._05_random;
-
-public class SecureRandomDemo {
-	public static void main(String[] args) {
-	
-		SecureRandom s
-	}
-}

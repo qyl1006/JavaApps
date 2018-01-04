@@ -1089,3 +1089,90 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.core.resources 2 10035 2018-01-03 16:40:57.547
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2018-01-04 10:53:09.309 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.debug.core 4 2 2018-01-04 13:37:25.673
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:582)
+	at org.eclipse.jface.action.ActionContributionItem.actionPropertyChange(ActionContributionItem.java:174)
+	at org.eclipse.jface.action.ActionContributionItem.access$0(ActionContributionItem.java:170)
+	at org.eclipse.jface.action.ActionContributionItem$2.propertyChange(ActionContributionItem.java:137)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:48)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:71)
+	at org.eclipse.jface.action.Action.setEnabled(Action.java:577)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleRemoveAllTerminatedAction.update(ConsoleRemoveAllTerminatedAction.java:46)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleRemoveAllTerminatedAction.launchesRemoved(ConsoleRemoveAllTerminatedAction.java:74)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:282)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1001)
+	at org.eclipse.debug.internal.core.LaunchManager.removeLaunch(LaunchManager.java:2201)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.removeTerminatedLaunches(LaunchConfigurationManager.java:328)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.launchAdded(LaunchConfigurationManager.java:314)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:440)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:428)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:990)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:688)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:843)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 120 2018-01-04 13:37:25.697
+!MESSAGE An exception occurred during launch change notification.
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:582)
+	at org.eclipse.jface.action.ActionContributionItem.actionPropertyChange(ActionContributionItem.java:174)
+	at org.eclipse.jface.action.ActionContributionItem.access$0(ActionContributionItem.java:170)
+	at org.eclipse.jface.action.ActionContributionItem$2.propertyChange(ActionContributionItem.java:137)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:48)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:71)
+	at org.eclipse.jface.action.Action.setEnabled(Action.java:577)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleRemoveAllTerminatedAction.update(ConsoleRemoveAllTerminatedAction.java:46)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleRemoveAllTerminatedAction.launchesRemoved(ConsoleRemoveAllTerminatedAction.java:74)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:282)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1001)
+	at org.eclipse.debug.internal.core.LaunchManager.removeLaunch(LaunchManager.java:2201)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.removeTerminatedLaunches(LaunchConfigurationManager.java:328)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.launchAdded(LaunchConfigurationManager.java:314)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:440)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:428)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:990)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:688)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:843)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2018-01-04 19:15:22.276 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-01-04 19:15:24.237
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

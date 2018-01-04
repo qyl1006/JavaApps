@@ -1,0 +1,20 @@
+package com._520it.day02;
+
+
+//共享的资源类  并提供生产和消费的功能
+public class MiddleDemo {
+	private String name;
+	private String gender;
+	
+	//生产
+	public void production(String name, String gender){
+		this.name = name;
+		this.gender = gender;
+		System.out.println("生产: " + name + "--" + gender);
+	}
+	
+	//消费
+	public void consumption(){
+		System.out.println("消费: " + name + "--" + gender);
+	}
+}

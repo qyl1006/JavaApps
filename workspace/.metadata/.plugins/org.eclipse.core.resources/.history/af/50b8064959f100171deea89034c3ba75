@@ -1,0 +1,12 @@
+package com._520it.day02._ThreadMethodDemo;
+
+//演示 后台线程
+public class MainDemo {
+	public static void main(String[] args) {
+		//测试 main主方法是否是后台线程
+		boolean b = Thread.currentThread().isDaemon();
+		System.out.println(b);  //false--->主线程
+		
+		Thread.currentThread().getName();
+	}
+}

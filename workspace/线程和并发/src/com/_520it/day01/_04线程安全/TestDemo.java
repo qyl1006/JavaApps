@@ -6,8 +6,13 @@ public class TestDemo {
 		String str = "凤姐";
 		str += "凤姐";
 		str += "小明";
-		System.out.println(str);
+		
 
+		
 	}
 }
 
+
+class A{
+	private static int i = 110; //私有化的字段不能正在本类外通过对象调用
+}
