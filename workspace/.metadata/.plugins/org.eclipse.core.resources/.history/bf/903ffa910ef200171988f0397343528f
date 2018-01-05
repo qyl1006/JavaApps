@@ -1,0 +1,10 @@
+/*
+ * 需求:---> 演示包装类的使用 及 包装类-基本数据类型-String的相互转换
+ * */
+public class IntegerDemo {
+	public static void main(String[] args) {
+		//获取包装类的常量
+		System.out.println("最大值:" + Integer.MAX_VALUE);
+		System.out.println("最大值:" + Integer.MIN_VALUE);
+	}
+}

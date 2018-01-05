@@ -1,0 +1,13 @@
+
+public class Test {
+	public static void main(String[] args) {
+	}
+}
+
+abstract class A{
+	 public void test(){}
+}
+
+class B extends A{
+	
+}
