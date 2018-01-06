@@ -1,9 +1,0 @@
-package com._520it._01why;
-
-public class TestDemo {
-	TestDemo(){}
-	
-	int age;
-	static int a;
-	
-}

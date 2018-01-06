@@ -1,8 +1,0 @@
-package com._520it._07_regex;
-
-//正则表达式  注意:java中 一根 '/' 表示转义  两根' //'才表示反斜线  /
-public class RegexDemo {
-	public static void main(String[] args) {
-		
-	}
-}

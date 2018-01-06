@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="33" version="2.0">
+<workbench progressCount="31" version="2.0">
 <workbenchAdvisor/>
-<window height="689" maximized="true" width="1046" x="202" y="32">
+<window height="627" maximized="true" width="1046" x="345" y="18">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -12,7 +12,7 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="OpenExplorer.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="95" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
@@ -25,7 +25,7 @@
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -34,26 +34,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SleepDemo.java" partName="SleepDemo.java" path="H:/JavaApps/workspace/线程和并发/src/com/_520it/day02/_ThreadMethodDemo/SleepDemo.java" title="SleepDemo.java" tooltip="线程和并发/src/com/_520it/day02/_ThreadMethodDemo/SleepDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/线程和并发/src/com/_520it/day02/_ThreadMethodDemo/SleepDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainDemo.java" partName="MainDemo.java" path="H:/JavaApps/workspace/线程和并发/src/com/_520it/day02/_ThreadMethodDemo/MainDemo.java" title="MainDemo.java" tooltip="线程和并发/src/com/_520it/day02/_ThreadMethodDemo/MainDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/线程和并发/src/com/_520it/day02/_ThreadMethodDemo/MainDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="166" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.ClassFileEditor" name="Thread.class" partName="Thread.class" title="Thread.class" tooltip="java.lang.Thread" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Thread.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4657" selectionTopPixel="1629"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
@@ -72,7 +56,7 @@
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
@@ -144,7 +128,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.ClassFileEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -439,7 +423,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.23468634" ratioLeft="318" ratioRight="1037" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.15498155" ratioLeft="210" ratioRight="1145" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7487923" ratioLeft="465" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
@@ -578,166 +562,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/线程和并发/src/com/_520it/day02/MiddleDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/线程和并发/src/com/_520it/day02/ThreadCommunicationTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/线程和并发/src/com/_520it/day01/_04线程安全/LockDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/线程和并发/src/com/_520it/day02/_ThreadMethodDemo/SleepDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/线程和并发/src/com/_520it/day02/_ThreadMethodDemo/MainDemo.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Thread.class"/>
-</editors>
-<item historyLabel="MiddleDemo.java" index="0">
-<position info="not_deleted" x="723" y="0"/>
-</item>
-<item historyLabel="MiddleDemo.java" index="0">
-<position info="not_deleted" x="738" y="0"/>
-</item>
-<item historyLabel="MiddleDemo.java" index="0">
-<position info="not_deleted" x="752" y="0"/>
-</item>
-<item historyLabel="MiddleDemo.java" index="0">
-<position info="not_deleted" x="803" y="0"/>
-</item>
-<item historyLabel="MiddleDemo.java" index="0">
-<position info="not_deleted" x="1225" y="0"/>
-</item>
-<item historyLabel="MiddleDemo.java" index="0">
-<position info="not_deleted" x="1193" y="0"/>
-</item>
-<item historyLabel="ThreadCommunicationTest.java" index="1">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="MiddleDemo.java" index="0">
-<position info="not_deleted" x="1193" y="0"/>
-</item>
-<item historyLabel="MiddleDemo.java" index="0">
-<position info="not_deleted" x="1430" y="0"/>
-</item>
-<item historyLabel="ThreadCommunicationTest.java" index="1">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="MiddleDemo.java" index="0">
-<position info="not_deleted" x="1407" y="0"/>
-</item>
-<item historyLabel="ThreadCommunicationTest.java" index="1">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="MiddleDemo.java" index="0">
-<position info="not_deleted" x="1333" y="0"/>
-</item>
-<item historyLabel="LockDemo.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="SleepDemo.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MainDemo.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MainDemo.java" index="4">
-<position info="not_deleted" x="165" y="0"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="4496" y="6"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="4995" y="14"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="53760" y="8"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="53350" y="9"/>
-</item>
-<item historyLabel="MainDemo.java" index="4">
-<position info="not_deleted" x="165" y="0"/>
-</item>
-<item historyLabel="MainDemo.java" index="4">
-<position info="not_deleted" x="545" y="0"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="44057" y="11"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="44166" y="0"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="7876" y="12"/>
-</item>
-<item historyLabel="SleepDemo.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MainDemo.java" index="4">
-<position info="not_deleted" x="545" y="0"/>
-</item>
-<item historyLabel="SleepDemo.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MainDemo.java" index="4">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="4496" y="6"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="17368" y="6"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="17399" y="0"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="11333" y="4"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="11433" y="0"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="11942" y="4"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="12191" y="0"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="17368" y="6"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="17399" y="0"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="11333" y="4"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="11433" y="0"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="11942" y="4"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="12178" y="0"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="4716" y="4"/>
-</item>
-<item historyLabel="MainDemo.java" index="4">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="4716" y="4"/>
-</item>
-<item historyLabel="MainDemo.java" index="4">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="4716" y="4"/>
-</item>
-<item historyLabel="MainDemo.java" index="4">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item active="true" historyLabel="Thread.class" index="5">
-<position info="not_deleted" x="4716" y="4"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -755,50 +580,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Thread.class" tooltip="java.lang.Thread">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Thread.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Arrays.class" tooltip="java.util.Arrays">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainDemo.java" tooltip="线程和并发/src/com/_520it/day02/_ThreadMethodDemo/MainDemo.java">
-<persistable path="/线程和并发/src/com/_520it/day02/_ThreadMethodDemo/MainDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="XsiNilLoader$Array.class" tooltip="com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader$Array">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.xml.internal.bind.v2.runtime.unmarshaller(XsiNilLoader$Array.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SleepDemo.java" tooltip="线程和并发/src/com/_520it/day02/_ThreadMethodDemo/SleepDemo.java">
-<persistable path="/线程和并发/src/com/_520it/day02/_ThreadMethodDemo/SleepDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LockDemo.java" tooltip="线程和并发/src/com/_520it/day01/_04线程安全/LockDemo.java">
-<persistable path="/线程和并发/src/com/_520it/day01/_04线程安全/LockDemo.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Condition.class" tooltip="java.util.concurrent.locks.Condition">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util.concurrent.locks(Condition.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Lock.class" tooltip="java.util.concurrent.locks.Lock">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util.concurrent.locks(Lock.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestDemo.java" tooltip="线程和并发/src/com/_520it/day02/TestDemo.java">
-<persistable path="/线程和并发/src/com/_520it/day02/TestDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConsumerDemo.java" tooltip="线程和并发/src/com/_520it/day02/ConsumerDemo.java">
-<persistable path="/线程和并发/src/com/_520it/day02/ConsumerDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProducerDemo.java" tooltip="线程和并发/src/com/_520it/day02/ProducerDemo.java">
-<persistable path="/线程和并发/src/com/_520it/day02/ProducerDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThreadCommunicationTest.java" tooltip="线程和并发/src/com/_520it/day02/ThreadCommunicationTest.java">
-<persistable path="/线程和并发/src/com/_520it/day02/ThreadCommunicationTest.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MiddleDemo.java" tooltip="线程和并发/src/com/_520it/day02/MiddleDemo.java">
-<persistable path="/线程和并发/src/com/_520it/day02/MiddleDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SynchronizedBlockDemo2.java" tooltip="线程和并发/src/com/_520it/day01/_04线程安全/SynchronizedBlockDemo2.java">
-<persistable path="/线程和并发/src/com/_520it/day01/_04线程安全/SynchronizedBlockDemo2.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SynchronizedBlockDemo.java" tooltip="线程和并发/src/com/_520it/day01/_04线程安全/SynchronizedBlockDemo.java">
-<persistable path="/线程和并发/src/com/_520it/day01/_04线程安全/SynchronizedBlockDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="USBDemo.java" tooltip="Task/src/day15/USBDemo.java">
+<persistable path="/Task/src/day15/USBDemo.java"/>
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Enum.class" tooltip="java.lang.Enum">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Enum.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="SnmpRequestTree$Enum.class" tooltip="com.sun.jmx.snmp.agent.SnmpRequestTree$Enum">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.jmx.snmp.agent(SnmpRequestTree$Enum.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" tooltip="TestDemo/src/Test.java">
+<persistable path="/TestDemo/src/Test.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="java.lang.String">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TestDemo/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AbstractStringBuilder.class" tooltip="java.lang.AbstractStringBuilder">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TestDemo/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(AbstractStringBuilder.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StringBuilder.class" tooltip="java.lang.StringBuilder">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TestDemo/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringBuilder.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StringBuffer.class" tooltip="java.lang.StringBuffer">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TestDemo/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringBuffer.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimerDemo.java" tooltip="线程和并发/src/com/_520it/day02/TimerDemo.java">
+<persistable path="/线程和并发/src/com/_520it/day02/TimerDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TemplateMethodDemo.java" tooltip="作业task/src/TemplateMethodDemo.java">
+<persistable path="/作业task/src/TemplateMethodDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GraphDemo.java" tooltip="作业task/src/GraphDemo.java">
+<persistable path="/作业task/src/GraphDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IntegerDemo.java" tooltip="作业task/src/IntegerDemo.java">
+<persistable path="/作业task/src/IntegerDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CacheDemo.java" tooltip="作业task/src/CacheDemo.java">
+<persistable path="/作业task/src/CacheDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharDemo.java" tooltip="TestDemo/src/CharDemo.java">
+<persistable path="/TestDemo/src/CharDemo.java"/>
 </file>
 </mruList>
 </workbench>
