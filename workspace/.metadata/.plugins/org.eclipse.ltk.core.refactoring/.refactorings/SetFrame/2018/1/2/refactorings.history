@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;VectorDemo&apos; to &apos;VectorMethodDemo&apos;&#x0D;&#x0A;- Original project: &apos;SetFrame&apos;&#x0D;&#x0A;- Original element: &apos;VectorDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;VectorMethodDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;VectorDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{VectorDemo.java[VectorDemo" matchStrategy="1" name="VectorMethodDemo" qualified="false" references="true" similarDeclarations="false" stamp="1515424692610" textual="false" version="1.0"/>
+</session>

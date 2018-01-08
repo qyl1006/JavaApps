@@ -8,7 +8,6 @@ public class Test3 {
 			System.out.print(arr[i] + "  ");
 		}
 		
-		
 	}
 }
 

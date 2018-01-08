@@ -6,6 +6,8 @@ public class Test2 {
 		b.test();
 		
 		B b2 = new C();
+		b2.sysou();
+		
 		A a2 = (A) b2;
 		a2.sysou();
 	}
@@ -14,20 +16,22 @@ public class Test2 {
 class A{
 	String s = "AAA";
 	void sysou() {
-		
+		System.out.println("父类方法");
 	}
 	
 }
 //接口
 interface B{
 	void test();
+
+	void sysou();
 }
 class C extends A implements B{
 
 	public void test() {
 		System.out.println(this.s);
 	}
-	void sysou() {
+	public void sysou() {
 		System.out.println(this.s + "aa");
 	}
 }
