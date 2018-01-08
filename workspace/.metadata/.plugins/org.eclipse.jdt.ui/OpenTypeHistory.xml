@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(AbstractList.class[AbstractList" modifiers="1057" timestamp="1511084455212"/>
-<typeInfo handle="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.jmx.snmp.agent(SnmpRequestTree$Enum.class[Enum" modifiers="24" timestamp="1511084455212"/>
-<typeInfo handle="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util.concurrent.locks(Lock.class[Lock" modifiers="1537" timestamp="1511084455212"/>
 <typeInfo handle="=TestDemo/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringBuffer.class[StringBuffer" modifiers="49" timestamp="1511084455212"/>
 <typeInfo handle="=TestDemo/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringBuilder.class[StringBuilder" modifiers="49" timestamp="1511084455212"/>
-<typeInfo handle="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Enum.class[Enum" modifiers="1057" timestamp="1511084455212"/>
 <typeInfo handle="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.xml.internal.bind.v2.runtime.unmarshaller(XsiNilLoader$Array.class[Array" modifiers="25" timestamp="1511084455212"/>
-<typeInfo handle="=线程和并发/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class[Arrays" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Error.class[Error" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class[Arrays" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.sql(Array.class[Array" modifiers="1537" timestamp="1511084455212"/>
+<typeInfo handle="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class[ArrayList" modifiers="33" timestamp="1511084455212"/>
 </typeInfoHistroy>

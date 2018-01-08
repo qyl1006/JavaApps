@@ -1,0 +1,13 @@
+package com._520it.Linked;
+
+public class LinkedTest {
+	public static void main(String[] args) {
+		//添加节点 并打印
+		MyLinkedDemo my = new MyLinkedDemo();
+		my.addNext("A");
+		my.addNext("A");
+		//my.addNext(12);
+		String s = my.toString();
+		System.out.println(s);
+	}
+}
