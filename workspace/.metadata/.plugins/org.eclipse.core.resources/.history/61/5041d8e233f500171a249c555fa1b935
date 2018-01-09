@@ -1,0 +1,43 @@
+package day17.char_sequence;
+/*
+ * 演示; String StringBuilder StringBuffer的性能-->拼接30000次字符串,对比它们各自的消耗时间
+ * 
+ */
+public class CharSequenceDemo {
+
+	public static void main(String[] args) {
+//		testString();     //1679 毫秒
+		testStringBuffer();
+		//testStringBuilder();
+	}
+	
+	private static void testString() {
+		long time1 = System.currentTimeMillis();
+		String str = "";
+		for (int i = 0; i < 30000; i++) {
+			str += i;
+		}
+		long time2 = System.currentTimeMillis();
+		System.out.println(time2 - time1);
+	}
+	private static void testStringBuffer() {
+		long time1 = System.currentTimeMillis();
+		StringBuffer sb = new StringBuffer();
+		for (int i = 0; i < 10000; i++) {
+			sb.append(i);
+		}
+		long time2 = System.currentTimeMillis();
+		System.out.println(time2 - time1);
+	}
+	private static void testStringBuilder() {
+		long time1 = System.currentTimeMillis();
+		String str = "";
+		for (int i = 0; i < 10000; i++) {
+			str += i;
+		}
+		long time2 = System.currentTimeMillis();
+		System.out.println(time2 - time1);
+	}
+
+
+}

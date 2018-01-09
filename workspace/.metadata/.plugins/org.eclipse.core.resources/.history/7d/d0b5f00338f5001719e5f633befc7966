@@ -1,0 +1,10 @@
+package day17.char_sequence;
+/*
+ * 演示: StringBuilder类的常用方法
+ */
+public class StringBuilder {
+	public static void main(String[] args) {
+		//创建对象
+		StringBuilder sb = new StringBuilder();//
+	}
+}

@@ -21,5 +21,7 @@
 <fullyQualifiedTypeName name="java.util.Timer"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.math.RoundingMode"/>
 </qualifiedTypeNameHistroy>

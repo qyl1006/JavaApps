@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="32" version="2.0">
+<workbench progressCount="35" version="2.0">
 <workbenchAdvisor/>
-<window height="620" maximized="true" width="1046" x="118" y="87">
+<window height="620" maximized="true" width="1046" x="97" y="32">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
 <orientation position="512" view="org.eclipse.ui.views.ContentOutline"/>
@@ -29,7 +29,7 @@
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -44,34 +44,29 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyLinkedDemo.java" partName="MyLinkedDemo.java" path="H:/JavaApps/workspace/数据结构/src/com/_520it/Linked/MyLinkedDemo.java" title="MyLinkedDemo.java" tooltip="数据结构/src/com/_520it/Linked/MyLinkedDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/数据结构/src/com/_520it/Linked/MyLinkedDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1134" selectionTopPixel="1053"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BigDecimalDemo.java" partName="BigDecimalDemo.java" path="H:/JavaApps/workspace/Task/src/day17/math/BigDecimalDemo.java" title="BigDecimalDemo.java" tooltip="Task/src/day17/math/BigDecimalDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Task/src/day17/math/BigDecimalDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="248" selectionTopPixel="100"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkedTest.java" partName="LinkedTest.java" path="H:/JavaApps/workspace/数据结构/src/com/_520it/Linked/LinkedTest.java" title="LinkedTest.java" tooltip="数据结构/src/com/_520it/Linked/LinkedTest.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/数据结构/src/com/_520it/Linked/LinkedTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="273" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="BigDecimal.class" partName="BigDecimal.class" title="BigDecimal.class" tooltip="java.math.BigDecimal" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=SetFrame/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.math(BigDecimal.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="94250" selectionTopPixel="37570"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test4.java" partName="Test4.java" path="H:/JavaApps/workspace/TestDemo/src/Test4.java" title="Test4.java" tooltip="TestDemo/src/Test4.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestDemo/src/Test4.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" partName="String.class" title="String.class" tooltip="java.lang.String" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="109319" selectionTopPixel="46155"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test3.java" partName="Test3.java" path="H:/JavaApps/workspace/TestDemo/src/Test3.java" title="Test3.java" tooltip="TestDemo/src/Test3.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestDemo/src/Test3.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharSequenceDemo.java" partName="CharSequenceDemo.java" path="H:/JavaApps/workspace/Task/src/day17/char_sequence/CharSequenceDemo.java" title="CharSequenceDemo.java" tooltip="Task/src/day17/char_sequence/CharSequenceDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Task/src/day17/char_sequence/CharSequenceDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1395" selectionTopPixel="512"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test2.java" partName="Test2.java" path="H:/JavaApps/workspace/TestDemo/src/Test2.java" title="Test2.java" tooltip="TestDemo/src/Test2.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestDemo/src/Test2.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="154" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test5.java" partName="Test5.java" path="H:/JavaApps/workspace/TestDemo/src/Test5.java" title="Test5.java" tooltip="TestDemo/src/Test5.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestDemo/src/Test5.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="92" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringBuilderDemo.java" partName="StringBuilderDemo.java" path="H:/JavaApps/workspace/Task/src/day17/char_sequence/StringBuilderDemo.java" title="StringBuilderDemo.java" tooltip="Task/src/day17/char_sequence/StringBuilderDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Task/src/day17/char_sequence/StringBuilderDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="221" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -166,7 +161,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="Will">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="Will">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -336,7 +331,7 @@
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViews>
-<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.29970545"/>
 <view id="org.eclipse.debug.ui.DebugView" ratio="0.3"/>
 </fastViews>
 <fastViewBars/>
@@ -388,9 +383,10 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@6cc4daa4" ratio="0.7487923" ratioLeft="465" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@6cc4daa4" ratio="0.79611653" ratioLeft="492" ratioRight="126" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.jdt.callhierarchy.view" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
@@ -607,165 +603,165 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/数据结构/src/com/_520it/Linked/MyLinkedDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/数据结构/src/com/_520it/Linked/LinkedTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TestDemo/src/Test4.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/数据结构/src/com/_520it/day01/DataStructureDemo.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TestDemo/src/Test3.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TestDemo/src/Test2.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TestDemo/src/Test5.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Task/src/day17/math/BigDecimalDemo.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=SetFrame/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.math(BigDecimal.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Task/src/day17/math/MathDemo.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Math.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Task/src/day17/char_sequence/CharSequenceDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Task/src/day17/char_sequence/StringBuilder.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Task/src/day17/char_sequence/StringBuilder.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Task/src/day17/char_sequence/StringBuilderDemo.java"/>
 </editors>
-<item historyLabel="Test4.java" index="2">
-<position info="not_deleted" x="124" y="0"/>
+<item historyLabel="BigDecimalDemo.java" index="0">
+<position info="not_deleted" x="537" y="0"/>
 </item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1440" y="0"/>
+<item historyLabel="BigDecimalDemo.java" index="0">
+<position info="not_deleted" x="615" y="0"/>
 </item>
-<item historyLabel="Test4.java" index="2">
-<position info="not_deleted" x="124" y="0"/>
+<item historyLabel="BigDecimal.class" index="1">
+<position info="not_deleted" x="16433" y="10"/>
 </item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="367" y="0"/>
+<item historyLabel="BigDecimal.class" index="1">
+<position info="not_deleted" x="9973" y="10"/>
 </item>
-<item historyLabel="Test4.java" index="2">
-<position info="not_deleted" x="149" y="0"/>
+<item historyLabel="BigDecimal.class" index="1">
+<position info="not_deleted" x="94250" y="13"/>
 </item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1370" y="27"/>
+<item historyLabel="BigDecimalDemo.java" index="0">
+<position info="not_deleted" x="615" y="0"/>
 </item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="367" y="0"/>
+<item historyLabel="BigDecimalDemo.java" index="0">
+<position info="not_deleted" x="585" y="0"/>
 </item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1418" y="0"/>
+<item historyLabel="BigDecimalDemo.java" index="0">
+<position info="not_deleted" x="248" y="0"/>
 </item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="367" y="0"/>
-</item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1418" y="0"/>
-</item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="367" y="0"/>
-</item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1418" y="0"/>
-</item>
-<item historyLabel="ArrayList.class" index="3">
-<position info="not_deleted" x="3" y="0"/>
-</item>
-<item historyLabel="ArrayList.class" index="3">
-<position info="not_deleted" x="5929" y="0"/>
-</item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1430" y="0"/>
-</item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="367" y="0"/>
-</item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1430" y="0"/>
-</item>
-<item historyLabel="Test4.java" index="2">
-<position info="not_deleted" x="149" y="0"/>
-</item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="367" y="0"/>
-</item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1430" y="0"/>
-</item>
-<item historyLabel="Test4.java" index="2">
-<position info="not_deleted" x="149" y="0"/>
-</item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1430" y="0"/>
-</item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="367" y="0"/>
-</item>
-<item historyLabel="Test4.java" index="2">
+<item historyLabel="MathDemo.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="235" y="0"/>
+<item historyLabel="MathDemo.java" index="3">
+<position info="not_deleted" x="220" y="0"/>
 </item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1373" y="0"/>
+<item historyLabel="Math.class" index="4">
+<position info="not_deleted" x="3298" y="4"/>
 </item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="235" y="0"/>
+<item historyLabel="MathDemo.java" index="3">
+<position info="not_deleted" x="220" y="0"/>
 </item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1735" y="0"/>
+<item historyLabel="BigDecimalDemo.java" index="0">
+<position info="not_deleted" x="248" y="0"/>
 </item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="235" y="0"/>
+<item historyLabel="MathDemo.java" index="3">
+<position info="not_deleted" x="261" y="0"/>
 </item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1373" y="0"/>
+<item historyLabel="BigDecimalDemo.java" index="0">
+<position info="not_deleted" x="248" y="0"/>
 </item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="235" y="0"/>
-</item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1373" y="0"/>
-</item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="235" y="0"/>
-</item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="2066" y="0"/>
-</item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="235" y="0"/>
-</item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="2066" y="0"/>
-</item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="235" y="0"/>
-</item>
-<item historyLabel="DataStructureDemo.java" index="4">
-<position info="not_deleted" x="4473" y="0"/>
-</item>
-<item historyLabel="Arrays.class" index="5">
-<position info="not_deleted" x="3" y="0"/>
-</item>
-<item historyLabel="Arrays.class" index="5">
-<position info="not_deleted" x="2219" y="0"/>
-</item>
-<item historyLabel="DataStructureDemo.java" index="4">
-<position info="not_deleted" x="4473" y="0"/>
-</item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="195" y="0"/>
-</item>
-<item historyLabel="Test4.java" index="2">
+<item historyLabel="CharSequenceDemo.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="LinkedTest.java" index="1">
-<position info="not_deleted" x="273" y="0"/>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position/>
 </item>
-<item historyLabel="MyLinkedDemo.java" index="0">
-<position info="not_deleted" x="1134" y="0"/>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position/>
 </item>
-<item historyLabel="Test4.java" index="2">
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position/>
+</item>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position/>
+</item>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position info="not_deleted" x="282" y="0"/>
+</item>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position/>
+</item>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position info="not_deleted" x="501" y="0"/>
+</item>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position info="not_deleted" x="514" y="0"/>
+</item>
+<item historyLabel="BigDecimalDemo.java" index="0">
+<position info="not_deleted" x="248" y="0"/>
+</item>
+<item historyLabel="StringBuilder.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Test3.java" index="6">
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position/>
+</item>
+<item historyLabel="StringBuilder.java" index="6">
+<position/>
+</item>
+<item historyLabel="String.class" index="2">
+<position info="not_deleted" x="109319" y="11"/>
+</item>
+<item historyLabel="StringBuilder.java" index="6">
+<position info="not_deleted" x="60" y="0"/>
+</item>
+<item historyLabel="String.class" index="2">
+<position info="not_deleted" x="109319" y="11"/>
+</item>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position info="not_deleted" x="1396" y="0"/>
+</item>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position info="not_deleted" x="1401" y="0"/>
+</item>
+<item historyLabel="StringBuilder.java" index="7">
+<position/>
+</item>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position info="not_deleted" x="1401" y="0"/>
+</item>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position info="not_deleted" x="1120" y="0"/>
+</item>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position info="not_deleted" x="1341" y="0"/>
+</item>
+<item historyLabel="CharSequenceDemo.java" index="5">
+<position info="not_deleted" x="1387" y="0"/>
+</item>
+<item historyLabel="StringBuilder.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Test2.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="StringBuilder.java" index="7">
+<position/>
 </item>
-<item historyLabel="Test2.java" index="7">
-<position info="not_deleted" x="154" y="0"/>
+<item historyLabel="StringBuilder.java" index="7">
+<position/>
 </item>
-<item active="true" historyLabel="Test5.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="StringBuilder.java" index="7">
+<position/>
+</item>
+<item historyLabel="StringBuilder.java" index="7">
+<position/>
+</item>
+<item historyLabel="StringBuilder.java" index="7">
+<position/>
+</item>
+<item historyLabel="StringBuilder.java" index="7">
+<position/>
+</item>
+<item historyLabel="StringBuilder.java" index="7">
+<position/>
+</item>
+<item historyLabel="StringBuilderDemo.java" index="8">
+<position info="not_deleted" x="253" y="2"/>
+</item>
+<item historyLabel="StringBuilderDemo.java" index="8">
+<position info="not_deleted" x="258" y="0"/>
+</item>
+<item historyLabel="StringBuilderDemo.java" index="8">
+<position info="not_deleted" x="247" y="0"/>
+</item>
+<item active="true" historyLabel="StringBuilderDemo.java" index="8">
+<position info="not_deleted" x="246" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -773,12 +769,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -787,55 +777,51 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharSequenceDemo.java" tooltip="Task/src/day17/char_sequence/CharSequenceDemo.java">
+<persistable path="/Task/src/day17/char_sequence/CharSequenceDemo.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Math.class" tooltip="java.lang.Math">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Math.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MathDemo.java" tooltip="Task/src/day17/math/MathDemo.java">
+<persistable path="/Task/src/day17/math/MathDemo.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="java.lang.String">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="BigDecimal.class" tooltip="java.math.BigDecimal">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=SetFrame/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.math(BigDecimal.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BigDecimalDemo.java" tooltip="Task/src/day17/math/BigDecimalDemo.java">
+<persistable path="/Task/src/day17/math/BigDecimalDemo.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test5.java" tooltip="TestDemo/src/Test5.java">
 <persistable path="/TestDemo/src/Test5.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test2.java" tooltip="TestDemo/src/Test2.java">
-<persistable path="/TestDemo/src/Test2.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ThreadLocalRandom.class" tooltip="java.util.concurrent.ThreadLocalRandom">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=SetFrame/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util.concurrent(ThreadLocalRandom.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test3.java" tooltip="TestDemo/src/Test3.java">
-<persistable path="/TestDemo/src/Test3.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AbstractStringBuilder.class" tooltip="java.lang.AbstractStringBuilder">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TestDemo/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(AbstractStringBuilder.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test4.java" tooltip="TestDemo/src/Test4.java">
-<persistable path="/TestDemo/src/Test4.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StringBuilder.class" tooltip="java.lang.StringBuilder">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TestDemo/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringBuilder.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkedTest.java" tooltip="数据结构/src/com/_520it/Linked/LinkedTest.java">
-<persistable path="/数据结构/src/com/_520it/Linked/LinkedTest.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StringCoding.class" tooltip="java.lang.StringCoding">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringCoding.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyLinkedDemo.java" tooltip="数据结构/src/com/_520it/Linked/MyLinkedDemo.java">
-<persistable path="/数据结构/src/com/_520it/Linked/MyLinkedDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StringCoding$StringEncoder.class" tooltip="java.lang.StringCoding$StringEncoder">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringCoding$StringEncoder.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InstanceInnerClassDemo.java" tooltip="Task/src/day15/InstanceInnerClassDemo.java">
-<persistable path="/Task/src/day15/InstanceInnerClassDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Charset.class" tooltip="java.nio.charset.Charset">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.nio.charset(Charset.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ArrayList.class" tooltip="java.util.ArrayList">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Array.class" tooltip="java.sql.Array">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.sql(Array.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Arrays$ArrayList.class" tooltip="java.util.Arrays$ArrayList">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays$ArrayList.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Arrays.class" tooltip="java.util.Arrays">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Exception.class" tooltip="java.lang.Exception">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Exception.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Throwable.class" tooltip="java.lang.Throwable">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Throwable.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Error.class" tooltip="java.lang.Error">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Error.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" tooltip="TestDemo/src/Test.java">
-<persistable path="/TestDemo/src/Test.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="com.sun.org.apache.xpath.internal.operations.String">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=SetFrame/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.org.apache.xpath.internal.operations(String.class"/>
 </file>
 </mruList>
 </workbench>

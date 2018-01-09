@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;day17.char_sequence.StringBuilder&apos; to &apos;StringBuilderDemo&apos;&#x0D;&#x0A;- Original project: &apos;Task&apos;&#x0D;&#x0A;- Original element: &apos;day17.char_sequence.StringBuilder&apos;&#x0D;&#x0A;- Renamed element: &apos;day17.char_sequence.StringBuilderDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StringBuilder&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;day17.char_sequence{StringBuilder.java[StringBuilder" matchStrategy="1" name="StringBuilderDemo" qualified="false" references="true" similarDeclarations="false" stamp="1515500659213" textual="false" version="1.0"/>
+</session>

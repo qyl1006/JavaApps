@@ -1,5 +1,0 @@
-package com._520it.day01._04线程安全;
-
-public class SynchronizedBlockDemo2 {
-
-}

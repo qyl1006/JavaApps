@@ -1,0 +1,36 @@
+package day17.char_sequence;
+/*
+ * 演示String类的常用方法-->尝试解读理解源码
+ * 
+ */
+public class StringDemo2 {
+	public static void main(String[] args) {
+		testString1();
+//		testString2();
+//		testString3();
+//		testString4();
+		
+	}
+
+	private static void testString1() {
+		//1):String的创建和转换:
+//		byte[] getBytes():把字符串转换为byte数组
+		System.out.println("ABCD".getBytes()[0]);
+//		char[] toCharArray():把字符串转换为char数组
+//		String(byte[] bytes):把byte数组转换为字符串
+//		String(char[] value):把char数组转换为字符串
+
+	}
+
+	private static void testString2() {
+		
+	}
+
+	private static void testString3() {
+		
+	}
+
+	private static void testString4() {
+	}
+
+}
