@@ -1,0 +1,12 @@
+package day17.random;
+
+import java.util.Random;
+
+/*
+ * Random类的常用方法练习
+ */
+public class RandomDemo {
+	public static void main(String[] args) {
+		System.out.println(new Random().next());
+	}
+}

@@ -1,0 +1,12 @@
+package com._520it.List;
+
+import java.util.Vector;
+
+/* 演示 Vector类的方法
+ */
+public class VectorDemo {
+	public static void main(String[] args) {
+		Vector v = new Vector(5);
+		v.addElement(12);
+	}
+}

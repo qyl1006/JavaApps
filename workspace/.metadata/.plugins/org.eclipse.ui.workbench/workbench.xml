@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="35" version="2.0">
 <workbenchAdvisor/>
-<window height="620" maximized="true" width="1046" x="97" y="32">
+<window height="615" maximized="true" width="1046" x="206" y="85">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
 <orientation position="512" view="org.eclipse.ui.views.ContentOutline"/>
@@ -16,7 +16,7 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="OpenExplorer.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="95" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
@@ -29,7 +29,7 @@
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -38,36 +38,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BigDecimalDemo.java" partName="BigDecimalDemo.java" path="H:/JavaApps/workspace/Task/src/day17/math/BigDecimalDemo.java" title="BigDecimalDemo.java" tooltip="Task/src/day17/math/BigDecimalDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Task/src/day17/math/BigDecimalDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="248" selectionTopPixel="100"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="BigDecimal.class" partName="BigDecimal.class" title="BigDecimal.class" tooltip="java.math.BigDecimal" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=SetFrame/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.math(BigDecimal.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="94250" selectionTopPixel="37570"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" partName="String.class" title="String.class" tooltip="java.lang.String" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="109319" selectionTopPixel="46155"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharSequenceDemo.java" partName="CharSequenceDemo.java" path="H:/JavaApps/workspace/Task/src/day17/char_sequence/CharSequenceDemo.java" title="CharSequenceDemo.java" tooltip="Task/src/day17/char_sequence/CharSequenceDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Task/src/day17/char_sequence/CharSequenceDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1395" selectionTopPixel="512"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringBuilderDemo.java" partName="StringBuilderDemo.java" path="H:/JavaApps/workspace/Task/src/day17/char_sequence/StringBuilderDemo.java" title="StringBuilderDemo.java" tooltip="Task/src/day17/char_sequence/StringBuilderDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Task/src/day17/char_sequence/StringBuilderDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="221" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
@@ -161,7 +135,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="Will">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="Will">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -601,169 +575,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Task/src/day17/math/BigDecimalDemo.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=SetFrame/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.math(BigDecimal.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Task/src/day17/math/MathDemo.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Math.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Task/src/day17/char_sequence/CharSequenceDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Task/src/day17/char_sequence/StringBuilder.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Task/src/day17/char_sequence/StringBuilder.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Task/src/day17/char_sequence/StringBuilderDemo.java"/>
-</editors>
-<item historyLabel="BigDecimalDemo.java" index="0">
-<position info="not_deleted" x="537" y="0"/>
-</item>
-<item historyLabel="BigDecimalDemo.java" index="0">
-<position info="not_deleted" x="615" y="0"/>
-</item>
-<item historyLabel="BigDecimal.class" index="1">
-<position info="not_deleted" x="16433" y="10"/>
-</item>
-<item historyLabel="BigDecimal.class" index="1">
-<position info="not_deleted" x="9973" y="10"/>
-</item>
-<item historyLabel="BigDecimal.class" index="1">
-<position info="not_deleted" x="94250" y="13"/>
-</item>
-<item historyLabel="BigDecimalDemo.java" index="0">
-<position info="not_deleted" x="615" y="0"/>
-</item>
-<item historyLabel="BigDecimalDemo.java" index="0">
-<position info="not_deleted" x="585" y="0"/>
-</item>
-<item historyLabel="BigDecimalDemo.java" index="0">
-<position info="not_deleted" x="248" y="0"/>
-</item>
-<item historyLabel="MathDemo.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MathDemo.java" index="3">
-<position info="not_deleted" x="220" y="0"/>
-</item>
-<item historyLabel="Math.class" index="4">
-<position info="not_deleted" x="3298" y="4"/>
-</item>
-<item historyLabel="MathDemo.java" index="3">
-<position info="not_deleted" x="220" y="0"/>
-</item>
-<item historyLabel="BigDecimalDemo.java" index="0">
-<position info="not_deleted" x="248" y="0"/>
-</item>
-<item historyLabel="MathDemo.java" index="3">
-<position info="not_deleted" x="261" y="0"/>
-</item>
-<item historyLabel="BigDecimalDemo.java" index="0">
-<position info="not_deleted" x="248" y="0"/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position info="not_deleted" x="282" y="0"/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position info="not_deleted" x="501" y="0"/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position info="not_deleted" x="514" y="0"/>
-</item>
-<item historyLabel="BigDecimalDemo.java" index="0">
-<position info="not_deleted" x="248" y="0"/>
-</item>
-<item historyLabel="StringBuilder.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position/>
-</item>
-<item historyLabel="StringBuilder.java" index="6">
-<position/>
-</item>
-<item historyLabel="String.class" index="2">
-<position info="not_deleted" x="109319" y="11"/>
-</item>
-<item historyLabel="StringBuilder.java" index="6">
-<position info="not_deleted" x="60" y="0"/>
-</item>
-<item historyLabel="String.class" index="2">
-<position info="not_deleted" x="109319" y="11"/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position info="not_deleted" x="1396" y="0"/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position info="not_deleted" x="1401" y="0"/>
-</item>
-<item historyLabel="StringBuilder.java" index="7">
-<position/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position info="not_deleted" x="1401" y="0"/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position info="not_deleted" x="1120" y="0"/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position info="not_deleted" x="1341" y="0"/>
-</item>
-<item historyLabel="CharSequenceDemo.java" index="5">
-<position info="not_deleted" x="1387" y="0"/>
-</item>
-<item historyLabel="StringBuilder.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="StringBuilder.java" index="7">
-<position/>
-</item>
-<item historyLabel="StringBuilder.java" index="7">
-<position/>
-</item>
-<item historyLabel="StringBuilder.java" index="7">
-<position/>
-</item>
-<item historyLabel="StringBuilder.java" index="7">
-<position/>
-</item>
-<item historyLabel="StringBuilder.java" index="7">
-<position/>
-</item>
-<item historyLabel="StringBuilder.java" index="7">
-<position/>
-</item>
-<item historyLabel="StringBuilder.java" index="7">
-<position/>
-</item>
-<item historyLabel="StringBuilderDemo.java" index="8">
-<position info="not_deleted" x="253" y="2"/>
-</item>
-<item historyLabel="StringBuilderDemo.java" index="8">
-<position info="not_deleted" x="258" y="0"/>
-</item>
-<item historyLabel="StringBuilderDemo.java" index="8">
-<position info="not_deleted" x="247" y="0"/>
-</item>
-<item active="true" historyLabel="StringBuilderDemo.java" index="8">
-<position info="not_deleted" x="246" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -781,47 +593,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharSequenceDemo.java" tooltip="Task/src/day17/char_sequence/CharSequenceDemo.java">
-<persistable path="/Task/src/day17/char_sequence/CharSequenceDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="LinkedList.class" tooltip="java.util.LinkedList">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(LinkedList.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Math.class" tooltip="java.lang.Math">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Math.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Deque.class" tooltip="java.util.Deque">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Deque.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MathDemo.java" tooltip="Task/src/day17/math/MathDemo.java">
-<persistable path="/Task/src/day17/math/MathDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Stack.class" tooltip="java.util.Stack">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Stack.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="java.lang.String">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Arrays.class" tooltip="java.util.Arrays">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="BigDecimal.class" tooltip="java.math.BigDecimal">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=SetFrame/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.math(BigDecimal.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Iterator.class" tooltip="java.util.Iterator">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Iterator.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BigDecimalDemo.java" tooltip="Task/src/day17/math/BigDecimalDemo.java">
-<persistable path="/Task/src/day17/math/BigDecimalDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VectorMethod.java" tooltip="JavaCollectionsFramework/src/com/_520it/List_Vector/VectorMethod.java">
+<persistable path="/JavaCollectionsFramework/src/com/_520it/List_Vector/VectorMethod.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test5.java" tooltip="TestDemo/src/Test5.java">
-<persistable path="/TestDemo/src/Test5.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ThreadLocalRandom.class" tooltip="java.util.concurrent.ThreadLocalRandom">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=SetFrame/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util.concurrent(ThreadLocalRandom.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Appendable.class" tooltip="java.lang.Appendable">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Appendable.class"/>
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AbstractStringBuilder.class" tooltip="java.lang.AbstractStringBuilder">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TestDemo/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(AbstractStringBuilder.class"/>
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(AbstractStringBuilder.class"/>
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StringBuilder.class" tooltip="java.lang.StringBuilder">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TestDemo/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringBuilder.class"/>
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringBuilder.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StringCoding.class" tooltip="java.lang.StringCoding">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringCoding.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="java.lang.String">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StringCoding$StringEncoder.class" tooltip="java.lang.StringCoding$StringEncoder">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringCoding$StringEncoder.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AbstractCollection.class" tooltip="java.util.AbstractCollection">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(AbstractCollection.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Charset.class" tooltip="java.nio.charset.Charset">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.nio.charset(Charset.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AbstractList.class" tooltip="java.util.AbstractList">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(AbstractList.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="com.sun.org.apache.xpath.internal.operations.String">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=SetFrame/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.org.apache.xpath.internal.operations(String.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VectorDemo.java" tooltip="JavaCollectionsFramework/src/com/_520it/List/VectorDemo.java">
+<persistable path="/JavaCollectionsFramework/src/com/_520it/List/VectorDemo.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Object.class" tooltip="java.lang.Object">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Object.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Vector$ListItr.class" tooltip="java.util.Vector$ListItr">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Vector$ListItr.class"/>
 </file>
 </mruList>
 </workbench>
