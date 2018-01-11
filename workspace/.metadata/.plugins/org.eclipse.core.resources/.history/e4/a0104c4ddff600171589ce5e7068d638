@@ -1,0 +1,23 @@
+//package com._520it_06_java7;
+
+import java.io.FileOutputStream;
+
+public class Test9 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	private static void doWork()throws FileOutputStream{
+		try {
+			new FileOutputStream("");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw e;
+		}
+	}
+	
+}

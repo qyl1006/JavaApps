@@ -1,0 +1,34 @@
+
+public class Test6 {
+	public static void main(String[] args) {
+		String str = "name=Will;age=17&&name=Hello;age=18";
+		String[] s2 = str.split("&&");
+		
+		Pase[] p = new Pase(2);
+		
+		
+		
+	}
+}
+
+class Pase{
+	private String name;
+	private int age;
+	
+	Pase(){}
+	
+	public String getName(){
+		return this.name;
+	}
+	public void setName(String name){
+		this.name = name;
+	}
+	
+	public int getAge(){
+		return this.age;
+	}
+	
+	public void setAge(int age){
+		this.age = age;
+	}
+}

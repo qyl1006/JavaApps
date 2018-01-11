@@ -1,0 +1,11 @@
+package day18.java7;
+/*
+ * 自动关闭资源新特性:  java7之前需要手动finally--->try--catch 关闭资源 很重复
+ * 						java7后 只需要在try代码块 括号->放实现java.lang.AutoCloseable接口的资源
+ * 										catch后JVM自动关闭相关资源
+ * 
+ * 
+ */
+public class TextDemo {
+
+}

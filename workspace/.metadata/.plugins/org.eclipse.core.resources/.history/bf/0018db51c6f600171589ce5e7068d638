@@ -1,0 +1,19 @@
+package day18.throw_thows;
+/*
+ * 演示 thow的使用
+ */
+public class ThowDemo {
+	public static void main(String[] args) {
+		System.out.println(Test.test());
+	}
+}
+
+class Test{
+	public static int test(){
+	if(true){
+		10 / 0;
+		throw new ArithmeticException("试试");
+	}
+	return 123;
+	}
+}
