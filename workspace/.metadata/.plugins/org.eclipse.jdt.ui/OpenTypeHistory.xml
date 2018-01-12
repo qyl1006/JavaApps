@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Vector.class[Vector" modifiers="33" timestamp="1511084455212"/>
-<typeInfo handle="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(StringBuilder.class[StringBuilder" modifiers="49" timestamp="1511084455212"/>
-<typeInfo handle="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class[String" modifiers="49" timestamp="1511084455212"/>
-<typeInfo handle="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Arrays.class[Arrays" modifiers="33" timestamp="1511084455212"/>
-<typeInfo handle="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Stack.class[Stack" modifiers="33" timestamp="1511084455212"/>
-<typeInfo handle="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Deque.class[Deque" modifiers="1537" timestamp="1511084455212"/>
-<typeInfo handle="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(LinkedList.class[LinkedList" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Vector.class[Vector" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(LinkedList.class[LinkedList" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=Task/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class[ArrayList" modifiers="33" timestamp="1511084455212"/>
 </typeInfoHistroy>
