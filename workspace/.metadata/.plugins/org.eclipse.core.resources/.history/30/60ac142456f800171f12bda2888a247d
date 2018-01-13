@@ -1,0 +1,30 @@
+package day19;
+/*
+ * 演示: 使用继承方式创建并启动线程
+ */
+public class AnonymousInnerClassDemo {
+	public static void main(String[] args) throws InterruptedException {
+		System.out.println("倒计时:");
+		for (int i = 5; i > 0 ; i--) {
+			Thread.sleep(1000);
+			System.out.println(i);
+			if(i == 1){
+				A a = new A("测试一号");
+				a.start();
+			}
+		}
+	}
+}
+
+//创建一个类并实现Runnable接口
+class A extends Thread{
+	A(String name){
+		super(name);
+	}
+	public void run(){
+		for (int i = 0; i < 10; i++) {
+			Thread.sleep(1000);
+			System.out.println(getName() + "使用继承方式创建并启动线程" + i);
+		}
+	}
+}

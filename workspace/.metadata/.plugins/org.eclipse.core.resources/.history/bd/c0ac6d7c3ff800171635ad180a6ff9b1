@@ -1,0 +1,62 @@
+package com._520it.Set;
+
+import java.util.HashSet;
+
+
+
+public class HashSetDemo3 {
+	public static void main(String[] args) {
+		HashSet set  = new HashSet();
+		set.add(new Student(1, "小明", 17));
+		set.add(new Student(1, "小米", 18));
+		set.add(new Student(2, "阿三", 17));
+		set.add(new Student(4, "阿三", 17));
+		
+		System.out.println(set.size());
+		System.out.println(set);
+	}
+}
+
+class Student{
+	private Integer ID;
+	private String name;
+	private Integer age;
+	public Student(Integer iD, String name, Integer age) {
+		super();
+		ID = iD;
+		this.name = name;
+		this.age = age;
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((ID == null) ? 0 : ID.hashCode());
+		result = prime * result + ((age == null) ? 0 : age.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Student other = (Student) obj;
+		if (ID == null) {
+			if (other.ID != null)
+				return false;
+		} else if (!ID.equals(other.ID))
+			return false;
+		if (age == null) {
+			if (other.age != null)
+				return false;
+		} else if (!age.equals(other.age))
+			return false;
+		return true;
+	}
+	
+	
+	
+}

@@ -1,0 +1,30 @@
+package day19;
+/*
+ * 演示吃苹果案例--继承方式
+ */
+public class ExtendsDemo {
+	public static void main(String[] args) throws InterruptedException {
+		System.out.println("吃苹果比赛倒计时: ");
+		for (int i = 3; i > 0; i--) {
+			Thread.sleep(1000);
+			
+		}
+	}
+}
+
+class eat extends Thread{
+	static int apple = 50;
+	public void run(){
+		for (int i = 0; i < 50; i++) {
+			if(apple > 0){
+				try {
+					Thread.sleep(1000);
+					System.out.println(getName() + "展示他抢到的苹果" + apple + "号" + ",接着吃了它");
+					apple --;
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+
+class Test12306{
+	
+}
+
+public class Test8 {
+	Integer i = 12;
+	public static void main(String[] args) {
+		System.out.println(new Test12306().equals(new Test12306())); /// 
+		Integer[] i = new Integer[]{Integer.valueOf(1)};
+		Integer[] ii = new Integer[]{Integer.valueOf(1)};
+		
+		System.out.println(i.equals(ii));
+	}
+}

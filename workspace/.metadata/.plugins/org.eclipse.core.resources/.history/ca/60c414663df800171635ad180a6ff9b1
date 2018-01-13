@@ -1,0 +1,28 @@
+package com._520it.Set;
+
+//验证HashSet判断两个对象是否相等  是通过比较两个对象的eqect() 与 hashCode() 都为 true  则相等
+public class HashSetDemo2 {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class A{
+	public int hashCode(){
+		return 1;
+	}
+}
+class B{
+	public boolean eqect(){
+		return true;
+	}
+}
+class C{
+	public int hashCode(){
+		return 2;
+	}
+	
+	public boolean eqect(){
+		return true;
+	}
+}
