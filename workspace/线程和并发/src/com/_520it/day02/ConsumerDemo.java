@@ -11,8 +11,9 @@ public class ConsumerDemo implements Runnable{
 	
 	//消费者线程
 	public void run() {
-		for (int i = 0; i < 200; i++) {
+		for (int i = 0; i < 4; i++) {
 			m.consumption();
+			System.out.println("消费者--我没有睡循环结束" + (i + 1));
 		}
 	}
 

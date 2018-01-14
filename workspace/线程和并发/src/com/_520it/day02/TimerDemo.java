@@ -3,6 +3,14 @@ package com._520it.day02;
 import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
+/*
+ * 演示 定时器
+	总结: TimerTask类表示定时器执行的某一项任务.
+		常用方法:
+		schedule(TimerTask task,long delay,long period):
+		schedule(TimerTask task,long delay):
+
+ */
 
 public class TimerDemo {
 	public static void main(String[] args) {

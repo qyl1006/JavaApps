@@ -1,6 +1,8 @@
 package com._520it.day02;
 
 //线程通信  
+//总结: wait和notify方法,只能被同步监听锁对象来调用,否则报错IllegalMonitorStateException
+//		注意lock锁的放置位置,
 
 public class ThreadCommunicationTest {
 	public static void main(String[] args) {

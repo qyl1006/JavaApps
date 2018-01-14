@@ -1,0 +1,11 @@
+import java.security.SecureRandom;
+import java.util.concurrent.ThreadLocalRandom;
+
+
+public class Test9Demo {
+	public static void main(String[] args) {
+		int i = ThreadLocalRandom.current().nextInt(10, 20);
+		System.out.println(i);
+		
+	}
+}

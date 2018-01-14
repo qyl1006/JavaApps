@@ -1,0 +1,11 @@
+package com._520it.Map;
+
+import java.util.HashMap;
+//演示HashMap类中的方法
+
+public class HashMapDemo {
+	public static void main(String[] args) {
+		HashMap<String,Object> h = new HashMap();
+		System.out.println(h);
+	}
+}

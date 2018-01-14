@@ -17,20 +17,21 @@ public class MiddleDemo {
 
 	//生产
 	public void production(String name, String gender) {
-		lock.lock();//获取锁
 		try {
-			while (count == 0) {
-				for (int i = 0; i < 5; i++) {
-					arr[0] = name + "--" + gender;
-					System.out.println("生产: " + arr[0]);
-					count++;
+			lock.lock();//获取锁
+			while (count!= 0) {
+				condition.await();
 				}
 				//this.ifEmpty = false;
+			for (int i = 0; i < 5; i++) {
+				arr[0] = name + "--" + gender;
+				System.out.println("生产: " + arr[0]);
+				count++;
 				//this.notifyAll();//唤醒所有线程--->同步锁对象调用
-				condition.signalAll();//唤醒所有线程
+				condition.signal();//唤醒所有线程
 			}
 			//	this.wait();
-			condition.await();
+			
 
 		} catch (InterruptedException e) {
 			e.printStackTrace();
@@ -41,19 +42,20 @@ public class MiddleDemo {
 
 	//消费
 	public void consumption() {
-		lock.lock();//获取锁
 		try {
-			while (count == 5) {
-				for (int i = 0; i < 5; i++) {
-					System.out.println("消费: " + arr[0]);
-					--count;
+			lock.lock();//获取锁
+			while (count != 5) {
+				condition.await();
 					//	this.ifEmpty = true;
 					//this.notify();
 				}
-				condition.signalAll();//唤醒所有线程
+			for (int i = 0; i < 5; i++) {
+				System.out.println("消费: " + arr[0]);
+				--count;
+				condition.signal();//唤醒所有线程
 			}
 			//this.wait();
-			condition.await();
+			
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

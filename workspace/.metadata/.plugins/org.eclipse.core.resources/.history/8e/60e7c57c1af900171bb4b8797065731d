@@ -1,0 +1,23 @@
+package Bank;
+
+import java.math.BigDecimal;
+import java.util.concurrent.ThreadLocalRandom;
+
+//消费支付/取钱/
+public class paymentDemo implements Runnable{
+private BankAccountDemo vlue;
+	
+	private int i = ThreadLocalRandom.current().nextInt(10, 20); //随机存入[100, 200)之间的一个数
+	private String str = String.valueOf(i);
+	private BigDecimal money = new BigDecimal(str);
+	
+	DepositDemo(BankAccountDemo vlue){
+		this.vlue = vlue;
+	}
+	
+	
+	public void run() {
+		
+	}
+	
+}

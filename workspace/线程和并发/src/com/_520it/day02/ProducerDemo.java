@@ -11,13 +11,13 @@ public class ProducerDemo implements Runnable {
 	
 	//一个线程--->调用Middle类的生产方法
 	public void run() {
-		for (int i = 0; i < 200; i ++){
+		for (int i = 0; i < 4; i ++){
 			if (i % 2 == 0){
 				m.production("凤姐", "女");
-			}else{
-				m.production("春哥哥", "男");
 			}
+				m.production("春哥哥", "男");
 			
+				System.out.println("我没有睡觉--生产者测试-循环结束" + (i + 1));
 		}
 	}
 	

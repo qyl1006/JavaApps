@@ -1,0 +1,9 @@
+package com._520it.day02._ThreadMethodDemo;
+//演示联合线程
+//总结: 线程的join方法表示一个线程等待另一个线程完成后才执行。join方法被调用之后，线程对象处于阻塞状态。
+
+public class JoinDemo {
+	public static void main(String[] args) {
+		
+	}
+}

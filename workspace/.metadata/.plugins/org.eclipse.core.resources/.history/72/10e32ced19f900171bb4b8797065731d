@@ -1,0 +1,16 @@
+package Bank;
+//存入
+public class DepositDemo implements Runnable{
+	private BankAccountDemo vlue;
+	
+	DepositDemo(BankAccountDemo vlue){
+		this.vlue = vlue;
+	}
+	public void run() {
+		//一共存入5次
+		for (int i = 0; i < 5; i++) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,13 @@
+package Bank;
+
+import java.math.BigDecimal;
+
+//个人银行账号资源(金额)--共同的操作资源
+public class BankAccountDemo {
+	private BigDecimal balance = new BigDecimal("100.00");
+	
+	public void saveMoney(BigDecimal money){
+		
+		
+	}
+}
