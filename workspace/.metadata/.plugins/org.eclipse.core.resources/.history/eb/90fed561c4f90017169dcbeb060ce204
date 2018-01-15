@@ -1,0 +1,7 @@
+
+public class test10 {
+	public static void main(String[] args) {
+		final Integer i = new Integer(12);;
+		System.out.println(i);
+	}
+}

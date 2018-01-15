@@ -1,0 +1,14 @@
+package com._520it.day01._01_file;
+
+import java.io.File;
+
+//系统平台的分隔符
+public class FileDemo {
+	public static void main(String[] args) {
+		String str = File.pathSeparator;
+		System.out.println(str);
+		
+		String str2 = File.separator;
+		System.out.println(str2);
+	}
+}

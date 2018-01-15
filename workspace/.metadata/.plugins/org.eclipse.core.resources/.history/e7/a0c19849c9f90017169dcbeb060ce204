@@ -1,0 +1,15 @@
+import java.util.Iterator;
+import java.util.LinkedList;
+
+
+public class test10 {
+	public static void main(String[] args) {
+		Integer i = new Integer(12345);
+		System.out.println(i);
+		
+		Integer ii = i;
+		System.out.println(ii);
+		
+		
+	}
+}

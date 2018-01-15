@@ -9,7 +9,6 @@
 <fullyQualifiedTypeName name="com._520it._04_char_sequence.StringUtils"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
-<fullyQualifiedTypeName name="java.util.concurrent.locks.Lock"/>
 <fullyQualifiedTypeName name="java.util.concurrent.locks.Condition"/>
 <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
 <fullyQualifiedTypeName name="java.util.TimerTask"/>
@@ -29,4 +28,6 @@
 <fullyQualifiedTypeName name="day18.exception_class.LogicException"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.concurrent.locks.Lock"/>
 </qualifiedTypeNameHistroy>

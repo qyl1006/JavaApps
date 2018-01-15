@@ -1,0 +1,19 @@
+import java.util.Iterator;
+import java.util.LinkedList;
+
+
+public class test10 {
+	public static void main(String[] args) {
+		
+		
+	}
+}
+
+class A{
+	private Integer i = 321;
+	
+	public void test(){
+		i ++;
+	}
+	
+}

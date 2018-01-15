@@ -1,0 +1,31 @@
+package com._520it.day01._01_file;
+
+import java.io.File;
+
+/*
+ *练习File的方法 
+ */
+public class FileDemo2 {
+	public static void main(String[] args) {
+		//创建File对象 
+		File f = new File("C:/Users/Qyuelin/Desktop/cmd常见命令.txt");
+//		System.out.println(f);
+		test1(f);
+	}
+
+	private static void test1(File f) {
+//		操作File路径和名称:
+//			File getAbsoluteFile() :获取绝对路径
+		System.out.println(f.getAbsoluteFile());
+//			String getAbsolutePath():获取绝对路径
+		System.out.println(f.getAbsolutePath());
+//			String getPath() :获取文件路径
+		System.out.println(f.getPath()); 
+//			String getName() :获取文件名称
+		System.out.println(f.getName());  					//cmd常见命令.txt
+//			File getParentFile():获取上级目录文件
+		System.out.println(f.getParentFile());
+//			String getParent() :获取上级目录路径
+
+	}
+}
