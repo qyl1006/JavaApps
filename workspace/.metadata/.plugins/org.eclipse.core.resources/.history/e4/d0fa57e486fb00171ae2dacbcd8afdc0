@@ -1,0 +1,18 @@
+package day22;
+
+import java.util.LinkedList;
+
+//Á·Ï° LinkedLisµÄ·½·¨
+public class LinkedListDemo {
+	public static void main(String[] args) {
+	LinkedList demo = new LinkedList();
+	demo.add(1);
+	demo.add(2);
+	demo.add(3);
+	demo.add(4);
+	System.out.println(demo);
+	
+	demo.clear();
+	System.out.println(demo);
+	}
+}

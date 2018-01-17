@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class[String" modifiers="49" timestamp="1511084455212"/>
 <typeInfo handle="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(File.class[File" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(List.class[List" modifiers="1537" timestamp="1511084455212"/>
+<typeInfo handle="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class[ArrayList" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Collections.class[Collections" modifiers="33" timestamp="1511084455212"/>
+<typeInfo handle="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class[String" modifiers="49" timestamp="1511084455212"/>
 </typeInfoHistroy>

@@ -1,0 +1,33 @@
+package com._520it.day01._01_file;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Collections;
+
+
+public class FileDemo5 {
+	public static void main(String[] args) {
+		File f = new File("D:/FeiqWenJian/wolfcode(FCAA14FE4115)/小码课堂-改/day27/视频/11.常量类-日历类(Calendar).avi");
+		System.out.println(f);
+		System.out.println(f.getParentFile().getName());
+		System.out.println(f.getParentFile().getParentFile().getName());
+		System.out.println("================");
+		
+		List<String> list = new ArrayList<>();
+		test(list, f);
+		Collections.reverse(list);
+		System.out.println(list);
+		
+		
+	}
+	//使用递归方式查找所有的目录, 并把它们分别添加到数组list中
+	private static void test(List<String> list, File f) {
+		if(!"".equals(f.getParentFile().getName())){
+			list.add(f.getParentFile().getName());
+		}
+		if(f.getParentFile().getParentFile() != null){
+			test(list, f.getParentFile());
+		}
+	}
+}

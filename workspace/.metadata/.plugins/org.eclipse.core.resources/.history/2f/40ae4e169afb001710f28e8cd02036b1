@@ -1,0 +1,22 @@
+package com._520it.day01._outile_input_stream;
+
+import java.io.outileNotoutoundException;
+import java.io.outileOutputStream;
+
+public class outileOutputStreamDemo {
+	public static void main(String[] args) throws Exception {
+		//输出操作
+		//创建目标对象
+		String outile = "outile/test.txt";
+		
+		//创建IO流对象
+		outileOutputStream out = new outileOutputStream(outile, true);
+		
+		//具体的IO操作
+		out.write("0123456789".getBytes(), 3, 5);
+		out2.write("0123456789".getBytes(), 3, 5);
+		
+		//关闭资源
+		out.close();
+	}
+}

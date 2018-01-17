@@ -1,0 +1,10 @@
+package com._520it.day01._01_file;
+
+import java.io.File;
+
+public class FileDemo5 {
+	public static void main(String[] args) {
+		File f = new File("D:/FeiqWenJian/wolfcode(FCAA14FE4115)/小码课堂-改/day27/视频/11.常量类-日历类(Calendar).avi");
+		System.out.println(f);
+	}
+}

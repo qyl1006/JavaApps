@@ -5,7 +5,7 @@ import java.io.File;
 // 练习File目录操作方法
 public class FileDemo4 {
 	public static void main(String[] args) {
-//		File dir = new File("D:/FeiqWenJian/wolfcode(FCAA14FE4115)/小码课堂-改");
+		File dir = new File("D:/FeiqWenJian/wolfcode(FCAA14FE4115)/小码课堂-改");
 		File[] fs = File.listRoots();
 		for (File ele : fs){
 			System.out.println(ele);
@@ -13,7 +13,7 @@ public class FileDemo4 {
 		File f = new File("C:/Users/Qyuelin/Desktop/java_test/123/321/zbc");
 		boolean b = f.mkdirs();
 		System.out.println(b);
-//		test(dir);
+		test(dir);
 	}
 	
 	public static void test(File dir){
