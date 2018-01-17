@@ -1,0 +1,24 @@
+package com._520it.day01._01_file;
+
+import java.io.File;
+
+// 练习File目录操作方法
+public class FileDemo4 {
+	public static void main(String[] args) {
+		File dir = new File("D:/FeiqWenJian/wolfcode(FCAA14FE4115)/小码课堂-改");
+		test(dir);
+	}
+	
+	public static void test(File dir){
+		File[]  f = dir.listFiles();
+		for(File ele : f){
+			if(ele.isDirectory()){
+				test(ele);
+			}else{
+				System.out.println(ele);
+			}
+		}
+	}
+}
+
+

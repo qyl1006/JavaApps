@@ -1,6 +1,0 @@
-package day17.math;
-
-//演示BigDecimal类的创建及使用
-public class BigDecimalDemo {
-
-}

@@ -1,0 +1,12 @@
+import java.util.Iterator;
+import java.util.LinkedList;
+
+
+public class test10 {
+	public static void main(String[] args) {
+		String str = "dafjosf";
+		String s = str.substring(0);
+		System.out.println(s);
+		
+	}
+}
