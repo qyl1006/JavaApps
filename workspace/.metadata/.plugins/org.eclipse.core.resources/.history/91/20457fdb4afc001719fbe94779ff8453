@@ -1,0 +1,10 @@
+package com._520it.day23Task;
+
+/*
+ * 需求: 定义 Gun 类，存放有弹夹属性，弹夹容量是 5，再提供射击方法（打印出的子弹，若子弹没有了提示没有子弹）和装子弹的方法（装满子弹也是提示一下）。子弹是用 Integer 对象。
+ */
+public class GunDemo {
+	public static void main(String[] args) {
+		
+	}
+}

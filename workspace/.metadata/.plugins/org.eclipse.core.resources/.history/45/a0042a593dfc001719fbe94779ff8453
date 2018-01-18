@@ -1,0 +1,24 @@
+package com._520it.day23Task;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+/*
+ * 需求: 使用迭代器遍历集合
+ */
+public class IteratorDemo {
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>();
+		list.add("A");
+		list.add("B");
+		list.add("C");
+		list.add("D");
+		
+		//接收迭代器对象
+		Iterator in = list.iterator();
+		//获取下一个元素
+		System.out.println(in.next());
+		System.out.println(in.next());
+	}
+}

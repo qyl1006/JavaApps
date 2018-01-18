@@ -1,0 +1,33 @@
+package com._520it.day23Task;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/*
+ * 需求: 练习HashSet的常用方法--->Set接口的方法
+ * 
+ */
+public class HashSetDemo {
+	public static void main(String[] args) {
+		Set<Integer> set = new HashSet<>();
+		//添加元素的方法
+		set.add(1);
+		set.add(2);
+		set.add(3);
+		System.out.println(set);//[1, 2, 3]
+		
+		Set<Integer> set2 = new HashSet<>();
+		set2.add(7);
+		set2.add(8);
+		set2.add(9);
+		
+		set.addAll(set2); //[1, 2, 3, 7, 8, 9]
+		System.out.println(set);
+		//移除set中所有元素
+		set2.clear();
+		System.out.println(set2);//[]
+		
+		//contains(object o) 如果set包含指定的元素,则返回true
+		System.out.println(set.contains(9));
+	}
+}

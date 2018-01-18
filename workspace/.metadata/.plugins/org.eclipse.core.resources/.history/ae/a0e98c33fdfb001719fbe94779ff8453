@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+import java.util.List;
+
+//≤‚ ‘
+public class TestDemo10 {
+	public static void main(String[] args) {
+		List<Interger> list = new ArrayList<>();
+		list.add();
+	}
+}

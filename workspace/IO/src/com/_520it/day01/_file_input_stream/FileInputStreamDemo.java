@@ -26,7 +26,7 @@ public class FileInputStreamDemo {
 //		System.out.println(str);
 		int len = -1;
 		while((len = in.read(bye)) != -1){
-			String str = new String(bye);
+			String str = new String(bye, 0, len);
 			System.out.println(str);
 		}
 		
