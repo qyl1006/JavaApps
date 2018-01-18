@@ -199,3 +199,15 @@ executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",
 executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.format",1516291114896
 executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1516291117231
 executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.RunLast",1516291126877
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1516291128520
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1516291129215
+activated,editor,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.DefaultTextEditor",1516291129259
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1516291130575
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1516291131415
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1516291136663
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1516291146587
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1516291231332
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1516291233149
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1516291234784
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1516291235184
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.700.v201104070312,"org.eclipse.jst.ws.axis.creation.ui",1516291237331

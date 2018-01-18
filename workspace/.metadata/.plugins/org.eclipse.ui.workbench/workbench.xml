@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="35" version="2.0">
 <workbenchAdvisor/>
-<window height="680" maximized="true" width="813" x="158" y="0">
+<window height="702" maximized="true" width="963" x="142" y="10">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
 <orientation position="512" view="org.eclipse.ui.views.ContentOutline"/>
@@ -35,8 +35,8 @@
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1513749021922" focus="true" label="Workspace - Will">
 <editors>
-<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@730b8793">
-<info part="DefaultEditorWorkbook">
+<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@5653b80e">
+<info part="org.eclipse.ui.internal.EditorStack@5653b80e">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
@@ -48,116 +48,45 @@
 <part id="6"/>
 <part id="7"/>
 <part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
-<part id="13"/>
-<part id="14"/>
-<part id="15"/>
-<part id="16"/>
-<part id="17"/>
-<part id="18"/>
-<part id="19"/>
-<part id="20"/>
-</presentation>
-</folder>
-</info>
-<info part="org.eclipse.ui.internal.EditorStack@730b8793" ratio="0.49955156" ratioLeft="557" ratioRight="558" relationship="2" relative="DefaultEditorWorkbook">
-<folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" partName="String.class" title="String.class" tooltip="java.lang.String" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="109319" selectionTopPixel="46121"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo4.java" partName="FileDemo4.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_01_file/FileDemo4.java" title="FileDemo4.java" tooltip="IO/src/com/_520it/day01/_01_file/FileDemo4.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_01_file/FileDemo4.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="434" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="File.class" partName="File.class" title="File.class" tooltip="java.io.File" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(File.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="52232" selectionTopPixel="20419"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="FileSystem.class" partName="FileSystem.class" title="FileSystem.class" tooltip="java.io.FileSystem" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(FileSystem.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5198" selectionTopPixel="2380"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="PrintStream.class" partName="PrintStream.class" title="PrintStream.class" tooltip="java.io.PrintStream" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(PrintStream.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="27913" selectionTopPixel="13294"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="List.class" partName="List.class" title="List.class" tooltip="java.util.List" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(List.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="4208" selectionTopPixel="1275"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ArrayList.class" partName="ArrayList.class" title="ArrayList.class" tooltip="java.util.ArrayList" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4156" selectionTopPixel="1186"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo5.java" partName="FileDemo5.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_01_file/FileDemo5.java" title="FileDemo5.java" tooltip="IO/src/com/_520it/day01/_01_file/FileDemo5.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_01_file/FileDemo5.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1228" selectionTopPixel="388"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Collections.class" partName="Collections.class" title="Collections.class" tooltip="java.util.Collections" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Collections.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3143" selectionTopPixel="900"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo6.java" partName="FileDemo6.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_01_file/FileDemo6.java" title="FileDemo6.java" tooltip="IO/src/com/_520it/day01/_01_file/FileDemo6.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_01_file/FileDemo6.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="299" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo7.java" partName="FileDemo7.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_01_file/FileDemo7.java" title="FileDemo7.java" tooltip="IO/src/com/_520it/day01/_01_file/FileDemo7.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_01_file/FileDemo7.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="53" selectionOffset="197" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo3.java" partName="FileDemo3.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_01_file/FileDemo3.java" title="FileDemo3.java" tooltip="IO/src/com/_520it/day01/_01_file/FileDemo3.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_01_file/FileDemo3.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo2.java" partName="FileDemo2.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_01_file/FileDemo2.java" title="FileDemo2.java" tooltip="IO/src/com/_520it/day01/_01_file/FileDemo2.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_01_file/FileDemo2.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo88.java" partName="FileDemo88.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_01_file/FileDemo88.java" title="FileDemo88.java" tooltip="IO/src/com/_520it/day01/_01_file/FileDemo88.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_01_file/FileDemo88.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="690" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkedListDemo.java" partName="LinkedListDemo.java" path="H:/JavaApps/workspace/JavaCollectionsFramework/src/com/_520it/List_Vector/LinkedListDemo.java" title="LinkedListDemo.java" tooltip="JavaCollectionsFramework/src/com/_520it/List_Vector/LinkedListDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaCollectionsFramework/src/com/_520it/List_Vector/LinkedListDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="854" selectionTopPixel="102"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VectorDemo.java" partName="VectorDemo.java" path="H:/JavaApps/workspace/JavaCollectionsFramework/src/com/_520it/List_Vector/VectorDemo.java" title="VectorDemo.java" tooltip="JavaCollectionsFramework/src/com/_520it/List_Vector/VectorDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaCollectionsFramework/src/com/_520it/List_Vector/VectorDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VectorMethod.java" partName="VectorMethod.java" path="H:/JavaApps/workspace/JavaCollectionsFramework/src/com/_520it/List_Vector/VectorMethod.java" title="VectorMethod.java" tooltip="JavaCollectionsFramework/src/com/_520it/List_Vector/VectorMethod.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaCollectionsFramework/src/com/_520it/List_Vector/VectorMethod.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="849" selectionTopPixel="390"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExtendsDemo.java" partName="ExtendsDemo.java" path="H:/JavaApps/workspace/Task/src/day19/extends_vs_implements/ExtendsDemo.java" title="ExtendsDemo.java" tooltip="Task/src/day19/extends_vs_implements/ExtendsDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Task/src/day19/extends_vs_implements/ExtendsDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImplementsDemo.java" partName="ImplementsDemo.java" path="H:/JavaApps/workspace/Task/src/day19/extends_vs_implements/ImplementsDemo.java" title="ImplementsDemo.java" tooltip="Task/src/day19/extends_vs_implements/ImplementsDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Task/src/day19/extends_vs_implements/ImplementsDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileOutputStreamDemo.java" partName="FileOutputStreamDemo.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_file_input_stream/FileOutputStreamDemo.java" title="FileOutputStreamDemo.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/FileOutputStreamDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_file_input_stream/FileOutputStreamDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="137" selectionTopPixel="0"/>
-</editor>
-<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileInputStreamDemo.java" partName="FileInputStreamDemo.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_file_input_stream/FileInputStreamDemo.java" title="FileInputStreamDemo.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/FileInputStreamDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_file_input_stream/FileInputStreamDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="456" selectionTopPixel="224"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="test.txt" partName="test.txt" path="H:/JavaApps/workspace/IO/File/test.txt" title="test.txt" tooltip="IO/File/test.txt" workbook="org.eclipse.ui.internal.EditorStack@730b8793">
+<editor id="org.eclipse.ui.DefaultTextEditor" name="test.txt" partName="test.txt" path="H:/JavaApps/workspace/IO/File/test.txt" title="test.txt" tooltip="IO/File/test.txt" workbook="org.eclipse.ui.internal.EditorStack@5653b80e">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/File/test.txt"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="28" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="311" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileCopyDemo.java" partName="FileCopyDemo.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_file_input_stream/FileCopyDemo.java" title="FileCopyDemo.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/FileCopyDemo.java" workbook="org.eclipse.ui.internal.EditorStack@5653b80e">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_file_input_stream/FileCopyDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="471" selectionOffset="334" selectionTopPixel="136"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="copy.txt" partName="copy.txt" path="H:/JavaApps/workspace/IO/File/copy.txt" title="copy.txt" tooltip="IO/File/copy.txt" workbook="org.eclipse.ui.internal.EditorStack@5653b80e">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/File/copy.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="InputStream.class" partName="InputStream.class" title="InputStream.class" tooltip="java.io.InputStream" workbook="org.eclipse.ui.internal.EditorStack@5653b80e">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(InputStream.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7684" selectionTopPixel="2309"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="FileInputStream.class" partName="FileInputStream.class" title="FileInputStream.class" tooltip="java.io.FileInputStream" workbook="org.eclipse.ui.internal.EditorStack@5653b80e">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(FileInputStream.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7126" selectionTopPixel="2860"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CloseResources1.java" partName="CloseResources1.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_file_input_stream/CloseResources1.java" title="CloseResources1.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/CloseResources1.java" workbook="org.eclipse.ui.internal.EditorStack@5653b80e">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_file_input_stream/CloseResources1.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="814" selectionTopPixel="360"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileInputStreamDemo.java" partName="FileInputStreamDemo.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_file_input_stream/FileInputStreamDemo.java" title="FileInputStreamDemo.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/FileInputStreamDemo.java" workbook="org.eclipse.ui.internal.EditorStack@5653b80e">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_file_input_stream/FileInputStreamDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileOutputStreamDemo.java" partName="FileOutputStreamDemo.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_file_input_stream/FileOutputStreamDemo.java" title="FileOutputStreamDemo.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/FileOutputStreamDemo.java" workbook="org.eclipse.ui.internal.EditorStack@5653b80e">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_file_input_stream/FileOutputStreamDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CloseResources2.java" partName="CloseResources2.java" path="H:/JavaApps/workspace/IO/src/com/_520it/day01/_file_input_stream/CloseResources2.java" title="CloseResources2.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/CloseResources2.java" workbook="org.eclipse.ui.internal.EditorStack@5653b80e">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO/src/com/_520it/day01/_file_input_stream/CloseResources2.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="453" selectionTopPixel="103"/>
 </editor>
 </editors>
 <views>
@@ -167,12 +96,12 @@
 <localWorkingSetManager>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.OthersWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1516019511824_2" label="Other Projects" name="Other Projects">
 <item elementID="=IO" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Task" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TestDemo" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CommonlyClass" type="4"/>
 <item elementID="=JavaCollectionsFramework" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Task" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CommonlyClass" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RemoteSystemsTempFiles" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SetFrame" type="4"/>
+<item elementID="=TestDemo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/day11" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/异常机制" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/数据结构" type="4"/>
@@ -195,7 +124,7 @@
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
@@ -270,7 +199,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.DefaultTextEditor" activePerspective="Will">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="Will">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -727,159 +656,165 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO/src/com/_520it/day01/_file_input_stream/FileOutputStreamDemo.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IO/File/test.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO/src/com/_520it/day01/_file_input_stream/FileCopyDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/IO/File/copy.txt"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(InputStream.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(FileInputStream.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO/src/com/_520it/day01/_file_input_stream/CloseResources1.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO/src/com/_520it/day01/_file_input_stream/FileInputStreamDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO/src/com/_520it/day01/_file_input_stream/FileOutputStreamDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO/src/com/_520it/day01/_file_input_stream/CloseResources2.java"/>
 </editors>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
-<position info="not_deleted" x="371" y="0"/>
+<item historyLabel="InputStream.class" index="3">
+<position info="not_deleted" x="3801" y="0"/>
 </item>
-<item historyLabel="test.txt" index="1">
+<item historyLabel="InputStream.class" index="3">
+<position info="not_deleted" x="7684" y="0"/>
+</item>
+<item historyLabel="FileCopyDemo.java" index="1">
 <position/>
 </item>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
-<position info="not_deleted" x="384" y="0"/>
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
-<position info="not_deleted" x="415" y="0"/>
+<item historyLabel="test.txt" index="0">
+<position info="not_deleted" x="311" y="0"/>
 </item>
-<item historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
+<item historyLabel="FileCopyDemo.java" index="1">
+<position/>
 </item>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
-<position info="not_deleted" x="384" y="0"/>
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
-<position info="not_deleted" x="384" y="0"/>
+<item historyLabel="FileCopyDemo.java" index="1">
+<position info="not_deleted" x="641" y="0"/>
 </item>
-<item historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
+<item historyLabel="test.txt" index="0">
+<position info="not_deleted" x="311" y="0"/>
 </item>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
-<position info="not_deleted" x="294" y="0"/>
+<item historyLabel="FileCopyDemo.java" index="1">
+<position/>
 </item>
-<item historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="test.txt" index="0">
+<position info="not_deleted" x="311" y="0"/>
+</item>
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FileCopyDemo.java" index="1">
+<position info="not_deleted" x="635" y="42"/>
+</item>
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="test.txt" index="0">
+<position info="not_deleted" x="311" y="0"/>
+</item>
+<item historyLabel="FileCopyDemo.java" index="1">
+<position info="not_deleted" x="635" y="42"/>
+</item>
+<item historyLabel="FileInputStream.class" index="4">
+<position info="not_deleted" x="7126" y="0"/>
+</item>
+<item historyLabel="FileCopyDemo.java" index="1">
+<position info="not_deleted" x="635" y="42"/>
+</item>
+<item historyLabel="CloseResources1.java" index="5">
+<position info="not_deleted" x="61" y="15"/>
+</item>
+<item historyLabel="FileCopyDemo.java" index="1">
+<position info="not_deleted" x="635" y="42"/>
+</item>
+<item historyLabel="CloseResources1.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CloseResources1.java" index="5">
+<position info="not_deleted" x="1139" y="0"/>
+</item>
+<item historyLabel="FileInputStreamDemo.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FileOutputStreamDemo.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FileCopyDemo.java" index="1">
+<position info="not_deleted" x="321" y="0"/>
+</item>
+<item historyLabel="CloseResources1.java" index="5">
+<position info="not_deleted" x="1139" y="0"/>
+</item>
+<item historyLabel="CloseResources1.java" index="5">
+<position info="not_deleted" x="886" y="0"/>
+</item>
+<item historyLabel="CloseResources1.java" index="5">
+<position info="not_deleted" x="922" y="0"/>
+</item>
+<item historyLabel="CloseResources1.java" index="5">
+<position info="not_deleted" x="943" y="0"/>
+</item>
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CloseResources1.java" index="5">
+<position info="not_deleted" x="943" y="0"/>
+</item>
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="copy.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CloseResources1.java" index="5">
+<position info="not_deleted" x="201" y="0"/>
+</item>
+<item historyLabel="CloseResources2.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CloseResources2.java" index="8">
+<position/>
+</item>
+<item historyLabel="FileCopyDemo.java" index="1">
+<position info="not_deleted" x="334" y="471"/>
+</item>
+<item historyLabel="CloseResources2.java" index="8">
 <position info="not_deleted" x="337" y="0"/>
 </item>
-<item historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
+<item historyLabel="CloseResources2.java" index="8">
+<position info="not_deleted" x="453" y="0"/>
 </item>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
-<position info="not_deleted" x="307" y="0"/>
-</item>
-<item historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
-</item>
-<item historyLabel="test.txt" index="1">
-<position/>
-</item>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
-<position info="not_deleted" x="450" y="0"/>
-</item>
-<item historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
-</item>
-<item historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
-</item>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
-<position info="not_deleted" x="307" y="0"/>
-</item>
-<item historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
-</item>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
-<position info="not_deleted" x="206" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
+<item historyLabel="copy.txt" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
-<position info="not_deleted" x="206" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
+<item historyLabel="copy.txt" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FileOutputStreamDemo.java" index="0">
-<position info="not_deleted" x="137" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
+<item historyLabel="FileOutputStreamDemo.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="289" y="0"/>
+<item historyLabel="CloseResources2.java" index="8">
+<position info="not_deleted" x="453" y="0"/>
 </item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="288" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="256" y="4"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="288" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="354" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="241" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="646" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="457" y="0"/>
-</item>
-<item historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="452" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="456" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="533" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="439" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="597" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="729" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="722" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="721" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="792" y="0"/>
-</item>
-<item historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
-</item>
-<item historyLabel="FileInputStreamDemo.java" index="2">
-<position info="not_deleted" x="456" y="0"/>
-</item>
-<item active="true" historyLabel="test.txt" index="1">
-<position info="not_deleted" x="28" y="0"/>
+<item active="true" historyLabel="CloseResources1.java" index="5">
+<position info="not_deleted" x="201" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -890,9 +825,6 @@
 <trimArea IMemento.internal.id="16384">
 <trimItem IMemento.internal.id="left"/>
 </trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@12242a4d"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -901,54 +833,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@6f8f0c59"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileInputStreamDemo.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/FileInputStreamDemo.java">
-<persistable path="/IO/src/com/_520it/day01/_file_input_stream/FileInputStreamDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test.txt" tooltip="IO/File/test.txt">
-<persistable path="/IO/File/test.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test.txt" tooltip="IO/test.txt">
-<persistable path="/IO/test.txt"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CloseResources2.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/CloseResources2.java">
+<persistable path="/IO/src/com/_520it/day01/_file_input_stream/CloseResources2.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileOutputStreamDemo.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/FileOutputStreamDemo.java">
 <persistable path="/IO/src/com/_520it/day01/_file_input_stream/FileOutputStreamDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyLinkedDemo.java" tooltip="数据结构/src/com/_520it/Linked/MyLinkedDemo.java">
-<persistable path="/数据结构/src/com/_520it/Linked/MyLinkedDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileInputStreamDemo.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/FileInputStreamDemo.java">
+<persistable path="/IO/src/com/_520it/day01/_file_input_stream/FileInputStreamDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkedTest.java" tooltip="数据结构/src/com/_520it/Linked/LinkedTest.java">
-<persistable path="/数据结构/src/com/_520it/Linked/LinkedTest.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CloseResources1.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/CloseResources1.java">
+<persistable path="/IO/src/com/_520it/day01/_file_input_stream/CloseResources1.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImplementsDemo.java" tooltip="Task/src/day19/extends_vs_implements/ImplementsDemo.java">
-<persistable path="/Task/src/day19/extends_vs_implements/ImplementsDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="FileInputStream.class" tooltip="java.io.FileInputStream">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(FileInputStream.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExtendsDemo.java" tooltip="Task/src/day19/extends_vs_implements/ExtendsDemo.java">
-<persistable path="/Task/src/day19/extends_vs_implements/ExtendsDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="InputStream.class" tooltip="java.io.InputStream">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(InputStream.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VectorMethod.java" tooltip="JavaCollectionsFramework/src/com/_520it/List_Vector/VectorMethod.java">
-<persistable path="/JavaCollectionsFramework/src/com/_520it/List_Vector/VectorMethod.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="copy.txt" tooltip="IO/File/copy.txt">
+<persistable path="/IO/File/copy.txt"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VectorDemo.java" tooltip="JavaCollectionsFramework/src/com/_520it/List_Vector/VectorDemo.java">
-<persistable path="/JavaCollectionsFramework/src/com/_520it/List_Vector/VectorDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileCopyDemo.java" tooltip="IO/src/com/_520it/day01/_file_input_stream/FileCopyDemo.java">
+<persistable path="/IO/src/com/_520it/day01/_file_input_stream/FileCopyDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkedListDemo.java" tooltip="Task/src/day22/LinkedListDemo.java">
-<persistable path="/Task/src/day22/LinkedListDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test.txt" tooltip="IO/File/test.txt">
+<persistable path="/IO/File/test.txt"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataStructureDemo.java" tooltip="数据结构/src/com/_520it/day01/DataStructureDemo.java">
-<persistable path="/数据结构/src/com/_520it/day01/DataStructureDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProveDemo.java" tooltip="JavaCollectionsFramework/src/com/_520it/day23Task/ProveDemo.java">
+<persistable path="/JavaCollectionsFramework/src/com/_520it/day23Task/ProveDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo88.java" tooltip="IO/src/com/_520it/day01/_01_file/FileDemo88.java">
-<persistable path="/IO/src/com/_520it/day01/_01_file/FileDemo88.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TreeSetDemo.java" tooltip="JavaCollectionsFramework/src/com/_520it/day23Task/TreeSetDemo.java">
+<persistable path="/JavaCollectionsFramework/src/com/_520it/day23Task/TreeSetDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo2.java" tooltip="IO/src/com/_520it/day01/_01_file/FileDemo2.java">
-<persistable path="/IO/src/com/_520it/day01/_01_file/FileDemo2.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ArrayDeque$DeqIterator.class" tooltip="java.util.ArrayDeque$DeqIterator">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(ArrayDeque$DeqIterator.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo3.java" tooltip="IO/src/com/_520it/day01/_01_file/FileDemo3.java">
-<persistable path="/IO/src/com/_520it/day01/_01_file/FileDemo3.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ArrayDeque.class" tooltip="java.util.ArrayDeque">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=IO/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(ArrayDeque.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Iterator.class" tooltip="java.util.Iterator">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Iterator.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Set.class" tooltip="java.util.Set">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaCollectionsFramework/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Set.class"/>
 </file>
 </mruList>
 </workbench>

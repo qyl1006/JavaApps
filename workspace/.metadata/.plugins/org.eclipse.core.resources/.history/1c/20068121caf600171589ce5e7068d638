@@ -1,5 +1,0 @@
-package day18.exception_class;
-
-public class RegisterDemo {
-	privact Object[] value = new Object[]{"Will", 12306,};
-}
