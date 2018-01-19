@@ -1,0 +1,21 @@
+package com._520it.Map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapTest {
+	public static void main(String[] args) {
+		String str = "asgdgsafvhsjedvaeaasnrf,jhsvfhzxjfhzfvszf";
+		Map<Character, Integer> map = new HashMap<>();
+		
+		for(Character ele : str.toCharArray()){
+			if(map.containsKey(ele)){
+				Integer old = map.get(ele);
+				map.put(ele, old + 1);
+			}else{
+				map.put(ele, 1);
+			}
+		}
+		System.out.println(map);
+	}
+}

@@ -1,0 +1,33 @@
+package com._520it.day02_demo;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FilenameFilter;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.Arrays;
+
+public class Demo {
+	public static void main(String[] args) throws Exception {
+		File in = new File("C:/Users/Qyuelin/Desktop/java_test/infile");
+		File out = new File ("C:/Users/Qyuelin/Desktop/java_test/outfile/123.txt");
+		File[] fs = in.listFiles(new FilenameFilter(){
+			public boolean accept(File dir, String name) {
+				return new File(dir, name).isFile() && name.endsWith(".txt");
+			}
+			
+		});
+		System.out.println(Arrays.toString(fs));
+		byte[] b = new byte[5];
+		for(File file : fs){
+			InputStream ins = new FileInputStream(file); //输入对象
+			OutputStream outs = new FileOutputStream(out); //输出对象
+			
+			int len = -1;
+			while((len = ins.read(b)) != -1){
+				outs.write(b, 0, len);
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+package com._520it.day24Task;
+//练习HashMap的常用方法
+public class HashMapDemo2 {
+	public static void main(String[] args) {
+		
+	}
+}

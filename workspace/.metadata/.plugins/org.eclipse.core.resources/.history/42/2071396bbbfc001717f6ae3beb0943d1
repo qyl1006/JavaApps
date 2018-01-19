@@ -1,0 +1,20 @@
+package com._520it.Set;
+
+public class TreeSetComparable {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class people implements Comparable<people>{
+	private int age;
+	private String name;
+	
+	
+	@Override
+	public int compareTo(people o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}
