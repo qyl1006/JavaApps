@@ -1,0 +1,13 @@
+package com._520it.day02_demo;
+
+/*
+ * 文件的拷贝--->字符输入输出流IO操作练习,把指定目录中的指定类型的文件拷贝到指定目录并把后缀名改成 ".java"
+ * 
+ * 分析: 拷贝操作分三步--1)筛选出指定类型的文件   2)字符的输入操作-----3)字符的输出操作
+ */
+
+public class CopyCharacterDemo {
+	public static void main(String[] args) {
+		
+	}
+}

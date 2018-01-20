@@ -1,0 +1,21 @@
+package com._520it.buffered;
+
+import java.io.BufferedOutputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+/*
+ * 练习 BufferedOutputStream--缓存流---字节输出
+ */
+public class BufferedOutputStreamDemo {
+	public static void main(String[] args) throws Exception {
+		//创建字节输出缓存流对象
+		BufferedOutputStream outBuffered = new BufferedOutputStream(new FileOutputStream("File/stream.txt", true));
+		
+		//字节输出IO操作
+		outBuffered.write("Helo World!".getBytes());
+		
+		//关闭资源
+		outBuffered.close();
+	}
+}

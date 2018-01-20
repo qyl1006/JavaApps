@@ -1,0 +1,16 @@
+package com._520it.day02_demo;
+
+//需求: 获取进程数据-编译和运行java代码
+public class TestDemo {
+	public static void main(String[] args) {
+		String str = "System.out.println(\"世界很大,我想出去看看--main\")";
+		test(str);
+		
+	}
+
+	private static void test(String str) {
+		//使用StringBuilder拼接一个完整的HelloWorld程序
+		StringBulider sb = new StringBuilder(80);
+	}
+
+}

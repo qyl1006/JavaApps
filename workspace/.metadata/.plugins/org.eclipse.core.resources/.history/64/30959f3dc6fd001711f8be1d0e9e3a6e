@@ -1,0 +1,17 @@
+package com._520it.day02_demo;
+
+import java.util.Arrays;
+
+/*
+ * 练习数据传输过程中的数据编码 与 解码  以及解决乱码问题
+ */
+public class CodingDecodingDemo {
+	public static void main(String[] args) {
+		//编码
+		String str = "秦跃林";
+		byte[] b = str.getBytes();
+		System.out.println(Arrays.toString(b)); //数据都是二进制传输的,包括存储在计算机的数据 1和0的世界
+		
+		//解码
+	}
+}

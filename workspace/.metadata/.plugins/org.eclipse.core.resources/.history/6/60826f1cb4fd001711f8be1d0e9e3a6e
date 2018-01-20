@@ -1,0 +1,13 @@
+package com._520it.day02_demo;
+
+/*
+ * 文件的拷贝--->字符输入输出流IO操作练习
+ * 
+ * 分析: 拷贝操作分两步--1)字符的输入操作-----2)字符的输出操作
+ */
+
+public class CopyCharacterDemo {
+	public static void main(String[] args) {
+		
+	}
+}

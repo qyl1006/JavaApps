@@ -1,7 +1,8 @@
 package com._520it.day01._file_input_stream;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 
 //演示 字节输出流 的使用
 public class FileOutputStreamDemo {
@@ -11,11 +12,10 @@ public class FileOutputStreamDemo {
 		String file = "File/test.txt";
 		
 		//创建IO流对象
-		FileOutputStream out = new FileOutputStream(file, true);
+		Writer out = new OutputStreamWriter(new FileOutputStream(file));
 		
 		//具体的IO操作
-		out.write("0123456789".getBytes(), 3, 5);
-		
+		out.write("我欲成仙\n快乐齐天\n字节流转字符流".toCharArray());
 		//关闭资源
 		out.close();
 	}

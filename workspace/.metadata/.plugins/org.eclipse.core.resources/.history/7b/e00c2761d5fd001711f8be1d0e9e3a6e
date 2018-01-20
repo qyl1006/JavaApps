@@ -1,0 +1,10 @@
+package com._520it.buffered;
+
+/*
+ * Á·Ï° BufferedOutputStream--»º´æÁ÷---×Ö½ÚÊä³ö
+ */
+public class BufferedOutputStreamDemo {
+	public static void main(String[] args) {
+		
+	}
+}
