@@ -1,0 +1,15 @@
+package com._520it.day03_demo;
+
+import java.io.Serializable;
+
+/*
+ * 需要序列化数据的类
+ */
+public class UserSerialize implements Serializable {
+	private String name;
+	private int age;
+	private int password;
+	
+	
+	
+}

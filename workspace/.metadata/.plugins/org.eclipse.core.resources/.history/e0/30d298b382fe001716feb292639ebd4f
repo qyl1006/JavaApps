@@ -1,0 +1,19 @@
+package com._520it.day01._01_file;
+
+import java.io.File;
+
+public class FileTestDemo {
+	public static void main(String[] args) {
+		String dir = "D:/123/";
+		File f = new File(dir, "12345.txt");
+		System.out.println(f.getParent());
+		
+		
+		//------------------
+		String str = "test";
+		File ff = new File("D:/123/");
+		
+		File test = new File(ff, str);
+		File test2 = test.File("test", new File("C:/Users/Qyuelin/Desktop/java_test"));
+	}
+}

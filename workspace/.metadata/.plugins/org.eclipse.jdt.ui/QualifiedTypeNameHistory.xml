@@ -35,10 +35,10 @@
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.lang.Iterable"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.io.FilenameFilter"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FilenameFilter"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

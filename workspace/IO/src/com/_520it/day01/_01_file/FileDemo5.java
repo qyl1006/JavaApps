@@ -5,25 +5,22 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
 /*
- * 列出文件的分层结构
-		期望效果:Will-->01_JavaSE-->资料和视频-->day18-->视频
-
-
+ *需求:  列出文件的分层结构
+		  期望效果:Will-->01_JavaSE-->资料和视频-->day18-->视频
  */
-
 public class FileDemo5 {
 	public static void main(String[] args) {
 		File f = new File("D:/FeiqWenJian/wolfcode(FCAA14FE4115)/小码课堂-改/day27/视频/11.常量类-日历类(Calendar).avi");
 		System.out.println(f);
-		System.out.println(f.getParentFile().getName());
-		System.out.println(f.getParentFile().getParentFile().getName());
+		System.out.println(f.getParentFile());  //返回当前File的父目录路径名->D:\FeiqWenJian\wolfcode(FCAA14FE4115)\小码课堂-改\day27\视频
+		System.out.println(f.getParentFile().getParentFile().getName()); //day27
 		System.out.println("================");
 		
 		List<String> list = new ArrayList<>();
 		test(list, f);
 		
-		Collections.reverse(list); //反转列表list的元素
-		System.out.println(list);
+		Collections.reverse(list); //反转列表list的元素--->集合的工具类Collections的方法
+		System.out.println(list);  //打印效果  [FeiqWenJian, wolfcode(FCAA14FE4115), 小码课堂-改, day27, 视频]
 		
 		//打印出 Abc>Bcd>...格式
 		StringBuilder sb = new StringBuilder(list.size());
@@ -32,15 +29,13 @@ public class FileDemo5 {
 		}
 		sb.delete(sb.length() - 3, sb.length());
 		System.out.println("最后的格式:" + sb);
-		
-		
 	}
-	//使用递归方式查找所有的目录, 并把它们分别添加到列表list中
+	//使用递归方式查找所有的目录, 并把它们分别添加到集合list中--ArrayList数组结构存储
 	private static void test(List<String> list, File f) {
-		if(!"".equals(f.getParentFile().getName())){
+		if(!"".equals(f.getParentFile().getName())){        //判断 若当前file父目录不为空  就添加到集合中
 			list.add(f.getParentFile().getName());
 		}
-		if(f.getParentFile().getParentFile() != null){
+		if(f.getParentFile().getParentFile() != null){      //判断 若当前file父目录的父目录不为null  就调用自己的方法继续
 			test(list, f.getParentFile());
 		}
 	}

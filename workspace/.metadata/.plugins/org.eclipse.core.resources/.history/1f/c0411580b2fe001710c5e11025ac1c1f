@@ -1,0 +1,15 @@
+package com._520it.day03_demo;
+
+import java.io.File;
+
+public class ObjectStreamDemo {
+	public static void main(String[] args) {
+		File f = new File("File/ObjectSerialize");
+		
+		writeObject(f);
+	}
+
+	private static void writeObject(File f) {
+		
+	}
+}

@@ -1,0 +1,7 @@
+package com._520it.day02_demo;
+/*
+ * 测试文件字节节点流与包装流的性能耗时对比--->1) 一个字节一个字节读取拷贝拷贝对比   2)定义一个1024缓存池来读取拷贝对比
+ */
+public class PerformanceTest {
+
+}

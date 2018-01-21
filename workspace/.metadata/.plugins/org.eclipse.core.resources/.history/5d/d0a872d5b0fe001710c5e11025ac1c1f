@@ -1,0 +1,8 @@
+package com._520it.day03_demo;
+
+/*
+ * 需要序列化的User类
+ */
+public class UserSerialize {
+
+}
