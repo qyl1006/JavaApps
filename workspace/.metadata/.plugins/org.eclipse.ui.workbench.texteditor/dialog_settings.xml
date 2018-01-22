@@ -16,6 +16,7 @@
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
 			<item value="\"/>
+			<item value="/"/>
 			<item value="f"/>
 			<item value="class"/>
 			<item value="Exception"/>

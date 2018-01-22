@@ -1,0 +1,28 @@
+package com._520it.day02_demo;
+
+import java.util.Arrays;
+
+public class Test{
+	public static void main(String[] args){
+		int[] arr = new int[]{5, 4, -1, -9, 0, 34, 22};
+		for(int i = 0; i < arr.length - 1; i ++){
+			int temp = i;
+			for (int j = i + 1; j < arr.length; j++) {
+				if (arr[j] < arr[temp]) {
+					temp = j;
+				}
+			}
+			sawp(arr, i, temp);
+		}
+		System.out.println(arr);
+	}
+
+	private static void sawp(int[] arr, int i, int temp) {
+		if(i == temp){
+			return;
+		}
+		arr[i] = arr[i] ^ arr[temp];
+		arr[temp] = arr[i] ^ arr[temp];
+		arr[i] = arr[temp] ^ arr[i];
+	}
+}

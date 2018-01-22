@@ -1,0 +1,14 @@
+package com._520it.day02_demo;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+
+public class Test2 {
+	public static void main(String[] args) throws Exception {
+		SimpleDateFormat f = new SimpleDateFormat();
+		
+		String str = f.format(new Date());
+		System.out.println(str);
+	}
+}
