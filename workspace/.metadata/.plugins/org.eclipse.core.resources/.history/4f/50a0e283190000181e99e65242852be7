@@ -1,0 +1,8 @@
+package com._520it.day03_demo;
+
+//练习使用Properties类加载资源文件.properties
+public class ProprtiesDemo {
+	public static void main(String[] args) {
+		Properties
+	}
+}

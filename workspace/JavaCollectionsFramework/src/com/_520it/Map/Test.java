@@ -1,22 +1,21 @@
 package com._520it.Map;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Random;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class Test {
 	public static void main(String[] args) {
-		Map<String, Object> map = new HashMap<>();
-		map.put("key1", 1);
-		map.put("key2", 2);
-		map.put("key3", 3);
-		map.put("key4", 4);
-		map.put("key5", 5);
-		System.out.println(map);
+		Set<String> set = new TreeSet<>();
+		set.add("X");
+		set.add("A");
+		set.add("K");
+		set.add("G");
+		set.add("O");
+		set.add("D");
+		set.add("B");
+		System.out.println(set);
 		
-	Set<Map.Entry<String, Object>> entrys = map.entrySet();
-	for(Map.Entry<String, Object> ele : entrys){
-		System.out.println(ele.getKey() + "---" + ele.getValue());
-	}
+		System.out.println(new Random().nextInt(2));
 	}
 }

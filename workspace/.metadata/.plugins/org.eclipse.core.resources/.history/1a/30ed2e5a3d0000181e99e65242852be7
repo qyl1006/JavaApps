@@ -1,0 +1,8 @@
+package com._520it.day03_demo;
+
+/*
+ * 演示: 演示随机访问文件(任意位置读 与 写)
+ */
+public class RandomAccessFileDemo {
+
+}
