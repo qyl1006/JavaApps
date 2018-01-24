@@ -7,7 +7,7 @@ import java.io.FilenameFilter;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-//字节IO操作----文件的拷贝
+//字节流IO操作----文件的拷贝
 public class CopyByteDemo {
 	public static void main(String[] args) throws Exception {
 		File in = new File("C:/Users/Qyuelin/Desktop/java_test/infile");      //输入目录路径

@@ -1,0 +1,16 @@
+package com._520it.day01_InetAddress;
+
+import java.net.URL;
+import java.net.URLConnection;
+
+/*
+ * Á·Ï°
+ */
+public class URLDemo {
+	public static void main(String[] args) throws Exception {
+		URL url = new URL("http", "localhost", 8080, "index.jsp");
+		
+		URLConnection con = url.openConnection();
+		
+	}
+}

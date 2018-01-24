@@ -3,10 +3,13 @@ package com._520it;
 import java.io.InputStreamReader;
 import java.io.LineNumberReader;
 import java.io.UnsupportedEncodingException;
+import java.util.Random;
 
 public class MacDemo {
 	public static void main(String[] args) throws Exception {
 //		getMac("192.168.217.1");
+		Random r = new Random();
+		System.out.println(r.nextInt(3));
 		
 	}
 
