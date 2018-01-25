@@ -1,7 +1,0 @@
-package com._520it.day01._file_input_stream;
-//演示 练习 传统关闭资源的方式
-public class CloseResources1 {
-	public static void main(String[] args) {
-		
-	}
-}

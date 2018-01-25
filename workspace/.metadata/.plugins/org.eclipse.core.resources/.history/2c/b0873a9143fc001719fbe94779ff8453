@@ -1,7 +1,0 @@
-package com._520it.day23Task;
-/*
- * 需求: 练习LinkedHashSet的方法--->Set接口的常用方法
- */
-public class LinkedHashSetDemo {
-
-}

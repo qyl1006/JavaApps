@@ -1,7 +1,0 @@
-package com._520.reflex;
-/*
- * 练习使用反射来获取方法
- */
-public class MethodDemo {
-
-}

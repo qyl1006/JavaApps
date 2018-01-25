@@ -1,9 +1,0 @@
-package com._520it.day01._file_input_stream;
-
-public class CloseResources1 {
-
-	public CloseResources1() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

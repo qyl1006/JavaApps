@@ -1,9 +1,0 @@
-package com._520it.day01._file_input_stream;
-/*
- * 需求: 利用字节输入输出流来完成.txt文件的拷贝操作
- */
-public class FileCopyDemo {
-	public static void main(String[] args) {
-		// 1) 创建源 和目标对象
-	}
-}

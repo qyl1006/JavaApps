@@ -1,7 +1,0 @@
-package com._520it.day01._file_input_stream;
-//练习 Java1.7及之后的资源自动关闭特性
-public class CloseResources2 {
-	public static void main(String[] args) {
-		test();
-	}
-}
