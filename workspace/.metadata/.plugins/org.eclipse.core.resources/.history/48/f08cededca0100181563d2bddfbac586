@@ -1,0 +1,10 @@
+package com._520.reflex;
+
+/*
+ * 获取字节码对象: class对象
+ */
+public class ClassDemo {
+	public static void main(String[] args) {
+		
+	}
+}

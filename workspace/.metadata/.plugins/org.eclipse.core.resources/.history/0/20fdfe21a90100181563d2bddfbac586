@@ -1,0 +1,9 @@
+package com._520it.day01.TCP;
+/*
+ *简单演示客户端端
+ */
+public class SocketDemo {
+	public static void main(String[] args) {
+		//创建服务端对象
+	}
+}

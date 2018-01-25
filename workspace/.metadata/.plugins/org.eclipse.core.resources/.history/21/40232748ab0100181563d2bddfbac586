@@ -1,0 +1,17 @@
+package com._520it.day01.TCP;
+
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+/*
+ *简单演示客户端端
+ */
+public class SocketDemo {
+	public static void main(String[] args) throws Exception {
+		//创建客户端对象
+		Socket soc = new Socket("localhost", 10086);
+		
+	}
+}

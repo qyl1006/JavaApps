@@ -1,0 +1,17 @@
+package com._520.reflex;
+/*
+ * 练习: 使用反射来创建对象
+ */
+public class CreateObjectDemo {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Test2{
+	public Test2(){
+		System.out.println("无参数构造器");
+	}
+	public Test2(String name){}
+	public Test2(String name, int age){}
+}

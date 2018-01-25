@@ -1,0 +1,10 @@
+package com._520.reflex;
+/*
+ * 练习使用反射来获取方法
+ *  步骤: 1) 获取字节码对象  2)直接调用Class的方法getMethods()来获取
+ */
+public class MethodDemo {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,28 @@
+package com._520.reflex;
+/*
+ * 练习: 使用反射来创建对象
+ */
+public class CreateObjectDemo {
+	public static void main(String[] args) {
+		//---传统的创建方式
+//		new Test2();
+//		new Test2("qyl");
+//		new Test2("qyl", 18);
+		
+		//使用反射创建对象-->1)获取字节码对象--->2)通过字节码对象获取构造器的实例--->调用构造器Constructor类中方法创建
+		
+	}
+}
+
+class Test2{
+	public Test2(){
+		System.out.println("无参数构造器");
+	}
+	public Test2(String name){
+		System.out.println("构造器: " + name);
+	}
+	public Test2(String name, int age){
+		System.out.println("构造器: " + name + ", " + age);
+		
+	}
+}

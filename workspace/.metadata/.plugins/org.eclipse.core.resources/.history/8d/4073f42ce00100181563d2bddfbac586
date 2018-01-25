@@ -1,0 +1,7 @@
+package com._520.reflex;
+/*
+ * 练习: 使用反射来创建对象
+ */
+public class CreateObjectDemo {
+
+}

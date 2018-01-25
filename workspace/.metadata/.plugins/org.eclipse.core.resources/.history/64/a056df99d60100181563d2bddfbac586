@@ -1,0 +1,15 @@
+package com._520.reflex;
+/*
+ * 获取类中的构造器
+ */
+public class GetConstructorDemo {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Test{
+	public Test(){}
+	public Test(String name){}
+	private Test(String name, int age){}
+}
