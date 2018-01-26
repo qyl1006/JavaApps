@@ -1,0 +1,10 @@
+package com._520.reflex;
+
+/*
+ * 练习资源加载 ------db.properties 文件
+ */
+public class LoadPropertiesDemo {
+	public static void main(String[] args) {
+		//方式一 使用类加载器-->它默认就是从classpath根路径去寻找文件的
+	}
+}

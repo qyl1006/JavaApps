@@ -13,8 +13,9 @@ public class ClassDemo {
 		
 		//方式二
 		Date date = new java.util.Date();
+		Date date2 = new java.util.Date();
 		Class cls2 = date.getClass();
-		
+		Class cls9 = date2.getClass();
 		//方式三
 		Class cls3 = Class.forName("java.util.Date");
 		
@@ -28,6 +29,7 @@ public class ClassDemo {
 		
 		Class cls5 = Class.forName("java.lang.Integer");
 		
+		System.out.println("测试: " + (cls4 == cls5));
 		System.out.println(cls4.equals(cls5));
 		
 		//基本数据类型的字节码对象

@@ -1,0 +1,8 @@
+package com._520.reflex;
+
+/*
+ * 练习资源加载 ------db.properties 文件
+ */
+public class LoadResourcesDemo {
+
+}

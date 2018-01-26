@@ -1,0 +1,20 @@
+package com._520.reflex;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+/*
+ * 练习资源加载 ------db.properties 文件
+ */
+public class LoadPropertiesDemo {
+	public static void main(String[] args) throws Exception {
+		//方式一 使用类加载器-->它默认就是从classpath根路径去寻找文件的
+		Properties p = new Properties();
+		//从Thread类中获取ClassLoader类的对象-----类加载器
+		ClassLoader load = Thread.currentThread().getContextClassLoader();
+		InputStream in = load.getResourceAsStream("db.properties");
+		p.load(in);
+		System.err.println(p.getProperty("username")t);
+	}
+}
