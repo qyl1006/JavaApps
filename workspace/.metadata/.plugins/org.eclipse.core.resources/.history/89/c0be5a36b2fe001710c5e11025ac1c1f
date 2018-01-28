@@ -1,7 +1,0 @@
-package com._520it.day03_demo;
-
-public class ObjectStreamDemo {
-	public static void main(String[] args) {
-		
-	}
-}

@@ -1,8 +1,0 @@
-package com._520it.day03_demo;
-
-/*
- * 需要序列化数据的类
- */
-public class UserSerialize {
-
-}

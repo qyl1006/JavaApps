@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=RefLex/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang(Integer.class[Integer" modifiers="49" timestamp="1511084455212"/>
-<typeInfo handle="=RefLex/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(Collection.class[Collection" modifiers="1537" timestamp="1511084455212"/>
-<typeInfo handle="=RefLex/E:\/OpenSources\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.lang.reflect(Constructor.class[Constructor" modifiers="49" timestamp="1511084455212"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

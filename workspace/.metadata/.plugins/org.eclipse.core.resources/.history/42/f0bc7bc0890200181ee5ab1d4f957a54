@@ -1,8 +1,0 @@
-package com._520.reflex;
-/*
- * 练习使用反射调用方法
- * 
- */
-public class InvocationMethodDemo {
-
-}

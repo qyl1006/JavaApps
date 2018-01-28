@@ -1,8 +1,0 @@
-package com._520it.buffered;
-
-/*
- * 练习字符输入输出包装流的IO操作
- */
-public class BufferedCharDemo {
-
-}
