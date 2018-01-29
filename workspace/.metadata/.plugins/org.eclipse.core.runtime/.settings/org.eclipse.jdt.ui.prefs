@@ -35,7 +35,7 @@ org.eclipse.jdt.ui.text.code_templates_migrated=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java" deleted\="false" description\="\u534E\u4E3D\u7684\u5206\u5272\u7EBF" enabled\="true" name\="sep">System.out.println("\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=");</template></templates>
 org.eclipse.jdt.ui.text.templates_migrated=true
-org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+org.eclipse.jface.textfont=1|Courier New|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|49|Courier New;
 org.eclipse.pde.ui.ExternalPluginLibrariesFilter1=true
 proposalOrderMigrated=true
 sourceHoverBackgroundColor=255,255,225

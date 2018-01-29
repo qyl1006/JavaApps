@@ -24,6 +24,7 @@ org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbe
 org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_TAB_OUTLINE_COLOR=182,188,204
 org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_END=255,255,255
 org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_START=255,255,255
+org.eclipse.jface.textfont=1|Courier New|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|49|Courier New;
 org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands/>
 overridepresentation=true
 perspectives=Will
