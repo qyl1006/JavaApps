@@ -1,0 +1,24 @@
+package com.qyl._1_annont;
+
+import java.lang.annotation.Annotation;
+
+/*
+ * 需求: 获取贴在Person类中的注解,获取其信息
+	思考: 1) 通过Person的字节码对象来获取该类的注解--->调用Class中的方法
+		 2)直接通过Person类的注解(也就是注解对象?)来调用注解的方法获取相对应的属性
+ */
+public class AnnotDemo {
+	public static void main(String[] args) throws Exception {
+		//获取Persin的字节码对象
+		Class<Person> cls = Person.class;
+		Class<Person> cls2 = Class.forName("Person");
+		
+		//获取Persin类的所有注解
+		Annotation[] ans = cls2.getAnnotations();
+		
+		//打印所有注解
+		for (Annotation annotation : ans) {
+			System.out.println(annotation);
+		}
+	}
+}
