@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DOMTest" project="xml" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.qyl._3_dom.DOMTest" time="0.092">
+    <testcase name="test1" classname="com.qyl._3_dom.DOMTest" time="0.031"/>
+    <testcase name="test2" classname="com.qyl._3_dom.DOMTest" time="0.005"/>
+    <testcase name="test3" classname="com.qyl._3_dom.DOMTest" time="0.056"/>
+  </testsuite>
+</testrun>

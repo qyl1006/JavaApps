@@ -1,0 +1,21 @@
+package com.qyl._1_junit4;
+/*
+ * 纠错练习
+ */
+
+import org.junit.Test;
+
+public class ErrorTest {
+	@Test
+	public static String testError(int a) throws Exception{
+		System.out.println("DOMTest.testError()");
+		return null;
+	}
+	
+	@Test
+	public String testError() throws Exception{
+		System.out.println("DOMTest.testError()");
+		return null;
+	}
+	
+}

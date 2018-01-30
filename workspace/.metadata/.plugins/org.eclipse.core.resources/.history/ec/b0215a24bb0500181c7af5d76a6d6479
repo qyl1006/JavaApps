@@ -1,0 +1,10 @@
+package com.qyl._1_junit4;
+//测试类
+public class MathTest {
+	private IMath math = new MathImp(); //面向接口编程
+	
+	@Test
+	public void testAdd(){
+		
+	}
+}

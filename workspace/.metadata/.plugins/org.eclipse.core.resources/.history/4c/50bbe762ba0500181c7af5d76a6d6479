@@ -1,0 +1,5 @@
+package com.qyl._1_junit4;
+//测试类
+public class MathTest {
+	
+}

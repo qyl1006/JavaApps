@@ -22,10 +22,8 @@ public class Test {
 		
 		Person p2 = BeanUtil.map2Bean(map2, Person.class);
 		System.out.println(p2);
-		
-		
-		
 	}
 }
 
+//总结: Bean<--->Map互转可以方便的获取存储类中的信息,也可以快速的给类的字段赋值
 

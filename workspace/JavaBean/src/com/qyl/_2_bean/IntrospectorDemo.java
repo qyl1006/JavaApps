@@ -10,6 +10,7 @@ import com.qyl._1_annont.Person;
 
 /*
  * 需求:获取User类中的属性名称/类型/(读/写属性的方法)
+ * 
  */
 public class IntrospectorDemo {
 	public static void main(String[] args) throws Exception {

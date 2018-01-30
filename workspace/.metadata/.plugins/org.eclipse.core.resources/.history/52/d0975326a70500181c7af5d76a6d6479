@@ -1,0 +1,13 @@
+package com.qyl._3_dom;
+
+import org.junit.Test;
+
+public class DOMTest {
+	/*需求:获取Document的对象
+	 * 思考-->Douument类是interface接口--->DocumentBuilder有获取Douument对象的方法,根据情况选择parse(File f)创建
+	 * 		然后DocumentBuilder类abstract的--->API提示可DocumentBuilderFactory.newDocumentBuilder()
+	 * 		最后DocumentBuilderFactory类abstract的但有静态获取其对象
+	 */
+	
+	void test1();
+}

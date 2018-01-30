@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EmployeeDAOTest" project="xml" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.qyl._1_junit4.EmployeeDAOTest" time="0.0">
+    <testcase name="testPrint1" classname="com.qyl._1_junit4.EmployeeDAOTest" time="0.0"/>
+    <testcase name="testPrint2" classname="com.qyl._1_junit4.EmployeeDAOTest" time="0.0"/>
+  </testsuite>
+</testrun>

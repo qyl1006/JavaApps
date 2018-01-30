@@ -1,0 +1,15 @@
+package com.qyl._1_junit4;
+/*
+ * 
+ */
+public class MathImp implements IMath {
+
+	public int add(int num1, int num2) {
+		return 0;
+	}
+
+	public int ride(int num1, int num2) {
+		return 0;
+	}
+
+}

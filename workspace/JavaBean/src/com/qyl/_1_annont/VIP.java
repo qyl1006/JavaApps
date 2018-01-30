@@ -7,9 +7,8 @@ import java.lang.annotation.Target;
 
 /*
  * 自定义VIP注解
+ *总结: 自定义注解可以作为配置文件使用  
  */
-
-
 @Retention(RetentionPolicy.RUNTIME)//表示当前的注解可以加载到JVM中
 @Target(ElementType.TYPE) //表示当前注解可以贴在类上
 public @interface VIP {

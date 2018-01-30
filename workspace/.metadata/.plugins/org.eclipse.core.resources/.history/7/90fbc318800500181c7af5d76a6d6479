@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    xmlns -> 当前文档的名称空间
+    xmlns:xsi -> 当前文档是schema约束的一个实例
+    xsi:schemaLocation -> 当前实例支持的约束文件的位置
+ -->
+ <!--
+ 	1) XML编码必须保持一致 建议都设置UTF-8
+ 	2) 一个XML文档必须有且只有一个根标签  ,其它都是其子标签
+ 	3) 子标签之间不允许交叉嵌套，区分大小写
+  -->
+<contacts xmlns="www.wolfcode.cn"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.wolfcode.cn contact.xsd">
+
+
+	<linkman id="a1">
+	<name>悟空</name>
+		<email>wukong@163.com</email>
+		<address>广州市花果山</address>
+		<group>水帘洞景点</group>
+	</linkman>
+	<linkman> id="b1">
+		<name>八戒</name>
+		<email>bajie@qq.com</email>
+		<address>高老庄八栋220</address>
+		<group>广州天河菜市场生态猪肉贸易</group>
+	</linkman>
+</contacts>
