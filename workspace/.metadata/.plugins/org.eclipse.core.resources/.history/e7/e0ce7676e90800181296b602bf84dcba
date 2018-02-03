@@ -1,0 +1,7 @@
+package cn.wolfcode.smis.test;
+/*
+ * 第六步 生成一个DAO接口的测试类
+ */
+public class StudentDAOTest {
+
+}

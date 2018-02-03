@@ -1,0 +1,9 @@
+package cn.wolfcode.smis.domain;
+/*
+ * 1 根据数据表建立domain组件-->一个类(封装信息和数据)
+ */
+public class Student {
+	private Long id;
+	private String name;
+	private Integer age;
+}

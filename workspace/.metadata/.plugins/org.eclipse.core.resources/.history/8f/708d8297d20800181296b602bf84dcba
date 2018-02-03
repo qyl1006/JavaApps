@@ -1,0 +1,30 @@
+package cn.wolfcode.smis.dao.impl;
+/*
+ * 第五步: 生成一个OAD接口的实现类(内部总空实现)
+ */
+
+import org.junit.Test;
+
+import cn.wolfcode.smis.domain.Student;
+
+public class StudentDAOImpl {
+	@Test    //增加方法
+	public void save(Student stu){
+		
+	}
+	
+	@Test   //更新数据方法
+	public void update(Student stu){
+		
+	}
+	
+	@Test   //删除数据的方法
+	public void delete(Long id){
+		
+	}
+	
+	@Test //查询一行数据的方法
+	public Stutent get(Long id){
+		return null;
+	}
+}

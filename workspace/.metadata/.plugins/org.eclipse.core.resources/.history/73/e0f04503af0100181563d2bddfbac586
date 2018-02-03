@@ -1,8 +1,0 @@
-package com._520it.day01.UDP;
-//接收端
-public class Receive {
-	public static void main(String[] args) {
-		//创建接收端对象
-		DatagramSockey receiver = new DatagramSocket(10086);
-	}
-}

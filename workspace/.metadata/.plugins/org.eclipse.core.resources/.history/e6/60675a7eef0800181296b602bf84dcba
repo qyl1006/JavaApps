@@ -1,0 +1,16 @@
+package cn.wolfcode.smis.util;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+import lombok.Cleanup;
+
+public class jdbcUtil {
+	private String driverCkassName = "com.mysql.jdbc.Driver";
+	private String url = "jdbc:mysql://127.0.0.1:3306/jdbcdemo";
+	private String username = "root";
+	private String password = "qqaz4020723629";
+	
+	
+}

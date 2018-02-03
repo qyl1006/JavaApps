@@ -1,0 +1,44 @@
+package cn.wolfcode.smis.dao.impl;
+
+import java.util.List;
+
+import cn.wolfcode.smis.dao.IStudentDAO;
+import cn.wolfcode.smis.domain.Student;
+
+/*
+ *第五步 生成一个OAD接口的实现类 (暂内部方法空实现)
+ */
+public class StudentDAOImpl implements IStudentDAO{
+	//保存数据的方法
+	public void save(Student stu) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	//更新数据的方法
+	public void update(Student stu) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	//删除数据的方法
+	public void delete(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Student get(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Student> list() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	//更新数据方法
+	
+}
