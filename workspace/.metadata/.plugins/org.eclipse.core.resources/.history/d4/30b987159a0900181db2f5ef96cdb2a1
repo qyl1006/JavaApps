@@ -1,0 +1,7 @@
+package cn.wolfcode.domain;
+/*
+ * 第三步 : 根据数据表建立domain组件 
+ */
+public class Student {
+	
+}

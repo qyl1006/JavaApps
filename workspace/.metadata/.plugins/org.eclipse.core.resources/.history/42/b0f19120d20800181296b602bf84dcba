@@ -1,7 +1,0 @@
-package cn.wolfcode.smis.dao.impl;
-/*
- * 第五步: 生成一个OAD接口的实现类(内部总空实现)
- */
-public class StudentDAOImpl {
-
-}

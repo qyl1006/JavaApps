@@ -1,0 +1,29 @@
+package cn.wolfcode.smis.util;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import javax.activation.DataSource;
+
+public abstract class JdbcUtil {
+//	private static String driverClassName = "com.mysql.jdbc.Driver";
+//	private static String url = "jdbc:mysql://127.0.0.1:3306/jdbcdemo";
+//	private static String username = "root";
+//	private static String password = "qqaz4020723629";
+	private static DataSource ds;
+	
+	static {
+		try {
+			//注册驱动
+			ClassLoader in = JdbcUtil.class.getClassLoader();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+	}
+	
+	public static Connection getConn() throws Exception{
+		return DriverManager.getConnection(url, username, password);
+	}
+}

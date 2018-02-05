@@ -1,0 +1,11 @@
+package cn.wolfcode.smis.util;
+
+public class JdbcTemplate {
+	public static void update(){
+		try {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

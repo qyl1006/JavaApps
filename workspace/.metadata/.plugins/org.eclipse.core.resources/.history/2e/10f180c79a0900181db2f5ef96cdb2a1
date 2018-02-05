@@ -1,0 +1,10 @@
+package cn.wolfcode.smis.dao;
+
+/**
+ * s
+ * @author Qyuelin
+ *
+ */
+public interface IStudentDAO {
+
+}

@@ -23,6 +23,7 @@ public class StudentDAOImpl implements IStudentDAO{
 		try {
 			@Cleanup
 			Connection conn = jdbcUtil.getConn();
+			@Cleanup
 			PreparedStatement ps = conn.prepareStatement(sql);
 			//设置占位参数的值
 			ps.setObject(1, stu.getName());

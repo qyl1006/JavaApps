@@ -21,7 +21,7 @@ public interface IStudentDAO {
 	
 	/**
 	 * 更新一个学生对象
-	 * @param stu 被更新的学生信息, 该对象必须有一个isd
+	 * @param stu 被更新的学生信息, 该对象必须有一个id
 	 */
 	void update(Student stu);
 	

@@ -1,0 +1,8 @@
+package cn.wolfcode.smis.test;
+
+/*
+ * 生成一个OAD接口的测试类
+ */
+public class StudentDAOTest {
+	private IStudentDAO = new StudentDAOImpl();
+}
