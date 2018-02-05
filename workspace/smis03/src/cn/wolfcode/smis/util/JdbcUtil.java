@@ -20,7 +20,7 @@ public abstract class JdbcUtil {
 		try {
 			//注册驱动
 			ClassLoader loader = JdbcUtil.class.getClassLoader();
-			InputStream in = loader.getResourceAsStream("db.properties");
+			InputStream in = loader.getResourceAsStream("db.properties"); 
 			Properties p = new Properties();
 			p.load(in);
 			ds = DruidDataSourceFactory.createDataSource(p);

@@ -17,6 +17,12 @@ import lombok.Cleanup;
 
 /*
  * 1 ) 生成OAD接口的实现类 (内部方法空实现)
+ * 
+ * 	内省在查询中注意的事项一些约定:
+ * 		1)表 和 domain对应
+ * 		2) 列名 = 属性名
+ * 		3) 列的类型 = 属性的类型
+ * 		4) 列的值 = 属性的值  ---->值也是一一对应的  如id<-->id name对应name
  */
 public class StudentDAOImpl implements IStudentDAO {
 	//保存数据
@@ -63,28 +69,26 @@ public class StudentDAOImpl implements IStudentDAO {
 			ps.setObject(1, id);
 			@Cleanup
 			ResultSet res = ps.executeQuery();  //不需要参数
-			res.next();
 			if(res.next()){
-				String name = res.getString("name");
-				Integer age = res.getInt("age");
-				Student stu = new Student(id, name, age);
-				return stu;
+//				String name = res.getString("name");
+//				Integer age = res.getInt("age");
+//				Student stu = new Student(id, name, age);
+//				return stu;
 				
-//				//拿到domain类型的属性
-//				Class<Student> clz = Student.class;
-//				Student	s = clz.newInstance(); //反射创建该类的对象
-//				
-//				//迭代操作每个属性
-//				PropertyDescriptor[] pds = Introspector.getBeanInfo(clz,Object.class).getPropertyDescriptors();
-//				for (PropertyDescriptor pd : pds) {
-//					String columnName = pd.getName();
-//					Object value = res.getObject(columnName);
-//					pd.getWriteMethod().invoke(s, value);
-//				}
-//			}
-//			return s;
-//			
-		} 
+				//拿到domain类型的属性
+				Class<Student> clz = Student.class;
+				Student	s = clz.newInstance(); //反射创建该类的对象
+				
+				//迭代操作每个属性
+				PropertyDescriptor[] pds = Introspector.getBeanInfo(clz,Object.class).getPropertyDescriptors();
+				for (PropertyDescriptor pd : pds) {
+					String columnName = pd.getName();
+					Object value = res.getObject(columnName);
+					pd.getWriteMethod().invoke(s, value);
+				}
+				return s;
+			}
+			
 		}catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
