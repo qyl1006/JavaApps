@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;cn.wolfcode.smis.handler.IResutlSetHandler&apos; to &apos;IResultSetHandler&apos;&#x0D;&#x0A;- Original project: &apos;smis06&apos;&#x0D;&#x0A;- Original element: &apos;cn.wolfcode.smis.handler.IResutlSetHandler&apos;&#x0D;&#x0A;- Renamed element: &apos;cn.wolfcode.smis.handler.IResultSetHandler&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IResutlSetHandler&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;cn.wolfcode.smis.handler{IResutlSetHandler.java[IResutlSetHandler" matchStrategy="1" name="IResultSetHandler" qualified="false" references="true" similarDeclarations="false" stamp="1518164685211" textual="false" version="1.0"/>
+</session>

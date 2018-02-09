@@ -1,0 +1,16 @@
+package cn.wolfcode.smis.util;
+
+import java.sql.Connection;
+
+//模板设计
+public class JdbcTemplate {
+	//DML模板
+	public static void update(String sql, Object...params){
+		try {
+			//获取连接对象
+			Connection conn = JdbcUtil.getConn();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package cn.wolfcode.smis.handler;
+/**
+ * 
+ * @author Qyuelin
+ *
+ */
+public interface IResultSetHandler {
+
+}

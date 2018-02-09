@@ -1,0 +1,10 @@
+package cn.wolfcode.smis.handler;
+/**
+ * 处理结果集的规范
+ * @author Qyuelin
+ *
+ * @param <T>
+ */
+public interface IResultSetHandler<T> {
+
+}
