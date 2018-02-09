@@ -10,7 +10,7 @@ import javax.sql.DataSource;
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 /*
- * 第四步  生成一个工具类 用于注册驱动,提供与数据库连接对象
+ * 第四步  生成一个工具类 用于注册驱动,提供与数据库连接对象----德鲁伊连接池
  */
 public class JdbcUtil {
 	private static DataSource ds;

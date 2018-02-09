@@ -1,0 +1,24 @@
+package cn.wolfcode.smis.handler.impl;
+
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+
+import cn.wolfcode.smis.handler.IResultSetHandler;
+
+public class BeanListHandler<T> implements IResultSetHandler<T> {
+	//JavaBean类型
+	private Class<T> clz;
+	
+	//构造器
+	public BeanListHandler(Class clz){
+		this.clz = clz;
+	}
+
+	public List<T> handler(ResultSet rs) throws Exception {
+		List<T> list = new ArrayList<>();
+		
+		return list;
+	}
+
+}

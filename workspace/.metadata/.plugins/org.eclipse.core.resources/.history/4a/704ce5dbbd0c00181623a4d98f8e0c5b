@@ -1,0 +1,7 @@
+package cn.wolfcode.smis.dao;
+
+import cn.wolfcode.smis.handler.IResultSetHandler;
+
+public interface TestDao<T> {
+	T test(Ling id, IResultSetHandler<T> rsh);
+}

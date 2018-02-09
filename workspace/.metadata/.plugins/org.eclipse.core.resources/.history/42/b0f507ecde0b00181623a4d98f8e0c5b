@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p>人在江湖飘</p>
+	<p>哪有不挨刀</p>
+	<hr />
+	<h3>四大名著</h3>
+	<ul>
+		<li>西游记</li>
+		<li>三国演义</li>
+		<li>水浒传</li>
+		<li>红楼梦</li>
+	</ul>
+
+	<hr />
+	<h3>四大美女</h3>
+	<ol>
+		<li>西施</li>
+		<li>貂蝉</li>
+		<li>王昭君</li>
+		<li>杨玉环</li>
+	</ol>
+
+	<table border="1">
+		<tr>
+			<td>11100</td>
+			<td>200</td>
+			<td>300</td>
+		</tr>
+		<tr>
+			<td>22200</td>
+			<td>200</td>
+			<td>300</td>
+		</tr>
+		<tr>
+			<td>33300</td>
+			<td>200</td>
+			<td>300</td>
+		</tr>
+	</table>
+
+	<hr />
+	<h3>表格</h3>
+	<table align="center" border="1">
+		<tr>
+			<th>编号</th>
+			<th>姓名</th>
+			<th>年龄</th>
+			<th>性别</th>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>乔峰</td>
+			<td>33</td>
+			<td>男</td>
+		</tr>
+	</table>
+
+</body>
+</html>

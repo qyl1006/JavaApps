@@ -1,8 +1,0 @@
-package com.qyl._1_annont;
-
-/*
- * 自定义VIP注解
- */
-public @interface VIP {
-
-}

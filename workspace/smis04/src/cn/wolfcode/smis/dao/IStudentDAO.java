@@ -34,12 +34,13 @@ public interface IStudentDAO {
 	 * @param id 被查询的学生ID
 	 * @return 返回查询到的学生对象 若查询对象不存在时返回null
 	 */
-	Student get(Long id);
+	List<Student> get(Long id);
 	
 	/**
 	 * 查询所有学生的信息
 	 * @return 返回所有学生信息的集合,若表无数据时返回空集合
 	 */
 	List<Student> list();
+
 	
 }

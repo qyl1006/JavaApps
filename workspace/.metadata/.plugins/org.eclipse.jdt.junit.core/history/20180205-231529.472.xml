@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="StudentDAOTest.testList (2)" project="smis03" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testcase name="testList" classname="cn.wolfcode.smis.test.StudentDAOTest" time="1.523"/>
-</testrun>

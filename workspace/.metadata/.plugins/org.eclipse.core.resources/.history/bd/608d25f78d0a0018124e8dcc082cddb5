@@ -1,5 +1,0 @@
-package cn.wolfcode.smis.dao.impl;
-
-public class StudentDAOImpl {
-
-}

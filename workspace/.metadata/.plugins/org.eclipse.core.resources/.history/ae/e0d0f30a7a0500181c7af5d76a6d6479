@@ -1,8 +1,0 @@
-package com.qyl._1_junit4;
-/**
- * 算术运算接口
- * @author Qyuelin
- */
-public interface IMath {
-	add();
-}

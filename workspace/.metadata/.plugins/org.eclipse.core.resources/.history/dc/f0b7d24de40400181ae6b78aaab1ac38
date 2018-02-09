@@ -1,7 +1,0 @@
-package com.qyl._1_annont;
-//定义一个描述人的类
-public class Person {
-	private String name;
-	private Integer age;
-	
-}

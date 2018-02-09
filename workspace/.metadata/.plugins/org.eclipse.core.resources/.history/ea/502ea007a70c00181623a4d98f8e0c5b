@@ -1,0 +1,15 @@
+package cn.wolfcode.smis.handler.impl;
+
+import java.sql.ResultSet;
+import java.util.List;
+
+import cn.wolfcode.smis.domain.Student;
+import cn.wolfcode.smis.handler.IResultSetHandler;
+
+public class IResultSetHandler implements IResultSetHandler<List<Student>>{
+
+	public List<Student> handle(ResultSet rs) throws Exception {
+		return null;
+	}
+
+}

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.lang.Iterable"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
@@ -43,13 +41,8 @@
 <fullyQualifiedTypeName name="org.junit.ClassRule"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
-<fullyQualifiedTypeName name="cn.wolfcode.smis.util.JdbcUtil"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="cn.wolfcode.smis.domain.Student"/>
-<fullyQualifiedTypeName name="lombok.Cleanup"/>
 <fullyQualifiedTypeName name="java.beans.Introspector"/>
 <fullyQualifiedTypeName name="java.beans.BeanInfo"/>
 <fullyQualifiedTypeName name="java.beans.PropertyDescriptor"/>
@@ -60,4 +53,11 @@
 <fullyQualifiedTypeName name="com.alibaba.druid.support.ibatis.DruidDataSourceFactory"/>
 <fullyQualifiedTypeName name="com.alibaba.druid.pool.DruidDataSourceFactory"/>
 <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="cn.wolfcode.smis.util.JdbcUtil"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="lombok.Cleanup"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
 </qualifiedTypeNameHistroy>

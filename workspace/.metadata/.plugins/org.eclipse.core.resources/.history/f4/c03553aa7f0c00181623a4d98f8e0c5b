@@ -1,0 +1,13 @@
+package cn.wolfcode.smis.dao;
+
+import cn.wolfcode.smis.domain.Student;
+
+//根据DAO规范写出DAO接口中的CRUD(增删改查)方法
+
+/**
+ * 操作学生对象的DAO接口
+ * @author Qyuelin
+ */
+public interface IStudentDAO {
+	void save(Student stu);
+}

@@ -1,0 +1,6 @@
+package cn.wolfcode.smis.util;
+
+//抽取JDBCUtil工具类,围绕核心思想 -> 连接数据库的4要素
+public class JdbcUtil {
+
+}

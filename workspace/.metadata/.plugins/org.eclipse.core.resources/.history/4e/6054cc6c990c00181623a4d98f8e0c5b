@@ -1,0 +1,9 @@
+package cn.wolfcode.smis.util;
+
+//抽取JDBCUtil工具类,围绕核心思想 -> 连接数据库的4要素
+public class JdbcUtil {
+	private String className = "com.mysql.jdbc.Driver";
+	private String url = "jdbc:mysql://127.0.0.1:3306/jdbcdemo";
+	private String username = "root";
+	private String password = "qqaz4020723629";
+}
