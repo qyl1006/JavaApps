@@ -10,7 +10,7 @@ import javax.sql.DataSource;
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 //抽取JDBCUtil工具类,围绕核心思想 -> 连接数据库的4要素
-public class JdbcUtil {
+public abstract class JdbcUtil {
 //	private static String className = "com.mysql.jdbc.Driver";
 //	private static String url = "jdbc:mysql://127.0.0.1:3306/jdbcdemo";
 //	private static String username = "root";
@@ -20,12 +20,12 @@ public class JdbcUtil {
 	static {
 		try {
 			
-			//注册驱动
+			//读取属性文件,获取4要素信息
 			ClassLoader loader = JdbcUtil.class.getClassLoader();
 			InputStream in = loader.getSystemResourceAsStream("db.properties");
 			Properties p = new Properties();
 			p.load(in);  //加载资源
-			//创建连接池对象
+			//使用工厂的方式创建德鲁伊连接池
 			ds = DruidDataSourceFactory.createDataSource(p);
 		} catch (Exception e) {
 			e.printStackTrace();

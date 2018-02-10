@@ -18,7 +18,7 @@ import lombok.Cleanup;
 	最后完成BeanListHandler
 
  */
-public class JdbcTemplate {
+public  abstract class JdbcTemplate {
 	//DML模板
 	public static void update(String sql, Object...params){
 		try {

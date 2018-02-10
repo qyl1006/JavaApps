@@ -6,6 +6,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/lombok"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.38.jar"/>
-	<classpathentry kind="lib" path="lib/druid-1.0.26.jar"/>
+	<classpathentry kind="lib" path="lib/druid-1.0.26.jar" sourcepath="D:/FeiqWenJian/bunny(FCAA14FE4115)/bunny/jars/alibaba/druid-1.0.26-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

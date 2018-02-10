@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+	<h3>学生信息</h3>
+	<form action="#" method="POST">
+		<p>姓名:<input type="text" name="username" value="逍遥"/></p>
+		<p>年龄:<input type="password" name="pwd"/></p>
+		<p>性别: 
+			<input type="radio" name="gender" value="男"/>男
+			<input type="radio" name="gender" value="女"/>女
+		</p>
+		<p>城市:
+			<select>
+				<option value="-1">请选择</option>
+				<option value="1" selected>广州市</option>
+				<option value="2">深圳市</option>
+				<option value="3">东莞市</option>
+			</select>
+		</p>
+		<input type="submit" value="朕要提交"/>
+	</form>
+</center>
+
+
+</body>
+</html>

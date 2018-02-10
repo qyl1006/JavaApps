@@ -13,7 +13,7 @@ import cn.wolfcode.smis.handler.IResultSetHandler;
 import lombok.Cleanup;
 
 //模板设计
-public class JdbcTemplate {
+public abstract class JdbcTemplate {
 	//DML模板
 	public static void update(String sql, Object... params) {
 		try {

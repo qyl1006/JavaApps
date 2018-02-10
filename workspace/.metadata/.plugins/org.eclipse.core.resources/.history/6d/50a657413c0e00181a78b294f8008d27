@@ -1,0 +1,5 @@
+package cn.wolfcode.smis.dao.impl;
+//DAO接口的实现类
+public class StudentDAOImpl {
+
+}

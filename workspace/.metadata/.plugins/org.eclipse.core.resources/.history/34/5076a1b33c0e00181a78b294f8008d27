@@ -1,0 +1,17 @@
+package cn.wolfcode.smis.test;
+//DAO接口的测试类
+
+import org.junit.Test;
+
+import cn.wolfcode.smis.dao.IStudentDAO;
+import cn.wolfcode.smis.dao.impl.StudentDAOImpl;
+import cn.wolfcode.smis.domain.Student;
+
+public class StudentDAOTest {
+	private IStudentDAO dao = new StudentDAOImpl();
+	
+	@Test
+	public void testSave(){
+		Student stu = new Student(null, "Will", 22);
+	}
+}	

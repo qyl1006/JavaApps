@@ -1,0 +1,6 @@
+package cn.wolfcode.smis.util;
+
+//一个提供模板的工具类
+public abstract class JdbcTemplate {
+	//DML模板
+}

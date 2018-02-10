@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 
 import lombok.Cleanup;
 
-public class JdbcTemplate {
+public abstract class JdbcTemplate {
 	public static void update(String sql, Object ...params){
 		try {
 			@Cleanup
