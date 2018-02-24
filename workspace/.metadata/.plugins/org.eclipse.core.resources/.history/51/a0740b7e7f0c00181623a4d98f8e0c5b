@@ -1,6 +1,0 @@
-package cn.wolfcode.smis.dao;
-
-//根据DAO规范写出DAO接口中的CRUD(增删改查)方法
-public interface IStudentDAO {
-
-}

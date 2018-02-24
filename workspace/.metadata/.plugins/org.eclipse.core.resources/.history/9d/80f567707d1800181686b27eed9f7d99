@@ -1,0 +1,5 @@
+package cn.wolfcode.smis.handler.impl;
+
+public class BeanListHandler implements IResultSetHandler{
+
+}

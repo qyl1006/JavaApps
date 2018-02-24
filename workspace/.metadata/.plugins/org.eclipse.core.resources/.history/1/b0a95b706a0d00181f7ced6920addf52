@@ -1,8 +1,0 @@
-package cn.wolfcode.smis.util;
-
-import javax.sql.DataSource;
-
-//加载注册驱动,对外通过连接对象的工具类--围绕连接数据库的4要素
-public class JdbcUtil {
-	private static DataSource ds;
-}

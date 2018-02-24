@@ -1,5 +1,0 @@
-package cn.wolfcode.smis.handler.impl;
-
-public class IResultSetHandler implements cn.wolfcode.smis.handler.IResultSetHandler<List<Student>>{
-
-}

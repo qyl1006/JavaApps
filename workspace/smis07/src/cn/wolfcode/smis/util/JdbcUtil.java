@@ -2,7 +2,7 @@ package cn.wolfcode.smis.util;
 
 import java.io.InputStream;
 import java.sql.Connection;
-import java.sql.SQLException;
+
 import java.util.Properties;
 
 import javax.sql.DataSource;

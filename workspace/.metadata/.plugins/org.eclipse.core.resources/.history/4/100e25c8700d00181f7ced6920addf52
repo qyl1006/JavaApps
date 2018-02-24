@@ -1,6 +1,0 @@
-#key=value
-#key必须是连接池对象的属性
-driverClassName=com.mysql.jsbc.Driver
-url=jdbc:mysql://127.0.0.1:3306/jdbcdemo
-username=root
-password=qqaz4020723629

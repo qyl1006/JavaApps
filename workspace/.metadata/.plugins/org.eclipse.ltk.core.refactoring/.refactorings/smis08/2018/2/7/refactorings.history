@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;cn.wolfcode.smis.util.JdbcTemplase&apos; to &apos;JdbcTemplate&apos;&#x0D;&#x0A;- Original project: &apos;smis08&apos;&#x0D;&#x0A;- Original element: &apos;cn.wolfcode.smis.util.JdbcTemplase&apos;&#x0D;&#x0A;- Renamed element: &apos;cn.wolfcode.smis.util.JdbcTemplate&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;JdbcTemplase&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;cn.wolfcode.smis.util{JdbcTemplase.java[JdbcTemplase" matchStrategy="1" name="JdbcTemplate" qualified="false" references="true" similarDeclarations="false" stamp="1518595833750" textual="false" version="1.0"/>
+</session>

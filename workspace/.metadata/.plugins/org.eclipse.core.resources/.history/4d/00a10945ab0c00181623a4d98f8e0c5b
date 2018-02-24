@@ -1,7 +1,0 @@
-package cn.wolfcode.smis.handler.impl;
-
-import cn.wolfcode.smis.handler.IResultSetHandler;
-
-public class BeanListHandler implements IResultSetHandler<T>{
-
-}

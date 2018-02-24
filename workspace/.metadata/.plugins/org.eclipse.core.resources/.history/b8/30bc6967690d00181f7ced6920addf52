@@ -1,6 +1,0 @@
-package cn.wolfcode.smis.util;
-
-//加载注册驱动,对外通过连接对象的工具类
-public class JdbcUtil {
-
-}

@@ -1,9 +1,0 @@
-package cn.wolfcode.smis.dao;
-/**
- * 操作学生对象的DAO接口
- * @author Qyuelin
- *
- */
-public interface IStudentDAO {
-	
-}

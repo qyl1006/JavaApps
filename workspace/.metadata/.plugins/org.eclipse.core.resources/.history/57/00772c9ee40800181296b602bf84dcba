@@ -1,7 +1,0 @@
-package cn.wolfcode.smis.domain;
-/*
- * 第三步 根据数据表建立domain组件 -->一个类
- */
-public class Student {
-
-}

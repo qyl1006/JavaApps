@@ -1,7 +1,0 @@
-package cn.wolfcode.smis.dao;
-/*
- * 第四步 设计学生对象的DAO接口
- */
-public interface IStudentDAO {
-
-}

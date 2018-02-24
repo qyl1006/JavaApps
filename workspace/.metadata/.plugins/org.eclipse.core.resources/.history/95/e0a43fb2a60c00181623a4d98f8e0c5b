@@ -1,9 +1,0 @@
-package cn.wolfcode.smis.handler.impl;
-
-import java.util.List;
-
-import cn.wolfcode.smis.domain.Student;
-
-public class IResultSetHandler implements IResultSetHandler<List<Student>>{
-
-}

@@ -2,10 +2,7 @@ package cn.wolfcode.smis.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 
-import lombok.Cleanup;
 
 public abstract class jdbcUtil {
 	private static String driverClassName = "com.mysql.jdbc.Driver";

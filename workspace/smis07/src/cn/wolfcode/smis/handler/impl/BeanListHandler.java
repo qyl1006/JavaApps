@@ -6,6 +6,10 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * /*把每一行数据处理成一个JavaBean, 最后以List形式返回多个JavaBean
+ * 泛型T表示用户来决定每一行数据处理处理成什么类型的JavaBean
+ */
 import cn.wolfcode.smis.handler.IResultSetHandler;
 
 public class BeanListHandler<T> implements IResultSetHandler<List<T>>{

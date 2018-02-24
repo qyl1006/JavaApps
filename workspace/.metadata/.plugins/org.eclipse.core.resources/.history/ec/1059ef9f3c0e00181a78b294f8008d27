@@ -1,5 +1,0 @@
-package cn.wolfcode.smis.test;
-//DAO接口的测试类
-public class StudentDAOTest {
-
-}

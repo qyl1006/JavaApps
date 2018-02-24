@@ -8,7 +8,10 @@ import java.util.List;
 
 import cn.wolfcode.smis.handler.IResultSetHandler;
 
-//
+/*
+ * /*把每一行数据处理成一个JavaBean, 最后以List形式返回多个JavaBean
+ * 泛型T表示用户来决定每一行数据处理处理成什么类型的JavaBean
+ */
 public class BeanListHandler<T> implements IResultSetHandler<List<T>> {
 	//JavaBean类型
 	private Class<T> clz;
