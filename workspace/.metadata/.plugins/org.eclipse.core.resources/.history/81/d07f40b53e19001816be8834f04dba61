@@ -1,0 +1,16 @@
+package cn.wolfcode.smis.dao;
+
+import cn.wolfcode.smis.domain.Student;
+
+/**
+ * 处理学生数据的接口
+ * @author Qyuelin
+ *
+ */
+public interface IStudentDAO {
+	/**
+	 * 保存一个学生信息
+	 * @param stu
+	 */
+	void save(Student stu);
+}

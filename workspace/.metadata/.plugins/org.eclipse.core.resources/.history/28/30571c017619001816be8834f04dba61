@@ -1,0 +1,8 @@
+
+public class Test {
+	
+}
+
+class A{
+	private String a = "AA";
+}

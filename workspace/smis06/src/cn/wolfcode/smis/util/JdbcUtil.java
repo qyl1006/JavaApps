@@ -2,7 +2,6 @@ package cn.wolfcode.smis.util;
 
 import java.io.InputStream;
 import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.Properties;
 
 import javax.sql.DataSource;
@@ -17,7 +16,7 @@ public abstract class JdbcUtil {
 		try {
 			//注册驱动
 			ClassLoader loader = JdbcUtil.class.getClassLoader();
-			InputStream in = loader.getSystemResourceAsStream("db.properties");
+			InputStream in = loader.getResourceAsStream("db.properties");
 			Properties p = new Properties();
 			p.load(in);// 加载资源
 			ds = DruidDataSourceFactory.createDataSource(p);

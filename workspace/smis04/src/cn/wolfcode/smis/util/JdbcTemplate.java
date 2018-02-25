@@ -3,10 +3,7 @@ package cn.wolfcode.smis.util;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.util.ArrayList;
-import java.util.List;
 
-import cn.wolfcode.smis.domain.Student;
 import cn.wolfcode.smis.handler.IResultSetHandler;
 import lombok.Cleanup;
 

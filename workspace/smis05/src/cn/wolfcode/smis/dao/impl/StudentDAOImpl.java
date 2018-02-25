@@ -4,7 +4,6 @@ import java.util.List;
 
 import cn.wolfcode.smis.dao.IStudentDAO;
 import cn.wolfcode.smis.domain.Student;
-import cn.wolfcode.smis.handler.IResultSetHandler;
 import cn.wolfcode.smis.handler.impl.BeanListHandler;
 import cn.wolfcode.smis.util.JdbcTemplate;
 

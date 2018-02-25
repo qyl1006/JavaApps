@@ -1,0 +1,39 @@
+package cn.wolfcode.smis.dao.impl;
+
+import java.util.List;
+
+import cn.wolfcode.smis.dao.IStudentDAO;
+import cn.wolfcode.smis.domain.Student;
+
+//DAO接口的实现类
+public class StudentDAOImpl implements IStudentDAO {
+
+	public void save(Student stu) {
+		String sql = "insert t_student (name, age, salary, hiredate) values (?, ?, ?, ?)";
+	}
+
+	@Override
+	public void update(Student stu) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete(Long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Student get(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Student> list() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

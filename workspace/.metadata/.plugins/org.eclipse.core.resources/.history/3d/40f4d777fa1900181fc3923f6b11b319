@@ -1,0 +1,8 @@
+package cn.wolfcode.smis.handler.impl;
+
+import cn.wolfcode.smis.handler.IResultSetHandler;
+
+//处理结果集接口的实现类
+public class BeanListHandler implements IResultSetHandler<T> {
+
+}

@@ -1,0 +1,11 @@
+package cn.wolfcode.smis.domain;
+
+public class Student {
+	private Long id;
+	private String name;
+	private Integer age;
+	private Long id;
+	private Long id;
+	private Long id;
+	
+}

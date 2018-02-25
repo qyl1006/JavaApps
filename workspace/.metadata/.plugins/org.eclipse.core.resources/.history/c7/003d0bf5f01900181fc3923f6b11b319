@@ -1,0 +1,11 @@
+package cn.wolfcode.smis.util;
+
+import javax.sql.DataSource;
+
+//对外提供连接池对象的工具
+public class JdbcUtil {
+	private static DataSource ds;
+	
+	//静态代码块
+	
+}

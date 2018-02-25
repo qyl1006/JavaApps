@@ -1,0 +1,44 @@
+package cn.wolfcode.smis.test;
+
+import static org.junit.Assert.fail;
+
+import java.math.BigDecimal;
+import java.sql.Date;
+
+import org.junit.Test;
+
+import cn.wolfcode.smis.dao.IStudentDAO;
+import cn.wolfcode.smis.dao.impl.StudentDAOImpl;
+import cn.wolfcode.smis.domain.Student;
+
+public class StudentDAOTest {
+	private IStudentDAO dao = new StudentDAOImpl();
+	
+	@Test
+	public void testSave() {
+		Student stu = new Student(null, "insert", 18, new BigDecimal("10000"), Date.valueOf("2018-02-25"));
+		dao.save(stu);
+	}
+
+	@Test
+	public void testUpdate() {
+		Student stu = new Student(1L, "update", 110, new BigDecimal("11111"), Date.valueOf("2018-11-11"));
+		dao.update(stu);
+	}
+
+	@Test
+	public void testDelete() {
+		dao.delete(2L);
+	}
+
+	@Test
+	public void testGet() {
+		
+	}
+
+	@Test
+	public void testList() {
+		fail("Not yet implemented");
+	}
+
+}

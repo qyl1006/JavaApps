@@ -1,0 +1,19 @@
+import lombok.Getter;
+import lombok.Setter;
+
+public class Test {
+	public static void main(String[] args) {
+		A test = new B();
+		System.out.println(test.getB());
+	}
+}
+
+@Getter
+class A{
+	private String a = "AAAA";
+}
+
+@Setter @Getter
+class B extends A{
+	private String b = "BB";
+}

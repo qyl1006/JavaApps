@@ -1,0 +1,15 @@
+
+public class Test {
+	public static void main(String[] args) {
+		A test = new A();
+		System.out.println(test.a);
+	}
+}
+
+class A{
+	private String a = "AA";
+}
+
+class B extends A{
+	private String b = "BB";
+}

@@ -1,0 +1,18 @@
+package cn.wolfcode.smis.handler;
+
+import java.sql.ResultSet;
+/**
+ * 处理结果集的规范
+ * @author Qyuelin
+ *
+ * @param <T> 处理结果集后的数据类型
+ */
+public interface ResultSetHandler<T> {
+	/**
+	 * 处理结果集的方法
+	 * @param rs 被处理的结果集
+	 * @return 返回处理好的结果
+	 * @throws Exception
+	 */
+	T handler(ResultSet rs) throws Exception;
+}

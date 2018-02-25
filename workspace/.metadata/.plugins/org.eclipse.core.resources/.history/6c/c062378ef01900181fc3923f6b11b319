@@ -1,0 +1,13 @@
+package cn.wolfcode.smis.domain;
+
+import java.math.BigInteger;
+import java.sql.Date;
+
+public class Student {
+	private Long id;
+	private String name;
+	private Integer age;
+	private BigInteger salary;
+	private Date hiredate;
+	
+}

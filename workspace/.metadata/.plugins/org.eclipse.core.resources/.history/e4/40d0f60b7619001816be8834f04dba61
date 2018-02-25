@@ -1,0 +1,12 @@
+
+public class Test {
+	
+}
+
+class A{
+	private String a = "AA";
+}
+
+class B extends A{
+	private String b = "BB";
+}

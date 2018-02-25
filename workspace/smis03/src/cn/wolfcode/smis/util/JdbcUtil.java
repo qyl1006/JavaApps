@@ -2,7 +2,6 @@ package cn.wolfcode.smis.util;
 
 import java.io.InputStream;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.util.Properties;
 
 import javax.sql.DataSource;
@@ -10,10 +9,6 @@ import javax.sql.DataSource;
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 public abstract class JdbcUtil {
-//	private static String driverClassName = "com.mysql.jdbc.Driver";
-//	private static String url = "jdbc:mysql://127.0.0.1:3306/jdbcdemo";
-//	private static String username = "root";
-//	private static String password = "qqaz4020723629";
 	private static DataSource ds;
 	
 	static {

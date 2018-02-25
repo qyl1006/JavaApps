@@ -1,0 +1,25 @@
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+public class Test {
+	public static void main(String[] args) {
+		A a = new A();
+		B test = new B();
+		test(test);
+	}
+	
+	public static void test(A a){
+		System.out.println(a); //B(b=BB)
+	}
+}
+
+@ToString
+class A{
+	private String a = "AAAA";
+}
+
+ @ToString
+class B extends A{
+	private String b = "BB";
+}

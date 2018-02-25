@@ -1,0 +1,21 @@
+package cn.wolfcode.smis.util;
+
+import javax.sql.DataSource;
+
+//对外提供连接池对象的工具
+public class JdbcUtil {
+	private static DataSource ds;
+	
+	//静态代码块
+	static{
+		try {
+			//读取属性文件, 获取4要素信息
+			ClassLoader loader = JdbcUtil.class.getClassLoader();
+			
+			//在输入路径中找db.properties
+			InputStream in = loader.getResourceAsStream("db.properties");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
