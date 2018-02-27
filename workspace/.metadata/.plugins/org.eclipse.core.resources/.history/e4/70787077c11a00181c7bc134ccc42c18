@@ -1,0 +1,15 @@
+package task;
+
+public class ClassTask {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Test{
+	private Test(){
+		System.out.println("无参数私有构造器");
+	}
+	
+	
+}

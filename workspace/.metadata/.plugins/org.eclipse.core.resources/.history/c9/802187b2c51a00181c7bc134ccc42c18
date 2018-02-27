@@ -1,0 +1,30 @@
+package task;
+
+import java.beans.IntrospectionException;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+import java.util.HashMap;
+import java.util.Map;
+
+public class JavaBeanTask {
+	public static void main(String[] args) {
+		
+	}
+	
+	//JavaBean转Map
+	public Map<String, Object> bean2Map(Object bean) throws Exception{
+		Map<String, Object> map = new HashMap<>();
+		
+		Class<?> clz = bean.getClass();
+		PropertyDescriptor[] pds = Introspector.getBeanInfo(clz, Object.class).getPropertyDescriptors();
+		
+		for (PropertyDescriptor pd : pds) {
+			String key = pd.getName();
+			Object value = pd.getReadMethod().invoke(bean);
+			map.put(key, value);
+		}
+		
+		return map;
+	}
+}
+

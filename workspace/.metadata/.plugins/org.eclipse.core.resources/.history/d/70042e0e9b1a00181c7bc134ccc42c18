@@ -1,0 +1,40 @@
+package com.qinyuelin.qyl.test;
+
+import static org.junit.Assert.fail;
+
+import org.junit.Test;
+
+import com.qinyuelin.qyl.dao.IPlayerDAO;
+import com.qinyuelin.qyl.dao.impl.PlayerDAOImpl;
+import com.qinyuelin.qyl.domain.Player;
+
+public class IPlayerDAOTest {
+	private IPlayerDAO dao = new PlayerDAOImpl();
+	
+	
+	@Test
+	public void testSave() {
+		Player p = new Player(null, "liubei", "111111", "男");
+	}
+
+	@Test
+	public void testUpdate() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDelete() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGet() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testList() {
+		fail("Not yet implemented");
+	}
+
+}

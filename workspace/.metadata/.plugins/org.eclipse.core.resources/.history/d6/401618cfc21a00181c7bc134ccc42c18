@@ -1,0 +1,35 @@
+package task;
+
+public class ClassTask {
+	public static void main(String[] args) {
+		//获取字节码对象三种方式
+		Class<Test> clz = Test.class; // 1
+		Test t = new Test();
+		Class<Test> clz2 = (Class<Test>) new Test().getClass(); // 1
+		
+	}
+}
+
+
+class Test{
+	
+	Test(){}
+	private Test(){
+		System.out.println("无参数私有构造器");
+	}
+	
+	public void test(){
+		System.out.println("无参数方法");
+	}
+	public void test(String str){
+		System.out.println("有一个参数方法, 参数为:" + str);
+	}
+	public void test(String str, Integer num){
+		System.out.println("有两个参数方法, 参数为:" + str + "-" + num);
+	}
+	
+	private void test2(){
+		System.out.println("无参数的私有方法");
+	}
+	
+}

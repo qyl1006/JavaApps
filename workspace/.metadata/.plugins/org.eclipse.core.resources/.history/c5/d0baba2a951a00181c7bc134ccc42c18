@@ -1,0 +1,5 @@
+package com.qinyuelin.qyl.util;
+
+public class JdbcUtil {
+
+}

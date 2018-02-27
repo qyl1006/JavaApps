@@ -1,0 +1,10 @@
+package com.qinyuelin.qyl.dao;
+
+/**
+ * 处理Player类的DAO接口
+ * @author Qyuelin
+ *
+ */
+public interface IPlarerDAO {
+	
+}

@@ -1,0 +1,7 @@
+package com.qinyuelin.qyl.handler.impl;
+
+import com.qinyuelin.qyl.handler.IResultSetHandler;
+
+public class BeanListHandler implements IResultSetHandler<T> {
+
+}

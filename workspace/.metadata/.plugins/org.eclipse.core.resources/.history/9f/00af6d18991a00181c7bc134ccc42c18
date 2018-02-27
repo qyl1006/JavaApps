@@ -1,0 +1,22 @@
+package com.qinyuelin.qyl.dao;
+
+import com.qinyuelin.qyl.domain.Player;
+
+/**
+ * 处理Player类的DAO接口
+ * @author Qyuelin
+ *
+ */
+public interface IPlarerDAO {
+	/**
+	 * 增加一个游戏玩家
+	 * @param p 被增加玩家对象
+	 */
+	void save(Player p);
+	
+	/**
+	 * 更新一个玩家对象
+	 * @param p
+	 */
+	void update(Player p);
+}

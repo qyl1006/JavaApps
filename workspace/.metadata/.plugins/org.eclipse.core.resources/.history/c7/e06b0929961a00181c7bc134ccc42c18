@@ -1,0 +1,32 @@
+package com.qinyuelin.qyl.util;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import lombok.Cleanup;
+
+//模板
+public abstract class JdbcTemplate {
+	//DML
+	public static void update(String sql, Object...params){
+		try {
+			//获取连接池对象
+			@Cleanup
+			Connection conn = JdbcUtil.getConn();
+			
+			@Cleanup
+			PreparedStatement ps = conn.prepareStatement(sql);
+			
+			//给占位符设置值
+			for (int i = 0; i < params.length; i++) {
+				ps.setObject(i + 1, params[i]);
+			}
+			
+			//执行sql语句
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+			
+	}
+}

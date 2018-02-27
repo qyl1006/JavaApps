@@ -1,10 +1,10 @@
-# Java 相关单词
+﻿# Java 相关单词
 Transmission		[træns'mɪʃən]		传送
 Control			[kən'trol]		控制 
 Protocol		['protə'kɔl]		协议
-TCP
+
 Internet		['ɪntɚnɛt]		因特网
-IP
+
 Datagram		['detə,græm]		数据报
 udp
 address			[ə'drɛs]		地址

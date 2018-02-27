@@ -1,0 +1,9 @@
+package com.qinyuelin.qyl.util;
+
+import javax.sql.DataSource;
+
+public class JdbcUtil {
+	private static DataSource ds;
+	
+	//静态代码块
+}

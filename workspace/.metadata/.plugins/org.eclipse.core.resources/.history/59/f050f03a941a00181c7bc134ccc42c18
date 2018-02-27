@@ -1,0 +1,6 @@
+package com.qinyuelin.qyl.util;
+
+//模板
+public abstract class JdbcTemplate {
+	
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+	<style type="text/css">
+		td {text-align: center;}
+	</style>
+	
+</head>
+<body>
+	<h3>表格</h3>
+	<table align="center" border="1" width="60%" >
+		<caption>学生列表</caption>
+		<tr>
+			<td colspan="6">
+				<a href="input.html">增加</a>
+			</td>
+		</tr>
+		<tr>
+			<th>编号</th>
+			<th>姓名</th>
+			<th>年龄</th>
+			<th>性别</th>
+			<th>城市</th>
+			<th>操作</th>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>Will</td>
+			<td>22</td>
+			<td>男</td>
+			<td>东莞市</td>
+			<td>
+				<a href="input.html">编辑</a>
+				<a href="#">删除</a>
+			</td>
+		</tr>
+		<tr>
+			<td>20</td>
+			<td>Bunny</td>
+			<td>23</td>
+			<td>男</td>
+			<td>广州市</td>
+			<td>
+				<a href="input.html">编辑</a>
+				<a href="#">删除</a>
+			</td>
+		</tr>
+			<td>30</td>
+			<td>妲己</td>
+			<td>22</td>
+			<td>女</td>
+			<td>东莞市</td>
+			<td>
+				<a href="input.html">编辑</a>
+				<a href="#">删除</a>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="6">
+				<a href="#">首页</a>
+				<a href="#">上一页</a>
+				<a href="#">下一页</a>
+				<a href="#">尾页</a>
+				总共10086条数据
+				当前 23/155页
+				<input type="number" style="width: 30px"/>
+				<input type="button" value="GO"/>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

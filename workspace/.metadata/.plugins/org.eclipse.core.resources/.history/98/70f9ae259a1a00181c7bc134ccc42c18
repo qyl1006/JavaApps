@@ -1,0 +1,40 @@
+package com.qinyuelin.qyl.dao.impl;
+
+import java.util.List;
+
+import com.qinyuelin.qyl.dao.IPlarerDAO;
+import com.qinyuelin.qyl.domain.Player;
+
+public class PlayerDAOImpl implements IPlarerDAO {
+
+	@Override
+	public void save(Player p) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(Player p) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete(Long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Player get(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Player> list() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

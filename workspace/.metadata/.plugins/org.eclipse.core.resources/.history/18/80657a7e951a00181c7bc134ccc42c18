@@ -1,0 +1,23 @@
+package com.qinyuelin.qyl.util;
+
+import java.util.Properties;
+
+import javax.sql.DataSource;
+
+public class JdbcUtil {
+	private static DataSource ds;
+	
+	//静态代码块
+	static{
+		try {
+			ClassLoader loader = JdbcUtil.class.getClassLoader();
+			
+			loader.getResourceAsStream("db.properties");
+			Properties p = new Properties();
+			p.load(in);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

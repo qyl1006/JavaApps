@@ -1,0 +1,11 @@
+package com.qinyuelin.qyl.util;
+
+//模板
+public abstract class JdbcTemplate {
+	//DML
+	public static void update(String sql, Object...params){
+		try{
+			
+		}
+	}
+}

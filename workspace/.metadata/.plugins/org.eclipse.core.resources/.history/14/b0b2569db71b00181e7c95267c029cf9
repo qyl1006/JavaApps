@@ -1,0 +1,12 @@
+//JavaScript代码练习
+
+var a = 1;
+var b = 5;
+
+function add(){
+	alert(a + b);
+}
+
+console.log("test:" + (a + b));
+
+console.log(111);
