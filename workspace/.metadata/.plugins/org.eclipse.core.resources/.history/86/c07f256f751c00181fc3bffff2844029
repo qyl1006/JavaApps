@@ -1,0 +1,20 @@
+package cn.wolfcode.smis.util;
+
+import java.util.Properties;
+
+import javax.activation.DataSource;
+
+public class JdbcUtil {
+	private static DataSource ds;
+	
+	static{
+		try {
+			ClassLoader loader = JdbcUtil.class.getClassLoader();
+			loader.getResourceAsStream("db.prepties");
+			Properties p = new Prepties();
+			p.load(in
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

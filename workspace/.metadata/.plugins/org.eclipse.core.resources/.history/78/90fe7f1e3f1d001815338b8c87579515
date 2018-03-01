@@ -1,0 +1,7 @@
+package cn.wolfcode._2_init;
+
+import javax.servlet.http.HttpServlet;
+
+public class MyInitServlet extends HttpServlet{
+	
+}

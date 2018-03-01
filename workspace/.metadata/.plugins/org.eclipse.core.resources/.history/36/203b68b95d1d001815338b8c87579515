@@ -1,0 +1,18 @@
+package cn.wolfcode.smis.util;
+
+import java.sql.Connection;
+
+import lombok.Cleanup;
+
+public abstract class JdbcTemplate {
+	//DML
+	public static void update(String sql, Object...params){
+		try {
+			@Cleanup
+			Connection conn = JdbcUtil.getConn();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

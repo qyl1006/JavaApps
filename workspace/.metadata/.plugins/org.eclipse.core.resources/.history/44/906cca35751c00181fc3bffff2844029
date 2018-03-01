@@ -1,0 +1,15 @@
+package cn.wolfcode.smis.util;
+
+import javax.activation.DataSource;
+
+public class JdbcUtil {
+	private static DataSource ds;
+	
+	static{
+		try {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

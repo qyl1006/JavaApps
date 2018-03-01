@@ -1,0 +1,27 @@
+package cn.wolfcode.smis.handler;
+
+import java.beans.PropertyDescriptor;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+
+public class BeanListHandler<T> implements IResultSetHandler<List<T>> {
+	private Class<T> clz;
+	
+	public BeanListHandler(Class<T> clz){
+		this.clz = clz;
+	}
+	
+	public List<T> handler(ResultSet rs) {
+		List<T> list = new ArrayList<>();
+		
+		PropertyDescriptor[] pds = null;
+		
+		while(rs.next()){
+			
+		}
+		
+		return list;
+	}
+
+}

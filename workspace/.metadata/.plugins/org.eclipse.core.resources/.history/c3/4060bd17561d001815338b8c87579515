@@ -1,0 +1,5 @@
+package cn.wolfcode._6_wildcard;
+
+public class ServletWildcardDemo extends HttpServlet{
+
+}

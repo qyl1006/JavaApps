@@ -1,0 +1,12 @@
+package cn.wolfcode.smis.handler;
+
+import java.sql.ResultSet;
+import java.util.List;
+
+public class BeanListHandler <T> implements IResultSetHandler<List<T>> {
+
+	public T handler(ResultSet rs) throws Exception {
+		return null;
+	}
+
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>表单</h3>
+	<form action="#" method="get">
+		用户名: <input type="text" name="username"/><br>
+		密码: <input type="password" name="pwd"/><br>
+		手机号: <input type="number" name="phoneNumber"/><br>
+		
+		城市: <select>
+				<option value="-1">请选择</option>
+				<option value="-1" selected">东莞市</option>
+				<option value="-1">广州市</option>
+				<option value="-1">深圳市</option>
+			</select><br>
+		<input type="submit" values="注册"/>
+	</form>
+	
+</body>
+</html>

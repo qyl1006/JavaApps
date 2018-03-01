@@ -1,0 +1,35 @@
+package cn.wolfcode._4_request;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@SuppressWarnings("serial")
+@WebServlet
+public class ServletRequestDemo extends HttpServlet {
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		//getRequestURI:返回请求行中的资源名字部分:如/test/index.html
+		System.out.println(req.getRequestURI());// 返回String类型
+		
+		//getRequestURL:返回浏览器地址栏中的所有信息
+		System.out.println(req.getRequestURL());// 返回StringBuffer类型
+		
+		
+		//getContextPath:获取当前项目的上下文路劲<Context />元素的path属性值
+		
+		
+		//getRemoteAddr:返回发出请求的客户机的IP地址
+		//getHeader:返回指定名称的头字段的值。
+
+		//String getParameter(String name):返回指定名字参数的值。
+		//String[] getParameterValues(String name):返回指定名字参数的多个参数值。
+	//	Enumeration<String> getParameterNames():返回所有参数名的Enumeration对象。
+		//Map<String,String[]> getParameterMap():返回所有的参数和值所组成的Map对象
+	}
+}

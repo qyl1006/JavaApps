@@ -15,7 +15,7 @@ public class StudentDAOTest {
 	
 	@Test
 	public void testSave() {
-		Student stu = new Student(null, "insert", 18, new BigDecimal("10000"), Date.valueOf("2018-11-11"));
+		Student stu = new Student(null, "insert", 18, new BigDecimal("10000"), Date.valueOf("2018-12-12"));
 		dao.save(stu);
 	}
 

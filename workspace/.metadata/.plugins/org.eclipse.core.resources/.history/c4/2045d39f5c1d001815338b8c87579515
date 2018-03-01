@@ -1,0 +1,8 @@
+package cn.wolfcode.smis.util;
+
+import javax.sql.DataSource;
+
+public abstract class JdbcUtil {
+	private static DataSource ds;
+
+}

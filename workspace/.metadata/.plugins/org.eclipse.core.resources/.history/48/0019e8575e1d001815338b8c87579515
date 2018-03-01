@@ -1,0 +1,13 @@
+package cn.wolfcode.smis.handler;
+
+import java.sql.ResultSet;
+
+public class BeanListHandler implements IResultSetHandler<T> {
+
+	@Override
+	public T handler(ResultSet rs) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
