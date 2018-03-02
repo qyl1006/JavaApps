@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StudentDAOTest (3)" project="smis13" tests="5" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="cn.wolfcode.smis.test.StudentDAOTest" incomplete="true">
+    <testcase name="testGet" classname="cn.wolfcode.smis.test.StudentDAOTest" incomplete="true"/>
+    <testcase name="testList" classname="cn.wolfcode.smis.test.StudentDAOTest" incomplete="true"/>
+    <testcase name="testSave" classname="cn.wolfcode.smis.test.StudentDAOTest" incomplete="true"/>
+    <testcase name="testDelete" classname="cn.wolfcode.smis.test.StudentDAOTest" incomplete="true"/>
+    <testcase name="testUpdate" classname="cn.wolfcode.smis.test.StudentDAOTest" incomplete="true"/>
+  </testsuite>
+</testrun>

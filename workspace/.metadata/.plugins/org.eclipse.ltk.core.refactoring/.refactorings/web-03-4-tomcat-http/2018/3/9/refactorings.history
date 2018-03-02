@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;input2.html&apos; to &apos;input2.html&apos;&#x0D;&#x0A;- Original project: &apos;web-03-4-tomcat-http&apos;&#x0D;&#x0A;- Destination element: &apos;input2.html&apos;&#x0D;&#x0A;- Original element: &apos;input2.html&apos;" description="Copy file" element1="webapp/input2.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1519991980870" target="/web-03-4-tomcat-http/webapp/input2.html" units="0" version="1.0"/>
+</session>

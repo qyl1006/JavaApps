@@ -33,7 +33,7 @@ public class StudentDAOTest {
 
 	@Test
 	public void testGet() {
-		Student stu = dao.get(11L);
+		Student stu = dao.get(1L);
 		System.out.println(stu);
 	}
 
