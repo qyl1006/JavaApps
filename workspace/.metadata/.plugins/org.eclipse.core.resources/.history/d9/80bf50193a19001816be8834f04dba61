@@ -1,6 +1,0 @@
-package cn.wolfcode.smis.util;
-
-//获取连接池对象的工具类
-public abstract class JdbcUtil {
-	private static DateSource ds;
-}

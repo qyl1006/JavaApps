@@ -1,0 +1,81 @@
+package cn.wolfcode.servlet;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import cn.wolfcode.smis.dao.IStudentDAO;
+import cn.wolfcode.smis.dao.impl.StudentDAOImpl;
+import cn.wolfcode.smis.domain.Student;
+
+@WebServlet("/student")
+public class StudentServlet extends HttpServlet{
+
+	private static final long serialVersionUID = 1L;
+	
+	private IStudentDAO dao = new StudentDAOImpl();
+	
+	protected void service(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		String cmd = req.getParameter("cmd");
+		
+		if("delete".equals(cmd)){
+			delete(req, resp);
+		}else if("editOrUpdate".equals(cmd)){
+			edit(req, resp);
+		}else if("save".equals(cmd)){
+			save(req,resp);
+		}
+		else{
+			list(req, resp);
+		}
+	}
+	
+	//save
+	protected void save(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		String name = req.getParameter("name");
+		String age = req.getParameter("age");
+		
+		Student stu = new Student();
+		
+		stu.setName(name);
+		stu.setAge(Integer.valueOf(age));
+		
+		if(){
+			
+		}
+		dao.save(stu);	
+		resp.sendRedirect("/student");
+	}
+	//edit
+	protected void edit(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		String id = req.getParameter("id");
+		if(id != null && id.length() > 0){
+			Student stu = dao.get(Long.valueOf(id));
+			req.setAttribute("studnet", stu);
+		}
+		req.getRequestDispatcher("/WEB-INF/views/students/edit.jsp").forward(req, resp);
+	}
+	//delete
+	protected void delete(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		dao.delete(Long.valueOf(req.getParameter("id")));
+		resp.sendRedirect("/student");
+	}
+	//List
+	protected void list(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		List<Student> list = dao.list();
+		req.setAttribute("students", list);
+		
+		req.getRequestDispatcher("/WEB-INF/views/students/list.jsp").forward(req, resp);
+	}
+}

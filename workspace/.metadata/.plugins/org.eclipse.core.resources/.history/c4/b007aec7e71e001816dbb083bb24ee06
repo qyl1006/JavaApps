@@ -1,0 +1,112 @@
+package cn.wolfcode.servlet;
+
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.sql.Date;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import cn.wolfcode.smis.domain.Student;
+import cn.wolfcode.smis.dao.IStudentDAO;
+import cn.wolfcode.smis.dao.impl.StudentDAOImpl;
+
+@WebServlet("/student")
+public class StudentServlet extends HttpServlet{
+	private static final long serialVersionUID = 1L;
+	
+	IStudentDAO dao = new StudentDAOImpl();
+	
+	protected void service(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		//使用一个servlet去处理所有的操作
+		req.setCharacterEncoding("utf-8");  //针对post方式--乱码问题--告知我们浏览器的编码格式--放最前面
+		
+		String cmd = req.getParameter("cmd");
+		
+		//对cmd带过来的value进行判断-->
+		if("delete".equals(cmd)){
+			delete(req, resp);
+		}else if("editOrUpdate".equals(cmd)){
+			edit(req, resp);
+		}else if("save".equals(cmd)){
+			save(req, resp);
+		}
+		else {
+			list(req, resp);
+		}
+	}
+	
+	//save方法
+	protected void save(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		//获取编辑/增加的信息, new对象,调用方法,保存数据到数据库
+		String id = req.getParameter("id");
+		String name= req.getParameter("name");
+		String age = req.getParameter("age");
+		String salary = req.getParameter("salary");
+		String hiredate = req.getParameter("hiredate");
+		
+		Student stu = new Student();
+		stu.setName(name);
+		stu.setAge(Integer.valueOf(age));
+		System.out.println(salary);
+		
+//		stu.setSalary(new BigDecimal(Integer.valueOf(salary)));
+		
+		stu.setHiredate(Date.valueOf(hiredate));
+		
+		if(id != null && id.length() > 0){
+			stu.setId(Long.valueOf(id));
+			dao.update(stu);
+		}else{
+			
+			dao.save(stu);
+		}
+		
+		//控制页面跳转
+		resp.sendRedirect("/student");
+	}
+	
+	//edit方法
+	protected void edit(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		String id = req.getParameter("id");
+		//对id进行判断,若不为null,有数据,则调用get()获取数据共享
+		if(id != null && id.length() > 0){
+			Student stu = dao.get(Long.valueOf(id));
+			req.setAttribute("student", stu);
+		}
+		
+		req.getRequestDispatcher("WEB-INF/views/student/edit.jsp").forward(req, resp);
+	}
+	//list方法
+	protected void list(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		//查询获取所有数据
+		List<Student> list = dao.list();
+		
+		//共享数据
+		req.setAttribute("students", list);
+		
+		//控制页面跳转-->请求跳转
+		req.getRequestDispatcher("/WEB-INF/views/student/list.jsp").forward(req, resp);
+		
+	}
+	//delete方法
+	protected void delete(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		//从数据库删除
+		dao.delete(Long.valueOf(req.getParameter("id")));
+		
+		//控制页面跳转--->使用重定向 
+		resp.sendRedirect("/student");
+	}
+}
