@@ -10,7 +10,7 @@
 </head>
 <body>
 增加/编辑<br>
-<form action="/student?cmd=save" method="post">
+<form action="/student?cmd=saveOrUpdate" method="post">
 	<input type="hidden" value="id" value="${student.id}"/>
 	姓名: <input type="text" name="name" value="${student.name}"/><br>
 	年龄: <input type="number" name="age" value="${student.age}"/><br>

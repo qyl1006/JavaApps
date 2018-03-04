@@ -1,0 +1,7 @@
+package cn.wolfcode.web;
+
+import javax.servlet.http.HttpServlet;
+
+public class TestContextParam_Servlet extends HttpServlet {
+
+}

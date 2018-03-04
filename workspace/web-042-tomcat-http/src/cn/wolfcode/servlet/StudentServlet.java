@@ -20,10 +20,17 @@ public class StudentServlet extends HttpServlet{
 
 	private static final long serialVersionUID = 1L;
 	
-	private IStudentDAO dao = new StudentDAOImpl();
+	private IStudentDAO dao;
+	
+	public void init() throws ServletException {
+		dao = new StudentDAOImpl();
+	}
 	
 	protected void service(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
+		
+		req.setCharacterEncoding("utf-8");
+		
 		String cmd = req.getParameter("cmd");
 		
 		if("delete".equals(cmd)){
@@ -59,7 +66,7 @@ public class StudentServlet extends HttpServlet{
 		stu.setAge(Integer.valueOf(age));
 		
 		if(id != null && id.length() > 0){
-			
+			dao.update(stu);
 		}else{
 			dao.save(stu);	
 		}

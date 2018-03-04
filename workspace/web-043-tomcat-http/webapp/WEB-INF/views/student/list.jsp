@@ -12,8 +12,8 @@
 列表<br>
 <table cellpadding="0" cellspacing="0" border="1" width="77%">
 	<tr>
-		<td>
-			<a href="/student?cmd=editOrUpdate">增加</a>
+		<td colspan="6">
+			<a href="/student?cmd=edit">增加</a>
 		</td>
 	</tr>
 	<tr>
@@ -33,7 +33,7 @@
 		<td>${stu.salary}</td>
 		<td>${stu.hiredate}</td>
 		<td>
-			<a href="/student?cmd=editOrUpdate&id=${stu.id}">编辑</a>
+			<a href="/student?cmd=edit&id=${stu.id}">编辑</a>
 			<a href="/student?cmd=delete&id=${stu.id}">删除</a>
 		</td>
 	</tr>

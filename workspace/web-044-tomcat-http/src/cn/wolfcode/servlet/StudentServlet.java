@@ -18,7 +18,12 @@ import cn.wolfcode.smis.dao.impl.StudentDAOImpl;
 public class StudentServlet extends HttpServlet{
 	private static final long serialVersionUID = 1L;
 	
-	IStudentDAO dao = new StudentDAOImpl();
+	IStudentDAO dao;
+	
+	@Override
+	public void init() throws ServletException {
+		dao = new StudentDAOImpl();
+	}
 	
 	protected void service(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
