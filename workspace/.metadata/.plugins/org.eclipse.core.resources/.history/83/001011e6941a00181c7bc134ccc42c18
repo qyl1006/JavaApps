@@ -1,8 +1,0 @@
-package com.qinyuelin.qyl.domain;
-
-public class Player {
-	private Long id;
-	private String nickname; //昵称
-	private String password;//密码
-	private Boolean sex;//性别
-}

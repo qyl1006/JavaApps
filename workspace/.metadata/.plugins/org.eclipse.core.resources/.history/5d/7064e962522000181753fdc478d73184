@@ -1,0 +1,64 @@
+package cn.wolfcode.web.servlet;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import cn.wolfcode.smis.dao.IProductDAO;
+import cn.wolfcode.smis.dao.impl.ProductDAOImpl;
+import cn.wolfcode.smis.domain.Product;
+
+@WebServlet("/product")
+public class ProductServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	
+	private IProductDAO dao;
+	
+	public void init() throws ServletException {
+		dao = new ProductDAOImpl();
+	}
+	
+	protected void service(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		req.setCharacterEncoding("utf-8");
+		
+		String cmd = req.getParameter("cmd");
+		if("delete".equals(cmd)){
+			delete(req, resp);
+		}else{
+			list(req, resp);
+		}
+	}
+	protected void list(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		List<Product> list = dao.list();
+		req.setAttribute("products", list);
+		
+		req.getRequestDispatcher("/WEB-INF/views/product/list.jsp").forward(req, resp);
+		
+	}
+	protected void delete(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		dao.delete(Long.valueOf(req.getParameter("id")));
+		resp.sendRedirect("/product");
+		
+	}
+	protected void edit(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+	}
+	protected void saveOrUpdate(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+	}
+		
+
+}
