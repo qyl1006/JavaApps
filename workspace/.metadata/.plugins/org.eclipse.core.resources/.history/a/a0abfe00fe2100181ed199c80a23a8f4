@@ -1,0 +1,17 @@
+package cn.wolfcode.shop.dao;
+
+import java.util.List;
+
+import cn.wolfcode.shop.domain.Product;
+
+public interface IProductDAOImpl {
+	void save(Product p);
+	
+	void update(Product p);
+	
+	void delete(Product p);
+	
+	Product get(Long id);
+	
+	List<Product> listAll();
+}

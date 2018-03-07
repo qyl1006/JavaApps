@@ -2,4 +2,10 @@
 <typeInfoHistroy>
 <typeInfo handle="=smis11/src&lt;cn.wolfcode.smis.dao{IStudentDAO.java[IStudentDAO" modifiers="513" timestamp="1519539965303"/>
 <typeInfo handle="=smis11/src&lt;cn.wolfcode.smis.handler{IResultSetHandler.java[IResultSetHandler" modifiers="513" timestamp="1519542333130"/>
+<typeInfo handle="=web-062-mybatis-rervlet/src&lt;cn.wolfcode.shop.dao{IProductDAO.java[IProductDAO" modifiers="513" timestamp="1520346741470"/>
+<typeInfo handle="=web-062-mybatis-rervlet/src&lt;cn.wolfcode.shop.service{IProductService.java[IProductService" modifiers="513" timestamp="1520346818962"/>
+<typeInfo handle="=web-063-mybatis-rervlet/src&lt;cn.wolfcode.shop.dao{IProductDAO.java[IProductDAO" modifiers="513" timestamp="1520405311998"/>
+<typeInfo handle="=web-063-mybatis-rervlet/src&lt;cn.wolfcode.shop.service{IProductService.java[IProductService" modifiers="513" timestamp="1520405381299"/>
+<typeInfo handle="=web-063-mybatis-rervlet/E:\/Java\/jdk1.8.0_152\/jre\/lib\/rt.jar&lt;java.awt.image(ImageProducer.class[ImageProducer" modifiers="1537" timestamp="1517143974526"/>
+<typeInfo handle="=web-064-mybatis-rerlet/src&lt;cn.wolfcode.shop.service{IProductService.java[IProductService" modifiers="513" timestamp="1520424764212"/>
 </typeInfoHistroy>

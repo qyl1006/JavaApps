@@ -1,0 +1,10 @@
+package cn.wolfcode.shop.domain;
+
+import java.math.BigDecimal;
+
+public class Product {
+	private Long id;
+	private String productName;
+	private Long dir_id;
+	private BigDecimal salePrice;
+}

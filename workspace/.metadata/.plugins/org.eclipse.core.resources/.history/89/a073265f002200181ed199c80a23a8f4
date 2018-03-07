@@ -1,0 +1,45 @@
+package cn.wolfcode.shop.dao.impl;
+
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+
+import cn.wolfcode.shop.dao.IProductDAO;
+import cn.wolfcode.shop.domain.Product;
+import cn.wolfcode.shop.util.MybatisUtil;
+
+public class ProductDAOImpl implements IProductDAO {
+
+	@Override
+	public void save(Product p) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(Product p) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete(Product p) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Product get(Long id) {
+		//获取SqlSeesion对象
+		SqlSession session = MybatisUtil.getSession();
+		Product p = session.selectOne("product.get", id);
+		return p;
+	}
+
+	public List<Product> listAll() {
+		//获取SqlSession对象
+		SqlSession session = MybatisUtil.getSession();
+		session.selectList("product.list", arg1)
+		return null;
+	}
+
+}

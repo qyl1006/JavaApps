@@ -1,0 +1,4 @@
+package cn.wolfcode.mybatis.util;
+
+public abstract class MyBatisUtil {
+}

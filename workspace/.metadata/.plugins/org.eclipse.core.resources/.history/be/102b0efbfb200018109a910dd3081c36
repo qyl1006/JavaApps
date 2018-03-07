@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<environments default="dev">
+		<environment id="dev">
+			<!-- 配置事务管理,,数据源 -->
+			<transactionManager type="JDBC"/>
+			
+			<dataSource type="DB_VENDOR">
+			  <property name="SQL Server" value="sqlserver"/>
+			  <property name="DB2" value="db2"/>        
+			  <property name="Oracle" value="oracle" />
+			</databaseIdProvider>
+		</environment>
+	</environments>
+</configuration>
+

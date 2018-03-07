@@ -1,0 +1,48 @@
+package cn.wolfcode.shop.test;
+
+import static org.junit.Assert.fail;
+
+import java.util.List;
+
+import org.junit.Test;
+
+import cn.wolfcode.shop.domain.Product;
+import cn.wolfcode.shop.service.IProductService;
+import cn.wolfcode.shop.service.impl.ProductServiceImpl;
+
+public class ProductServiceTest{
+	private IProductService p = new ProductServiceImpl();
+	
+	@Test
+	public void testSave() {
+		Product product = new Product();
+		product.setProductName("测试123");
+		p.save(product);
+		
+	}
+
+	@Test
+	public void testUpdate() {
+		Product product = new Product();
+		product.setProductName("测试22");
+		p.save(product);
+	}
+
+	@Test
+	public void testDelete() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGet() {
+		Product product = p.get(2L);
+		System.out.println(product);
+	}
+	@Test
+	public void testListAll() {
+		List<Product> list = p.listAll();
+		list.forEach(System.out::println);
+		
+	}
+
+}

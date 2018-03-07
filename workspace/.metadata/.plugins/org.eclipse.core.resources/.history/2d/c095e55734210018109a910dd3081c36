@@ -1,0 +1,15 @@
+package cn.wolfcode.mybatis.util;
+
+import java.io.InputStream;
+
+import org.apache.ibatis.io.Resources;
+
+public abstract class MyBatisUtil {
+	static {
+		try {
+			InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,36 @@
+package cn.wolfcode.shop.test;
+
+import static org.junit.Assert.fail;
+
+import org.junit.Test;
+
+import cn.wolfcode.shop.service.IProductService;
+import cn.wolfcode.shop.service.impl.ProductServiceImpl;
+
+public class ProductServiceTest{
+	private IProductService p = new ProductServiceImpl();
+	
+	public void testSave() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testUpdate() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDelete() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGet() {
+		p.get(2L);
+	}
+	@Test
+	public void testListAll() {
+		fail("Not yet implemented");
+	}
+
+}

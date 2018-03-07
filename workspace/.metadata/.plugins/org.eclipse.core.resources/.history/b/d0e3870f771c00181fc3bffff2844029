@@ -1,4 +1,0 @@
-package cn.wolfcode.smis.handler;
-
-public interface IResultSetHandler<T> {
-}

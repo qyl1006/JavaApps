@@ -1,0 +1,6 @@
+#key=values
+#key必须是德鲁伊连接池对象的属性
+jdbc_driver=com.mysql.jdbc.Driver
+url=jdbc:mysql://127.0.0.1:3306/jdbcdemo
+username=root
+password=qqaz4020723629

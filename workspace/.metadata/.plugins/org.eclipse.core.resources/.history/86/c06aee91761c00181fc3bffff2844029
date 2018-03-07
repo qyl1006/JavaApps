@@ -1,6 +1,0 @@
-package cn.wolfcode.smis.util;
-
-public abstract class JdbcTemplate {
-	//DML
-	
-}

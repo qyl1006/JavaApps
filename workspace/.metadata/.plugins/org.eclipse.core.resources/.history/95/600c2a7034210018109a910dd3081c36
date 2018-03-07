@@ -1,0 +1,17 @@
+package cn.wolfcode.mybatis.util;
+
+import java.io.InputStream;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+public abstract class MyBatisUtil {
+	static {
+		try {
+			InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+			new SqlSessionFactoryBuilder().build(in);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,7 @@
+package cn.wolfcode.shop.dao;
+
+import cn.wolfcode.shop.domain.Product;
+
+public interface IProductDAO {
+	void save(Product p);
+}

@@ -1,0 +1,64 @@
+package cn.wolfcode.shop.test;
+
+import static org.junit.Assert.fail;
+
+import java.util.List;
+
+import org.junit.Test;
+
+import cn.wolfcode.shop.domain.Product;
+import cn.wolfcode.shop.service.IProductService;
+import cn.wolfcode.shop.service.impl.ProductServiceImpl;
+
+public class ProductServiceTest implements IProductService {
+	private IProductService p = new ProductServiceImpl();
+	
+	public void testSave() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testUpdate() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDelete() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGet() {
+		fail("Not yet implemented");
+	}
+
+	@Override
+	public void save(Product p) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Product p) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Product get(Product id) {
+		
+		return null;
+	}
+
+	@Override
+	public List<Product> listAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

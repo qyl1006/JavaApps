@@ -1,0 +1,8 @@
+package cn.wolfcode.shop.service;
+
+import cn.wolfcode.shop.dao.IProductDAO;
+import cn.wolfcode.shop.dao.impl.ProductDAOImpl;
+
+public interface IProductService {
+	private IProductDAO dao = new ProductDAOImpl();
+}

@@ -1,0 +1,6 @@
+package cn.wolfcode.shop.util;
+
+//提供SqlSeeion对象的工具类
+public abstract class MyBatisUtil {
+
+}

@@ -1,0 +1,16 @@
+package cn.wolfcode.shop.util;
+
+import org.apache.ibatis.session.SqlSessionFactory;
+
+//提供SqlSeeion对象的工具类
+public abstract class MyBatisUtil {
+	private SqlSessionFactory factory;
+	
+	static{
+		try {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,22 @@
+package cn.wolfcode.shop.util;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+public abstract class MyBaitsUtil {
+	private static SqlSessionFactory factory;
+	
+	static{
+		try {
+			Resources.getResourceAsStream("mybatis-config.xml");
+			
+			//获取factory对象
+			factory = new SqlSessionFactoryBuilder().build(in)
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

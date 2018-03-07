@@ -1,0 +1,6 @@
+package cn.wolfcode.test;
+
+public class UserTest {
+	@Test
+	public void testGet()
+}

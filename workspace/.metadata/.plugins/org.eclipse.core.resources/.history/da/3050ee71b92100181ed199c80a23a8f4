@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+${p}<br/>
+<form action="/product?cmd=saveOrUpdate">
+	商品名: <input type="text" name="productName" value=""/><br>
+	商品类型: <select name="dir_id">
+				<option value="1" ${p.dir_id == 1 ? 'selected' : ''}>鼠标</option>
+				<option value="2" ${p.dir_id == 2 ? 'selected' : ''}>无线鼠标</option>
+				<option value="3" ${p.dir_id == 3 ? 'selected' : ''}>有线鼠标</option>
+				<option value="4" ${p.dir_id == 4 ? 'selected' : ''}>游戏鼠标</option>
+			</select><br>
+	销售价: <input type="number" name="salePrice" value=""/><br>
+	供应商: <input type="text" name="supplier" value=""/><br>
+	品牌: <input type="text" name="brand" value=""/><br>
+	折扣: <input type="number" name="cutoff" value=""/><br>
+	成本价: <input type="number" name="costPrice" value=""/><br>
+</form>
+</head>
+<body>
+edit_test
+</body>
+</html>
