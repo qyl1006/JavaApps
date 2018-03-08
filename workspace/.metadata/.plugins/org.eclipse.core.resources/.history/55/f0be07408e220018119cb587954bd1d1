@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="product">
+  	<!-- 数据库与Java类映射 -->
+  	<resultMap type="cn.wolfcode.shop.domain.Product" id="baseMap">
+  		<id column="id" property="uid"/>
+  		<result column="productName" property="uproductName"/>
+  		<result column="dir_id" property="udir_id"/>
+  		<result column="salePrice" property="usalePrice"/>
+  		<result column="supplier" property="usupplier"/>
+  		<result column="brand" property="ubrand"/>
+ 		<result column="cutoff" property="ucutoff"/>
+ 		<result column="costPrice" property="ucostPrice"/>
+  	</resultMap>
+  	
+  	<!-- 具体sql语句 -->
+  	<select id="queryForList" resultMap="baseMap">
+  		select id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice from product
+  			<where>
+  				
+  			</where>
+  	</select>
+  	
+  	
+  	<select id="get" resultMap="baseMap">
+  		select id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice from product where id = #{id}
+  	</select>
+  	
+  	<select id="list" resultMap="baseMap">
+  		select id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice from product
+  	</select>
+  	
+  	<delete id="delete">
+  		delete from product where id = #{id}
+  	</delete>
+  	
+  	<insert id="save">
+  		insert into product (productName, dir_id, salePrice, supplier, brand, cutoff, costPrice) values
+  			(#{uproductName}, #{udir_id}, #{usalePrice}, #{usupplier}, #{ubrand}, #{ucutoff}, #{ucostPrice})
+  	</insert>
+  	
+  	<update id="update">
+  		update product set productName = #{uproductName}, dir_id = #{udir_id}, salePrice = #{usalePrice}, supplier = #{usupplier}, brand = #{ubrand},
+  					 cutoff = #{ucutoff}, costPrice = #{ucostPrice} where id = #{uid}
+  	</update>
+  </mapper>

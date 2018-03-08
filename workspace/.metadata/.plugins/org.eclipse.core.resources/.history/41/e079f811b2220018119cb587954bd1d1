@@ -1,0 +1,20 @@
+package cn.wolfcode.shop.query;
+
+import java.math.BigDecimal;
+
+import lombok.Getter;
+import lombok.Setter;
+
+//多添加查询条件
+@Setter @Getter
+public class ProductQueryObject {
+	private String productName;
+	private BigDecimal minSalePrice;
+	private BigDecimal maxSalePrice;
+	
+	private String brand;
+	private Long dir_id;
+	
+	private int currentPage;
+	private int pageSize;
+}

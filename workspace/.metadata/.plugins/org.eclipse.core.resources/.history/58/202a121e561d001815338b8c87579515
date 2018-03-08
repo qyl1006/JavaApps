@@ -1,7 +1,0 @@
-package cn.wolfcode._6_wildcard;
-
-import javax.servlet.http.HttpServlet;
-
-public class ServletWildcardDemo extends HttpServlet{
-	
-}

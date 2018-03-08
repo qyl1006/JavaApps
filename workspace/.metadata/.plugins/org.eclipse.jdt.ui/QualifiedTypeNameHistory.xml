@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
-<fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
 <fullyQualifiedTypeName name="java.beans.BeanInfo"/>
 <fullyQualifiedTypeName name="javax.activation.DataSource"/>
 <fullyQualifiedTypeName name="com.alibaba.druid.support.ibatis.DruidDataSourceFactory"/>
@@ -38,13 +36,8 @@
 <fullyQualifiedTypeName name="java.lang.ReflectiveOperationException"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.fastinfoset.algorithm.BooleanEncodingAlgorithm"/>
 <fullyQualifiedTypeName name="lombok.Data"/>
-<fullyQualifiedTypeName name="lombok.Getter"/>
-<fullyQualifiedTypeName name="lombok.Setter"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="cn.wolfcode.shop.util.MyBatisUtil"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.math.BigDecimal"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
@@ -52,12 +45,19 @@
 <fullyQualifiedTypeName name="cn.wolfcode.shop.dao.IProductDAO"/>
 <fullyQualifiedTypeName name="cn.wolfcode.shop.dao.impl.ProductDAOImpl"/>
 <fullyQualifiedTypeName name="cn.wolfcode.shop.domain.Product"/>
-<fullyQualifiedTypeName name="lombok.Cleanup"/>
-<fullyQualifiedTypeName name="cn.wolfcode.shop.util.MybatisUtil"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
 <fullyQualifiedTypeName name="cn.wolfcode.shop.service.IProductService"/>
+<fullyQualifiedTypeName name="lombok.Setter"/>
+<fullyQualifiedTypeName name="cn.wolfcode.shop.query.ProductQueryObject"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="lombok.Getter"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="cn.wolfcode.shop.query.PageResult"/>
 <fullyQualifiedTypeName name="cn.wolfcode.shop.service.impl.ProductServiceImpl"/>
+<fullyQualifiedTypeName name="cn.wolfcode.shop.util.MybatisUtil"/>
+<fullyQualifiedTypeName name="lombok.Cleanup"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="cn.wolfcode.shop.util.StringUtil"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,24 @@
+package cn.wolfcode.shop.query;
+
+import java.util.List;
+
+import cn.wolfcode.shop.domain.Product;
+import lombok.Getter;
+
+@Getter
+public class PageResult {
+	//用户输入的
+	private int currentPage = 1;
+	private int pageSize = 3;
+	
+	//数据库查询的
+	private List<Product> list;
+	private Long totalCount;
+	
+	//三个计算出来的
+	private int endPage;
+	private int prevPage;
+	private int nextPage;
+	
+	
+}
