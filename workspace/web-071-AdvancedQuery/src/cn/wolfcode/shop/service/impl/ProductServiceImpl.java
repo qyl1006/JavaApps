@@ -45,9 +45,6 @@ public  class ProductServiceImpl implements IProductService {
 	}
 
 	public PageResult queryPageResult(ProductQueryObject qo) {
-//		List<Product> list = dao.query(qo);
-//		Long totalCount = dao.queryCount(qo);
-//		
 		PageResult result = new PageResult(qo.getCurrentPage(), qo.getPageSize(), dao.query(qo), dao.queryCount(qo));
 		return result;
 	}

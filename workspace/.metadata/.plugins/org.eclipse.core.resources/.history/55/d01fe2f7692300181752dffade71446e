@@ -1,0 +1,11 @@
+package cn.wolfcode.shop.query;
+
+import java.math.BigDecimal;
+
+public class ProductQueryObject {
+	private String productName;
+	private BigDecimal minSalePrice;
+	private BigDecimal maxSalePrice;
+	
+	private Long dir_id;
+}

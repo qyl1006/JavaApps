@@ -76,10 +76,20 @@
 </C:forEach>
 	<tr>
 		<td colspan="9">
-			<a href="javascript:goPage(1)">首页</a>
-			<a href="javascript:goPage(${result.prevPage})">上一页</a>
-			<a href="javascript:goPage(${result.nextPage})">下一页</a>
-			<a href="javascript:goPage(${result.endPage})">尾页</a>
+			<C:choose>
+				<C:when test="${result.currentPage != 1}">
+					<a href="javascript:goPage(1)">首页</a>
+					<a href="javascript:goPage(${result.prevPage})">上一页</a>
+				</C:when>
+				<C:otherwise>首页  上一页</C:otherwise>
+			</C:choose>
+			<C:choose>
+				<C:when test="${result.currentPage != result.endPage}">
+					<a href="javascript:goPage(${result.nextPage})">下一页</a>
+					<a href="javascript:goPage(${result.endPage})">尾页</a>
+				</C:when>
+				<C:otherwise>下一页  尾页</C:otherwise>
+			</C:choose>
 			当前${result.currentPage}/${result.endPage} 
 			共${result.totalCount}条
 			每页<select name="pageSize" onchange="goPage(1)">
@@ -88,7 +98,7 @@
 					<option ${result.pageSize == 9 ? 'selected' : ''}>9</option>			
 			</select>条
 			跳转<input type="text" name="currentPage" value="${result.currentPage}"/>页
-			<input type="submit" value="GO"/>
+			<input type="submit" value="GO" />
 		</td>
 	</tr>
 </table>

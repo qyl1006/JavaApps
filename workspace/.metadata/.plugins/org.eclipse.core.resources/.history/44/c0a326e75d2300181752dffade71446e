@@ -1,0 +1,13 @@
+package cn.wolfcode.shop.test;
+
+import java.beans.IntrospectionException;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+
+public class Test2 {
+	public static void main(String[] args) throws Exception {
+		Class<Demo> clz = Demo.class;
+		
+		PropertyDescriptor[] pds = Introspector.getBeanInfo(clz, Object.class).getPropertyDescriptors();
+	}
+}

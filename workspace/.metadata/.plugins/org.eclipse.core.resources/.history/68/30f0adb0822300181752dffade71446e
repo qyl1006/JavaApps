@@ -1,0 +1,8 @@
+package cn.wolfcode.shop.test;
+
+import cn.wolfcode.shop.query.ProductQueryObject;
+
+public abstract class StringTo {
+	public static void stringTo(StringType src, ProductQueryObject qo){
+	}
+}

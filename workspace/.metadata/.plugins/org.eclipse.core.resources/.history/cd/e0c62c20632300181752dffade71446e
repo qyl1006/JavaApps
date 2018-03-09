@@ -1,0 +1,18 @@
+package cn.wolfcode.shop.query;
+
+import lombok.Getter;
+import lombok.Setter;
+
+//通用查询模板
+@Setter @Getter
+public class QueryObject {
+	//分页查询默认值
+	private String currentPage = "1";
+	private String pageSize = "3";
+	
+	//提供一个属性,用于分页查询的开始值获取
+	public int getStartIndex(){
+		
+		return (Integer.parseInt(currentPage) - 1) * Integer.parseInt(pageSize);
+	}
+}

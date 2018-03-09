@@ -1,0 +1,31 @@
+package cn.wolfcode.shop.query;
+
+import java.math.BigDecimal;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+//多添加查询条件
+@Setter @Getter @NoArgsConstructor @ToString
+public class ProductQueryObject extends QueryObject {
+	private String productName;
+	private String minSalePrice;
+	private String maxSalePrice;
+	
+	private String brand;
+	private String dir_id;
+	
+	public BigDecimal getMinSalePrice(){
+		return minSalePrice == null ? null : new BigDecimal(minSalePrice);
+	}
+	
+	public BigDecimal getMaxSalePrice(){
+		return maxSalePrice == null ? null : new BigDecimal(maxSalePrice);
+	}
+	
+	public Long getDir_id(){
+		return dir_id == null ? null : Long.valueOf(dir_id);
+	}
+}

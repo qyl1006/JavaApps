@@ -1,0 +1,20 @@
+package cn.wolfcode.shop.test;
+
+import cn.wolfcode.shop.query.ProductQueryObject;
+
+public class Test {
+	public static void main(String[] args) {
+		String str = "    ";
+		boolean b = isEmpty(str);
+		System.out.println(b);
+		
+		Class clz = ProductQueryObject.class;
+		
+	}
+	
+	public static boolean isEmpty(String str){
+	     return str == null || "".equals(str.trim());
+	}
+}
+
+

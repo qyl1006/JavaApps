@@ -80,13 +80,13 @@ public class ProductServiceTest {
 		ProductQueryObject qo = new ProductQueryObject();
 		qo.setProductName("罗技M90  ");
 //		qo.setMinSalePrice(new BigDecimal("100"));
-//		qo.setMaxSalePrice(new BigDecimal("1000"));
-		qo.setDir_id(3L);
-		
-		//传入分页的两个参数
-		qo.setCurrentPage(1);
-		qo.setPageSize(4);
-		
+////		qo.setMaxSalePrice(new BigDecimal("1000"));
+//		qo.setDir_id(3L);
+//		
+//		//传入分页的两个参数
+//		qo.setCurrentPage(1);
+//		qo.setPageSize(4);
+//		
 		List<Product> list = ps.query(qo);
 		list.forEach(System.out::println);
 		

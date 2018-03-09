@@ -1,0 +1,60 @@
+package cn.wolfcode.shop.test;
+
+import java.util.List;
+
+import org.junit.Test;
+
+import cn.wolfcode.shop.domain.Product;
+import cn.wolfcode.shop.query.ProductQueryObject;
+import cn.wolfcode.shop.service.IProductService;
+import cn.wolfcode.shop.service.impl.ProductServiceImpl;
+
+public class ProductServiceTest {
+	private IProductService ps = new ProductServiceImpl();
+	
+	
+	@Test
+	public void testSave() {
+		Product p = new Product();
+		p.setUproductName("测试保存");
+		ps.save(p);
+	}
+
+	@Test
+	public void testUpdate() {
+		Product p = new Product();
+		p.setUproductName("测试更新");
+		p.setUid(37L);
+		ps.update(p);
+	}
+
+	@Test
+	public void testDelete() {
+		ps.delete(34L);
+		ps.delete(36L);
+	}
+
+	@Test
+	public void testGet() {
+		Product product = ps.get(3L);
+		System.out.println(product);
+	}
+
+	@Test
+	public void testListAll() {
+		List<Product> list = ps.listAll();
+		list.forEach(System.out::println);
+	}
+	
+	@Test
+	public void testQuery() {
+		ProductQueryObject qo = new ProductQueryObject();
+		qo.setProductName("m");
+		
+		
+		List<Product> list = ps.query(qo);
+		list.forEach(System.out::println);
+	}
+	
+
+}

@@ -1,0 +1,25 @@
+package cn.wolfcode.shop.test;
+
+import java.beans.IntrospectionException;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+
+import cn.wolfcode.shop.query.ProductQueryObject;
+
+public class Test {
+	public static void main(String[] args) throws Exception {
+		String str = "    ";
+		boolean b = isEmpty(str);
+		System.out.println(b);
+		
+		Class clz = ProductQueryObject.class;
+		PropertyDescriptor[] pds = Introspector.getBeanInfo(clz, Object.class).getPropertyDescriptors();
+		
+	}
+	
+	public static boolean isEmpty(String str){
+	     return str == null || "".equals(str.trim());
+	}
+}
+
+

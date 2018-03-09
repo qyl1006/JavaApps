@@ -1,0 +1,19 @@
+package cn.wolfcode.shop.test;
+
+public class Test {
+	public static void main(String[] args) {
+		String str = "    ";
+		boolean b = isEmpty(str);
+		System.out.println(b);
+		
+		
+		String str2 = null;
+		Long l = Long.valueOf(str2);
+	}
+	
+	public static boolean isEmpty(String str){
+	     return str == null ||"".equals(str.trim());
+	}
+}
+
+

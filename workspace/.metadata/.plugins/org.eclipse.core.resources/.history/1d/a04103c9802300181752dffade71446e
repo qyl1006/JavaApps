@@ -1,0 +1,21 @@
+package cn.wolfcode.shop.test;
+
+import java.math.BigDecimal;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Setter @Getter @ToString
+public class StringType {
+	private String productName;
+	private String minSalePrice;
+	private String maxSalePrice;
+	
+	private String brand;
+	private String dir_id;
+	
+	//两个用户输入的--分页的,并给默认值
+	private String currentPage;
+	private String pageSize;
+}

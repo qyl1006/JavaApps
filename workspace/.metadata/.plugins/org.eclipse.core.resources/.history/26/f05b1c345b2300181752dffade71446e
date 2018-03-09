@@ -1,0 +1,25 @@
+package cn.wolfcode.shop.test;
+
+public class Test {
+	public static void main(String[] args) throws Exception {
+		String str = "    ";
+		boolean b = isEmpty(str);
+		System.out.println(b);
+		
+		
+		
+	}
+	
+	public static boolean isEmpty(String str){
+	     return str == null || "".equals(str.trim());
+	}
+}
+
+class Demo{
+	String num1;
+	String num2;
+	
+	String str1;
+	String str2;
+	
+}

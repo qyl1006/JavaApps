@@ -1,0 +1,14 @@
+package cn.wolfcode.shop.query;
+
+import java.math.BigDecimal;
+
+import lombok.Getter;
+
+@Getter
+public class ProductQueryObject {
+	private String productName;
+	private BigDecimal minSalePrice;
+	private BigDecimal maxSalePrice;
+	
+	private Long dir_id;
+}

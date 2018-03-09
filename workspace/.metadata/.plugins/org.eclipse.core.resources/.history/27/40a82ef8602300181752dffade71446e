@@ -1,0 +1,24 @@
+package cn.wolfcode.shop.test;
+
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+
+public class Test2 {
+	public static void main(String[] args) throws Exception {
+		Class<Demo> clz = Demo.class;
+		Demo obj = clz.newInstance();
+		
+		PropertyDescriptor[] pds = Introspector.getBeanInfo(clz, Object.class).getPropertyDescriptors();
+		
+		
+		for (PropertyDescriptor pd : pds) {
+			System.out.println("01:" + pd.getName());
+			System.out.println("02:" + pd.getWriteMethod());
+			pd.getWriteMethod().invoke(obj, "123");
+			System.out.println((pd.getReadMethod().invoke(obj))
+		}
+		
+		System.out.println("-------------");
+		System.out.println(pds[3]);
+	}
+}

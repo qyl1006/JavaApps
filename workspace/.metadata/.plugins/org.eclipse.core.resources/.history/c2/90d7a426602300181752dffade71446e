@@ -1,0 +1,45 @@
+package cn.wolfcode.shop.test;
+
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+public class Test {
+	public static void main(String[] args) throws Exception {
+		String str = "    ";
+		boolean b = isEmpty(str);
+		System.out.println(b);
+		
+		Class<Demo> clz = Demo.class;
+		PropertyDescriptor[] pds = Introspector.getBeanInfo(clz, Object.class).getPropertyDescriptors();
+		
+		String[] strs = new String[]{"num1", "num2"};
+		
+		for (String s : strs) {
+			
+		}
+		
+	}
+	
+	public static boolean isEmpty(String str){
+	     return str == null || "".equals(str.trim());
+	}
+}
+
+@Setter @Getter @ToString
+class Demo{
+	String num1;
+	String num2;
+	
+	String str1;
+	String str2;
+	
+	String longs;
+	
+	String bd1;
+	String bd2;
+	
+}

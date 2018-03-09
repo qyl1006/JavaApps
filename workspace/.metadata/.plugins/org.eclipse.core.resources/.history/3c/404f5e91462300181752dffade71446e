@@ -1,0 +1,43 @@
+package cn.wolfcode.shop.dao;
+
+import java.util.List;
+
+import cn.wolfcode.shop.domain.Product;
+import cn.wolfcode.shop.query.ProductQueryObject;
+/**
+ * 用于直接操作数据库CRUD的DAO接口
+ * @author Qyuelin
+ *
+ */
+public interface IProductDAO {
+	/**
+	 * 保存一个对象
+	 * @param p 被保存的对象
+	 */
+	void save(Product p);
+	
+	/**
+	 * 更新一个对象
+	 * @param p 被更新的对象,该对象必须有一个对象
+	 */
+	void update(Product p);
+	
+	/**
+	 * 删除一个对象
+	 * @param id 被删除对象的ID
+	 */
+	void delete(Long id);
+	
+	/**
+	 * 查询一个对象信息
+	 * @param id 被查询对象的ID
+	 * @return 返回一个对象信息,若查询不到,则返回null
+	 */
+	Product get(Long id);
+	
+	
+	List<Product> listAll();
+	
+	List<Product> query(ProductQueryObject qo);
+	Long queryCount(ProductQueryObject qo);
+}
